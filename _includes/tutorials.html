@@ -1,0 +1,7 @@
+{% for post in site.categories.tutorial %}
+  <article class="day">
+    <h5 class="date"> {{ post.subhead }}</h5>
+    <a href="{{ post.url | relative_url }}"><h2 class="event"> {{ post.title }} </h2></a>
+    <p class="description"> {{ post.excerpt | strip_html }} </p>
+  </article>
+{% endfor %}
