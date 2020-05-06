@@ -1,0 +1,9 @@
+I"'<p>In this tutorial we will go through the set up we will use for every HTML page we build and the basic elements we can use to get text to appear on screen. The tutorial will help you get <em>E1: 20 Questions</em> started.</p>
+
+<h3 id="step-1">Step 1</h3>
+
+<p>Open your text editor and save a new file. To save a new file you can go to <span class="command"><em>File &gt; New File</em></span> or use <span class="command"> <em>cmd+n</em></span>. Name the file <strong>e1.html</strong> and save it to your desktop. Remember that you need to type the .html part of the name so the text editor knows what kind of file it is working with.</p>
+
+<h3 id="step-2">Step 2</h3>
+<p>Now that our text editor knows what kind of file it is working with we can start writing our html. The first thing we need on line one is our document declaration type which is <code class="highlighter-rouge"><span class="cp">&lt;!DOCTYPE html&gt;</span></code>. This lets the browser know which HTML specification to use to interpret the document, in this case we are writing in HTML5.</p>
+:ET

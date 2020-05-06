@@ -31,21 +31,31 @@ textarea { resize: vertical; }
 
 html { font-size: 16px; }
 
-body { margin: 0; font-family: "bureau-grot", sans-serif; font-weight: 400; line-height: 1.45; background-color: white; color: #444444; width: 100vw; overflow-x: hidden; }
+body { margin: 0; font-family: "bureau-grot", sans-serif; font-size: 16px; font-weight: 400; line-height: 1.5; background-color: white; color: #444444; width: 100vw; overflow-x: hidden; }
 
-.interior { background-color: gold; }
+.interior { background-color: white; }
+
+.interior img { width: 100%; }
+
+.interior img:hover, #lightbox:hover { cursor: pointer; }
 
 ul { text-decoration: none; list-style-type: none; margin: 0; padding: 0; }
 
 li { padding: 0 25px 0 0; margin: 15px 0 0; text-transform: uppercase; letter-spacing: .05rem; font-weight: bold; float: left; }
 
+.tutorial-page ul { text-decoration: none; list-style-type: initial; margin: 0 25px; padding: 0 15px; }
+
+.tutorial-page li { padding: 0 25px 0 0; margin: 15px 0 0; letter-spacing: 0; float: none; text-transform: initial; font-weight: normal; font-size: 1.2em; }
+
 li a, .interior a { border-bottom: 3px solid #444444; }
 
 li a:hover { border-bottom: 3px solid gold; }
 
-li a.active { color: #444444; border-bottom: 3px solid blue; }
+li a.active { color: #444444; border-bottom: 3px solid red; }
 
-li a.active:hover, .interior li a:hover, .interior a:hover { color: blue; border-bottom: 3px solid blue; }
+li a.active:hover, .interior li a:hover, .interior a:hover { color: #444444; border-bottom: 3px solid gold; }
+
+.interior h1 a, .interior h1 a:hover { border-bottom: none; color: white; }
 
 header { width: 100%; }
 
@@ -53,23 +63,27 @@ nav { width: 100%; margin: 0; }
 
 nav ul { display: flow-root; }
 
-nav li { float: left; margin: 0 10px; }
+nav li { float: none; margin: 10px 0; }
 
-nav li:first-of-type { margin: 0 10px 0 0; }
+nav li.mobile-nav:hover { cursor: pointer; }
+
+nav #menu { position: fixed; top: 0; left: 0; background-color: gold; width: 100vw; height: 100vh; z-index: 100; padding: 50px; }
+
+nav #menu li { font-size: 2em; margin: 30px 0; }
+
+nav .mobile-hide { display: none; }
 
 main, .about { width: 95vw; margin: 50px auto; }
 
 section { display: grid; grid-template-columns: 100%; grid-gap: 5vw; margin: 50px 0; }
 
-.individual { width: 100%; margin: 50px 0; }
+.single, .tutorial-page { width: 100%; margin: 50px 0; }
 
-.day { padding: 15px; border: 3px solid #444444; box-shadow: 6px 6px gold; position: relative; top: 0; left: 0; transition: all .5s ease; cursor: pointer; }
+.student, .tutorial { padding: 15px; border: 3px solid #444444; box-shadow: 6px 6px gold; position: relative; top: 0; left: 0; transition: all .5s ease; cursor: pointer; }
 
-.day:hover { position: relative; /* border: 3px solid GreenYellow; */ background-color: gold; top: 3px; left: 3px; box-shadow: 0 0 gold; }
+.student:hover, .tutorial:hover { position: relative; /* border: 3px solid GreenYellow; */ background-color: gold; top: 3px; left: 3px; box-shadow: 0 0 gold; }
 
-.day:nth-child(3n+3) { margin-right: 0; }
-
-.room { position: absolute; bottom: 15px; left: 15px; }
+.student:nth-child(3n+3) { margin-right: 0; }
 
 .print { position: absolute; bottom: 15px; right: 15px; cursor: pointer; }
 
@@ -85,7 +99,7 @@ a, a:hover, a:active, a:visited { color: #444444; text-decoration: none; }
 
 h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: white; -webkit-text-stroke: 3px #444444; }
 
-p { margin-bottom: 1.25em; }
+p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 1.25em; }
 
 .description { margin-bottom: 50px; }
 
@@ -93,9 +107,17 @@ p { margin-bottom: 1.25em; }
 
 .section-title span { background-color: #444444; padding: 4px 6px; }
 
+#lightbox { position: fixed; top: 2vh; left: 5vw; width: 90vw; height: 96vh; background: url(../img/1p2/step1.png) no-repeat center center; background-size: contain; z-index: 99; }
+
+#lightbox-dim { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.8); z-index: 50; }
+
+aside { display: none; }
+
+.scroll-lock { overflow: hidden !important; }
+
 h1, h2, h3, h4, h5 { margin: 0; font-weight: 400; line-height: 1.15; font-family: "bureau-grot", sans-serif; }
 
-h1 { margin-top: 0; font-size: 4.552em; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; -webkit-text-stroke: 3px #444444; color: white; }
+h1 { margin-top: 0; font-size: 4.252em; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; -webkit-text-stroke: 3px #444444; color: white; }
 
 .interior h1 { color: gold; }
 
@@ -106,6 +128,10 @@ h3 { font-size: 1.953em; }
 h4 { font-size: 1.563em; }
 
 h5 { font-size: 1.25em; text-transform: uppercase; letter-spacing: .1px; }
+
+.command { background-color: gold; white-space: nowrap; padding: 3px 3px; }
+
+code { color: white; background-color: #444444; white-space: nowrap; padding: 3px 3px; }
 
 small, .text-small { font-size: 0.8em; font-weight: 700; }
 
@@ -138,32 +164,42 @@ h1 .info { font-size: 16px; -webkit-text-stroke: 0; color: #444444; letter-spaci
   ul { text-decoration: none; list-style-type: none; text-align: left; }
   li { padding: 0; margin: 15px 0 0; text-transform: uppercase; letter-spacing: .05rem; font-weight: bold; float: none; } }
 
+@media only screen and (min-width: 600px) { nav { width: 100%; margin: 0; }
+  nav ul { display: flow-root; }
+  nav li.mobile-nav { display: none; }
+  nav #menu { position: relative; top: initial; left: initial; width: initial; height: initial; z-index: initial; padding: 0; background-color: none; }
+  nav #menu li { float: left; margin: 0 10px; font-size: 1em; }
+  nav #menu li:first-of-type { margin: 0 10px 0 0; }
+  nav .mobile-hide { display: block; } }
+
 @media only screen and (min-width: 630px) { h1 { font-size: 5.652em; } }
 
 @media only screen and (min-width: 768px) { /* Style adjustments for viewports that meet the condition */
   main, .about { width: 95vw; }
-  .individual { width: 75%; }
-  section { display: grid; grid-template-columns: 46.25vw 46.25vw; grid-gap: 2.5vw 2.5vw; margin: 50px 0; }
+  .tutorial-page, .single { width: 75%; }
+  section { display: grid; grid-template-columns: repeat(2, 1fr); grid-gap: 2.5vw 2.5vw; margin: 50px 0; }
   .section-title { grid-column: span 2; }
   h1 { font-size: 6.052em; } }
 
 @media only screen and (min-width: 1024px) { /* Style adjustments for viewports that meet the condition */
-  main, .about { width: 95vw; }
-  .individual { width: 50%; max-width: 600px; }
-  section { display: grid; grid-template-columns: 30vw 30vw 30vw; grid-gap: 2.5vw 2.5vw; margin: 50px 0; }
+  main, .about { width: 95vw; display: flow-root; }
+  .tutorial-page { width: 600px; float: left; }
+  .single { width: 600px; }
+  .sub-space { margin-left: 350px; }
+  aside { display: block; float: left; max-width: 300px; margin: 50px 50px 0 0; }
+  .sub-fixed { position: fixed; top: 50px; }
+  section { display: grid; grid-template-columns: repeat(3, 1fr); grid-gap: 2.5vw 2.5vw; margin: 50px 0; }
   .section-title { grid-column: span 3; }
   h1 { font-size: 6.052em; } }
 
 @media only screen and (min-width: 1400px) { /* Style adjustments for viewports that meet the condition */
   main { position: relative; left: 0; }
-  section { display: grid; grid-template-columns: 25vw 25vw 25vw; grid-gap: 2.5vw 2.5vw; margin: 50px 0; }
+  section { display: grid; grid-template-columns: repeat(4, 1fr); grid-gap: 2.5vw 2.5vw; margin: 50px 0; }
   .about { width: 500px; padding: 40px; }
-  .section-title { grid-column: span 3; } }
+  .section-title { grid-column: span 4; } }
 
 @media only screen and (min-width: 1800px) { /* Style adjustments for viewports that meet the condition */
-  main { width: 87.5vw; }
-  section { display: grid; grid-template-columns: 20vw 20vw 20vw 20vw; grid-gap: 2.5vw 2.5vw; margin: 50px 0; }
-  .section-title { grid-column: span 4; } }
+  main { width: 87.5vw; } }
 
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) { /* Style adjustments for high resolution devices */ }
 

@@ -1,0 +1,47 @@
+I"f<p>This tutorial will go through the set up every HTML page uses (steps 1–6) and the basic elements you can use to get text to appear on screen. It will also help you get <em>E1: 20 Questions</em> started if you need some extra guidance.</p>
+
+<h3 id="step-1">Step 1</h3>
+
+<p>Open your text editor and start a new file. To save a new file you can go to <span class="command"><em>File &gt; New File</em></span> or use <span class="command"><em>cmd+n</em></span>. Now before you do any typing in the document you need to save the file <span class="command"><em>File &gt; Save</em></span> or use <span class="command"><em>cmd+s</em></span>. When you save a file you need to name the file and give it a file type/extension. Name this <strong>e1.html</strong> and save it to your desktop. <strong>e1</strong> is the file name and <strong>.html</strong> is the file extension. Remember that you need to type the file extension so the text editor knows what kind of file it is working with.</p>
+
+<p><img src="/assets/img/1p2/step1.png" alt="image of Atom's save screen" title="Step 1" /></p>
+
+<h3 id="step-2">Step 2</h3>
+<p>Now that your text editor knows what kind of file it is working with you can start writing in html. The first thing you need on line 1 is our document declaration type which is <code class="highlighter-rouge"><span class="cp">&lt;!DOCTYPE html&gt;</span></code>. This lets the browser know which HTML specification to use to interpret the document, in this case you are writing in HTML5.</p>
+
+<p><img src="/assets/img/1p2/step2.png" alt="image of adding the document declaration type to the document" title="Step 2" /></p>
+
+<h3 id="step-3">Step 3</h3>
+<p>Now that the browser knows what HTML specification you are writing in you can start to write your HTML. The first element is going to be the <code class="highlighter-rouge">html</code> element. The <code class="highlighter-rouge">html</code> element is called the root element because it contains all the elements in the document.</p>
+
+<p>On line 2 write the opening tag <code class="highlighter-rouge"><span class="nt">&lt;html&gt;</span></code> and on line 3 write the closing tag <code class="highlighter-rouge">&lt;/html&gt;</code>. Remember that almost every HTML element you write will have an opening tag and a closing tag.</p>
+
+<p>Save the document with a <span class="command"><em>cmd+s</em></span>. Saving with the key command instead of going to <span class="command"><em>File &gt; Save</em></span> is going to be faster and make saving easier.</p>
+
+<p><img src="/assets/img/1p2/step3.png" alt="image of adding the html element to the document" title="Step 3" /></p>
+
+<h3 id="step-4">Step 4</h3>
+<p>There are a few more elements you need to add before you can start adding content to the page. Put your cursor at the end of line 2 and press <span class="command"><em>return</em></span> which will add a new blank line between the <code class="highlighter-rouge">html</code> element. Now press <span class="command"><em>tab</em></span> to indent the cursor one level on line 3. Indenting is an important part of coding that allows humans to quickly see the structure of a document. Now add the <code class="highlighter-rouge">head</code> element to your page. On the indented line 3 write the opening tag <code class="highlighter-rouge">&lt;head&gt;</code> and then press <span class="command"><em>return</em></span> then <span class="command"><em>tab</em></span> and write the closing tag <code class="highlighter-rouge">&lt;/head&gt;</code> on the indented line 4. Make sure the opening and closing tags are at the same indent level as each other.</p>
+
+<p>The <code class="highlighter-rouge">head</code> element contains elements that pertain to the document that are not rendered as part of the content, such as its title, style sheets, scripts, and metadata.</p>
+
+<p><img src="/assets/img/1p2/step4.png" alt="image of adding the head element to the document" title="Step 4" /></p>
+
+<h3 id="step-5">Step 5</h3>
+<p>Put your cursor at the end of line 3 and press <span class="command"><em>return</em></span> which will add a new blank line between the <code class="highlighter-rouge">head</code> element. Depending on your text editor this might automatically indent or you might need to indent it two levels. The indent this time is two levels because you are writing inside the <code class="highlighter-rouge">head</code> element.</p>
+
+<p>On line 4 write the meta tag that specifies the character encoding used in the document <code class="highlighter-rouge">&lt;meta charset="utf-8"&gt;</code>. Notice this element does not have a closing tag.</p>
+
+<p>At the end of line 4 press <span class="command"><em>return</em></span> and make sure you are two indent levels in and add the <code class="highlighter-rouge">title</code> element. This can be done all on one line and will look something like this <code class="highlighter-rouge">&lt;title&gt;E1&lt;/title</code>. The <code class="highlighter-rouge">title</code> element has an opening tag, some content (in this case E1), and a closing tag. The title should describe the title of the page you are working on and appears in the tab of the browser.</p>
+
+<p><img src="/assets/img/1p2/step5.png" alt="image of adding a meta element and the title element to the document" title="Step 5" /></p>
+
+<h3 id="step-6">Step 6</h3>
+<p>The last step before you start adding content to the page is adding the <code class="highlighter-rouge">body</code> element. The <code class="highlighter-rouge">body</code> element contains everything you want to show up in the browser window.</p>
+
+<p>Add the <code class="highlighter-rouge">body</code> element below the closing tag of the <code class="highlighter-rouge">head</code> element. The <code class="highlighter-rouge">body</code> element needs an opening tag <code class="highlighter-rouge">&lt;body&gt;</code> and a closing tag <code class="highlighter-rouge">&lt;/body&gt;</code> and should be at the same indent level as the <code class="highlighter-rouge">head</code> element.</p>
+
+<p>If you haven’t saved since step 3 now might be a good time.</p>
+
+<p><img src="/assets/img/1p2/step6.png" alt="image of adding the body element to the document" title="Step 6" /></p>
+:ET

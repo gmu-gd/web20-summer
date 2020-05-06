@@ -90,9 +90,6 @@ textarea {
     padding: 0.2em 0;
 }
 
-
-
-
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
@@ -115,15 +112,22 @@ html {font-size: 16px;}
 body {
   margin: 0;
   font-family: $font-stack;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 1.45;
+  line-height: 1.5;
   background-color: $light-color;
   color: $dark-color;
   width: 100vw;
   overflow-x: hidden;
 }
 .interior {
-  background-color: $primary-color;
+  background-color: $light-color;
+}
+.interior img {
+  width: 100%;
+}
+.interior img:hover, #lightbox:hover {
+  cursor: pointer;
 }
 ul {
   text-decoration: none;
@@ -139,6 +143,21 @@ li {
   font-weight: bold;
   float: left;
 }
+.tutorial-page ul {
+  text-decoration: none;
+  list-style-type: initial;
+  margin: 0 25px;
+  padding: 0 15px;
+}
+.tutorial-page li {
+    padding: 0 25px 0 0;
+    margin: 15px 0 0;
+    letter-spacing: 0;
+    float: none;
+    text-transform: initial;
+    font-weight: normal;
+    font-size: 1.2em;
+}
 li a, .interior a {
   border-bottom: 3px solid $dark-color;
 }
@@ -150,8 +169,12 @@ li a.active {
   border-bottom: 3px solid $secondary-color;
 }
 li a.active:hover, .interior li a:hover, .interior a:hover {
-  color: $secondary-color;
-  border-bottom: 3px solid $secondary-color;
+  color: $dark-color;
+  border-bottom: 3px solid $primary-color;
+}
+.interior h1 a, .interior h1 a:hover {
+  border-bottom: none;
+  color: white;
 }
 header {
   width: 100%;
@@ -164,11 +187,28 @@ nav ul {
   display: flow-root;
 }
 nav li {
-  float: left;
-  margin: 0 10px;
+  float: none;
+  margin: 10px 0;
 }
-nav li:first-of-type {
-  margin: 0 10px 0 0;
+nav li.mobile-nav:hover {
+  cursor: pointer;
+}
+nav #menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: $primary-color;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  padding: 50px;
+}
+nav #menu li {
+  font-size: 2em;
+  margin: 30px 0;
+}
+nav .mobile-hide {
+  display: none;
 }
 main, .about {
   width: 95vw;
@@ -180,11 +220,11 @@ section {
   grid-gap: 5vw;
   margin: 50px 0;
 }
-.individual {
+.single, .tutorial-page {
   width: 100%;
   margin: 50px 0;
 }
-.day {
+.student, .tutorial {
   padding: 15px;
   border: 3px solid $dark-color;
   box-shadow: 6px 6px $primary-color ;
@@ -194,7 +234,7 @@ section {
   transition: all .5s ease;
   cursor: pointer;
 }
-.day:hover {
+.student:hover, .tutorial:hover {
   position: relative;
   /* border: 3px solid GreenYellow; */
   background-color: $primary-color;
@@ -202,13 +242,8 @@ section {
   left: 3px;
   box-shadow: 0 0 $primary-color ;
 }
-.day:nth-child(3n+3) {
+.student:nth-child(3n+3) {
   margin-right: 0;
-}
-.room {
-  position: absolute;
-  bottom: 15px;
-  left: 15px;
 }
 .print {
   position: absolute;
@@ -236,6 +271,8 @@ h1 a, h1 a:hover, h1 a:active, h1 a:visited {
   -webkit-text-stroke: 3px $dark-color;
 }
 p {
+  font-size: 1.4em;
+  line-height: 1.6em;
   margin-bottom: 1.25em;
 }
 .description {
@@ -252,6 +289,31 @@ p {
   background-color: $dark-color;
   padding: 4px 6px;
 }
+#lightbox {
+  position: fixed;
+  top: 2vh;
+  left: 5vw;
+  width: 90vw;
+  height: 96vh;
+  background: url(../img/1p2/step1.png) no-repeat center center;
+  background-size: contain;
+  z-index: 99;
+}
+#lightbox-dim {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0,0,0,.8);
+  z-index: 50;
+}
+aside {
+  display: none;
+}
+.scroll-lock {
+  overflow: hidden !important;
+}
 h1, h2, h3, h4, h5 {
   margin: 0;
   font-weight: 400;
@@ -260,7 +322,7 @@ h1, h2, h3, h4, h5 {
 }
 h1 {
   margin-top: 0;
-  font-size: 4.552em;
+  font-size: 4.252em;
   text-transform: uppercase;
   letter-spacing: .1rem;
   font-weight: 700;
@@ -288,7 +350,17 @@ h5 {
   text-transform: uppercase;
   letter-spacing: .1px;
 }
-
+.command {
+  background-color: $primary-color;
+  white-space: nowrap;
+  padding: 3px 3px;
+}
+code {
+  color: $light-color;
+  background-color: $dark-color;
+  white-space: nowrap;
+  padding: 3px 3px;
+}
 small, .text-small {
   font-size: 0.8em;
   font-weight: 700;
@@ -310,15 +382,6 @@ h1 .info {
   letter-spacing: .1px;
   border-bottom: 3px solid $dark-color;
 }
-
-
-
-
-
-
-
-
-
 
 
  /* ==========================================================================
@@ -425,6 +488,39 @@ h1 .info {
      float: none;
    }
 }
+@media only screen and (min-width: 600px) {
+  nav {
+    width: 100%;
+    margin: 0;
+  }
+  nav ul {
+    display: flow-root;
+  }
+  nav li.mobile-nav {
+    display: none;
+  }
+  nav #menu {
+    position: relative;
+    top: initial;
+    left: initial;
+    width: initial;
+    height: initial;
+    z-index: initial;
+    padding: 0;
+    background-color: none;
+  }
+  nav #menu li {
+    float: left;
+    margin: 0 10px;
+    font-size: 1em;
+  }
+  nav #menu li:first-of-type {
+    margin: 0 10px 0 0;
+  }
+  nav .mobile-hide {
+    display: block;
+  }
+}
 @media only screen and (min-width: 630px) {
   h1 {
     font-size: 5.652em;
@@ -436,12 +532,12 @@ h1 .info {
     main, .about {
       width: 95vw;
     }
-    .individual {
+    .tutorial-page, .single {
       width: 75%;
     }
     section {
       display: grid;
-      grid-template-columns: 46.25vw 46.25vw;
+      grid-template-columns: repeat(2, 1fr);
       grid-gap: 2.5vw 2.5vw;
       margin: 50px 0;
     }
@@ -451,19 +547,37 @@ h1 .info {
     h1 {
       font-size: 6.052em;
     }
+
 }
 @media only screen and (min-width: 1024px) {
     /* Style adjustments for viewports that meet the condition */
     main, .about {
       width: 95vw;
+      display: flow-root;
     }
-    .individual {
-      width: 50%;
-      max-width: 600px;
+    .tutorial-page {
+      width: 600px;
+      float: left;
+    }
+    .single {
+      width: 600px;
+    }
+    .sub-space {
+      margin-left: 350px;
+    }
+    aside {
+      display: block;
+      float: left;
+      max-width: 300px;
+      margin: 50px 50px 0 0;
+    }
+    .sub-fixed {
+      position: fixed;
+      top: 50px;
     }
     section {
       display: grid;
-      grid-template-columns: 30vw 30vw 30vw;
+      grid-template-columns: repeat(3, 1fr);
       grid-gap: 2.5vw 2.5vw;
       margin: 50px 0;
     }
@@ -482,7 +596,7 @@ h1 .info {
     }
     section {
       display: grid;
-      grid-template-columns: 25vw 25vw 25vw;
+      grid-template-columns: repeat(4, 1fr);
       grid-gap: 2.5vw 2.5vw;
       margin: 50px 0;
     }
@@ -491,22 +605,13 @@ h1 .info {
       padding: 40px;
     }
     .section-title {
-      grid-column: span 3;
+      grid-column: span 4;
     }
 }
 @media only screen and (min-width: 1800px) {
     /* Style adjustments for viewports that meet the condition */
     main {
       width: 87.5vw;
-    }
-    section {
-      display: grid;
-      grid-template-columns: 20vw 20vw 20vw 20vw;
-      grid-gap: 2.5vw 2.5vw;
-      margin: 50px 0;
-    }
-    .section-title {
-      grid-column: span 4;
     }
 }
 @media print,

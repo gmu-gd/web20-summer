@@ -21,11 +21,10 @@
   <body class="interior">
     <main>
       {% include header.html %}
-      <article class="individual">
+      <article class="single">
         <h2 class="event"> {{ page.title }} </h2>
         {{ content }}
       </article>
-      <a href="{{ "/" | relative_url}}" class="link-small">Back home</a>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="{{ "/assets/js/main.js" | relative_url }}" charset="utf-8"></script>
