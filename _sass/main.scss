@@ -143,15 +143,14 @@ li {
   font-weight: bold;
   float: left;
 }
-.tutorial-page ul {
+.tutorial-page ul, .single ul {
   text-decoration: none;
   list-style-type: initial;
   margin: 0 25px;
   padding: 0 15px;
 }
-.tutorial-page li {
-    padding: 0 25px 0 0;
-    margin: 15px 0 0;
+.tutorial-page li, .single li {
+    margin: 10px 0 0;
     letter-spacing: 0;
     float: none;
     text-transform: initial;
@@ -341,9 +340,15 @@ h2 {
   margin-top: .25rem;
 }
 
-h3 {font-size: 1.953em;}
+h3 {font-size: 1.953em; margin-top: 25px;}
 
-h4 {font-size: 1.563em;}
+h4 {
+  font-size: 1.563em;
+  margin-top: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1px;
+  font-weight: 700;
+}
 
 h5 {
   font-size: 1.25em;
@@ -382,8 +387,10 @@ h1 .info {
   letter-spacing: .1px;
   border-bottom: 3px solid $dark-color;
 }
-
-
+hr {
+  border-top: 3px solid $primary-color;
+  margin: 25px 0;
+}
  /* ==========================================================================
    Helper classes
    ========================================================================== */
