@@ -55,7 +55,7 @@ li a.active { color: #444444; border-bottom: 3px solid red; }
 
 li a.active:hover, .interior li a:hover, .interior a:hover { color: #444444; border-bottom: 3px solid gold; }
 
-.interior h1 a, .interior h1 a:hover { border-bottom: none; color: white; }
+.interior h1 a, .interior h1 a:hover { border-bottom: none; color: gold; }
 
 header { width: 100%; }
 
@@ -79,7 +79,7 @@ section { display: grid; grid-template-columns: 100%; grid-gap: 5vw; margin: 25p
 
 .single, .tutorial-page { width: 100%; margin: 50px 0; }
 
-.student, .tutorial { padding: 15px; border: 3px solid #444444; box-shadow: 6px 6px gold; position: relative; top: 0; left: 0; transition: all .5s ease; cursor: pointer; }
+.student, .tutorial { padding: 15px; border: 3px solid #444444; box-shadow: 6px 6px gold; position: relative; top: 0; left: 0; transition: top .5s ease, left .5s ease, box-shadow .5s ease, background-color .5s ease; cursor: pointer; }
 
 .student:hover, .tutorial:hover { position: relative; /* border: 3px solid GreenYellow; */ background-color: gold; top: 3px; left: 3px; box-shadow: 0 0 gold; }
 
@@ -93,7 +93,7 @@ section { display: grid; grid-template-columns: 100%; grid-gap: 5vw; margin: 25p
 
 footer { display: none; }
 
-a { transition: all .5s ease; }
+a { transition: border-color .5s ease; }
 
 a, a:hover, a:active, a:visited { color: #444444; text-decoration: none; }
 
@@ -101,7 +101,7 @@ h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: #444444; -webkit-text-strok
 
 p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 1.25em; }
 
-.description { margin-bottom: 50px; }
+.description { margin-bottom: 25px; }
 
 .section-title { grid-column: span 1; text-transform: uppercase; letter-spacing: .1rem; color: white; margin: 0; }
 
@@ -163,6 +163,7 @@ h1 .info { font-size: 16px; -webkit-text-stroke: 0; color: #444444; letter-spaci
 @media only screen and (min-width: 520px) { header { position: relative; }
   main { width: 95vw; }
   h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: white; -webkit-text-stroke: 3px #444444; }
+  .interior h1 a, .interior h1 a:hover { border-bottom: none; color: white; }
   h1 { margin-top: 0; font-size: 4.25em; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; color: white; -webkit-text-stroke: 3px #444444; }
   ul { text-decoration: none; list-style-type: none; text-align: left; }
   li { padding: 0; margin: 15px 0 0; text-transform: uppercase; letter-spacing: .05rem; font-weight: bold; float: none; } }
