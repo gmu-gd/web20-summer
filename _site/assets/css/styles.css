@@ -73,9 +73,9 @@ nav #menu li { font-size: 2em; margin: 30px 0; }
 
 nav .mobile-hide { display: none; }
 
-main, .about { width: 95vw; margin: 50px auto; }
+main, .about { width: 90vw; margin: 25px auto; }
 
-section { display: grid; grid-template-columns: 100%; grid-gap: 5vw; margin: 50px 0; }
+section { display: grid; grid-template-columns: 100%; grid-gap: 5vw; margin: 25px 0; }
 
 .single, .tutorial-page { width: 100%; margin: 50px 0; }
 
@@ -97,7 +97,7 @@ a { transition: all .5s ease; }
 
 a, a:hover, a:active, a:visited { color: #444444; text-decoration: none; }
 
-h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: white; -webkit-text-stroke: 3px #444444; }
+h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: #444444; -webkit-text-stroke: 0 #444444; }
 
 p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 1.25em; }
 
@@ -117,7 +117,7 @@ aside { display: none; }
 
 h1, h2, h3, h4, h5 { margin: 0; font-weight: 400; line-height: 1.15; font-family: "bureau-grot", sans-serif; }
 
-h1 { margin-top: 0; font-size: 4.252em; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; -webkit-text-stroke: 3px #444444; color: white; }
+h1 { margin-top: 0; font-size: 2.5em; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; -webkit-text-stroke: 0; color: gold; }
 
 .interior h1 { color: gold; }
 
@@ -161,6 +161,9 @@ h1 .info { font-size: 16px; -webkit-text-stroke: 0; color: #444444; letter-spaci
 
 /* ========================================================================== EXAMPLE Media Queries for Responsive Design. These examples override the primary ('mobile first') styles. Modify as content requires. ========================================================================== */
 @media only screen and (min-width: 520px) { header { position: relative; }
+  main { width: 95vw; }
+  h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: white; -webkit-text-stroke: 3px #444444; }
+  h1 { margin-top: 0; font-size: 4.25em; text-transform: uppercase; letter-spacing: .1rem; font-weight: 700; color: white; -webkit-text-stroke: 3px #444444; }
   ul { text-decoration: none; list-style-type: none; text-align: left; }
   li { padding: 0; margin: 15px 0 0; text-transform: uppercase; letter-spacing: .05rem; font-weight: bold; float: none; } }
 
