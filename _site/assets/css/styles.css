@@ -131,7 +131,7 @@ h5 { font-size: 1.25em; text-transform: uppercase; letter-spacing: .1px; }
 
 .command { background-color: gold; white-space: nowrap; padding: 3px 3px; }
 
-code { color: white; background-color: #444444; white-space: nowrap; padding: 3px 3px; }
+code { color: white; background-color: #444444; white-space: pre-wrap; padding: 3px 3px; }
 
 small, .text-small { font-size: 0.8em; font-weight: 700; }
 

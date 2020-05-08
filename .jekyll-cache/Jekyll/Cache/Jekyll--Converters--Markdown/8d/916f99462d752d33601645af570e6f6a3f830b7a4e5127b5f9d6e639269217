@@ -1,46 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Build a Web Page</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
-  <body class="interior">
-    <div id="lightbox-dim" class="hidden"></div>
-    <div id="lightbox" class="hidden"></div>
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" >Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" class="active">Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <aside><ul></ul></aside>
-      <article class="tutorial-page">
-        <h2 class="event"> 1.2 Build a Web Page </h2>
-        <p>This tutorial will go through the set up every HTML page uses (steps 1–6) and how to get text to display on screen. It will also help you get <em>E1: 20 Questions</em> started if you need some extra guidance.</p>
+I"�/<p>This tutorial will go through the set up every HTML page uses (steps 1–6) and how to get text to display on screen. It will also help you get <em>E1: 20 Questions</em> started if you need some extra guidance.</p>
 
 <h3 id="step-1-create-html-file"><span id="step1">Step 1: Create HTML file</span></h3>
 
@@ -94,19 +52,17 @@
 
 <p><img src="/assets/img/1p2/step7a.png" alt="image of adding an h1 element to the document" title="Step 7a" /></p>
 
-<p>Next add a heading identifying the question number, a question, and your answer to that question. Remember, the way shown below is one way to approach this but like with most things in design and coding there are many solutions.</p>
+<p>Next add a heading identifying the first question, the first question, and your answer to that question. The way here is one way to approach this but like with most things in design and coding there are many solutions.</p>
 
-<p>So what text element should you choose if you want text that says “Question 1”?</p>
+<p>So what text element should you choose if you want text that says “Question 1”? You don’t want to use the <code class="highlighter-rouge">h1</code> element because that should only be used once on a page to identify the main heading. But there are more headings available to you that can be used mutiple times. You can use <code class="highlighter-rouge">h2</code> through <code class="highlighter-rouge">h6</code>. <code class="highlighter-rouge">h2</code> is going to be a little smaller than <code class="highlighter-rouge">h1</code>, <code class="highlighter-rouge">h3</code> a little smaller than <code class="highlighter-rouge">h2</code> and so on. The good thing is you can have as many <code class="highlighter-rouge">h2</code> to <code class="highlighter-rouge">h6</code> elements on your page as you want.</p>
 
-<p>How about an <code class="highlighter-rouge">h2</code> element? Since you used an <code class="highlighter-rouge">h1</code> for your primary heading using the next heading element seems like a logical choice. You can also use this heading element as many times as you want so it will work nicely as a heading element for identifying the question number.</p>
+<p>So how about an <code class="highlighter-rouge">h2</code> element? That is still available and can be used as the heading element for each question number. Make sure you are writing in the body element, on a new line below your <code class="highlighter-rouge">h1</code> element, and indented to the proper level (two levels) and write <code class="highlighter-rouge">&lt;h2&gt;Question 1&lt;/h2&gt;</code>.</p>
 
-<p>Make sure you are writing in the body element, on a new line below your <code class="highlighter-rouge">h1</code> element, indented to the proper level (two levels), and write <code class="highlighter-rouge">&lt;h2&gt;Question 1&lt;/h2&gt;</code>.</p>
-
-<p>Don’t forget to save (<span class="command"><em>cmd+s</em></span>)!</p>
+<p>Don’t forget to save!</p>
 
 <p><img src="/assets/img/1p2/step7b.png" alt="image of adding an h2 element to the document" title="Step 7b" /></p>
 
-<p>Finally add the question text and your answer. Again, there are a lot of ways you could do this but here is one approach using the <code class="highlighter-rouge">p</code> element (<code class="highlighter-rouge">p</code> stands for paragraph). Make sure you replace the text inside the <code class="highlighter-rouge">p</code> element below with an actual question and an actual answer. Each <code class="highlighter-rouge">p</code> element should be on its own line and indented to the proper level (two levels).</p>
+<p>Finally add the question text and your answer. Again, there are a lot of ways you could do this but here is one approach using the <code class="highlighter-rouge">p</code> element (<code class="highlighter-rouge">p</code> stands for paragraph). Make sure you replace the text inside the <code class="highlighter-rouge">p</code> element with an actual question and an actual answer. Each <code class="highlighter-rouge">p</code> element should be on its own line and indented to the proper level (two levels).</p>
 
 <p><code class="highlighter-rouge">&lt;p&gt;Q: This is the text for the question?&lt;/p&gt;</code>
 <code class="highlighter-rouge">&lt;p&gt;A: This is the answer for the question.&lt;/p&gt;</code></p>
@@ -115,7 +71,7 @@
 
 <h3 id="step-8-previewing-the-page"><span id="step8">Step 8: Previewing the page</span></h3>
 
-<p>Now that you have a document with the proper structure and content with the proper mark up it’s time to see what the page looks like! Make sure you have saved (<span class="command"><em>cmd+s</em></span>) before you preview the page or you won’t see the most current file.</p>
+<p>Now that you have a document with the proper structure and content with the proper mark up it’s time to see what the page looks like! Make sure you have saved (<span class="command"><em>cmd+s</em></span>) before you preview otherwise you won’t see the most current file.</p>
 
 <p>One way to preview your file is to find the file on your desktop and drag it into a browser or double click on it. That should open it up in your default browser. The other way is to click and drag the icon next to the file name in the top bar of the Atom window into the browser. This is a little tricky sometimes but once you get the hang of it is a lot faster. However you get the file open in the browser you should have something that looks like this.</p>
 
@@ -123,13 +79,5 @@
 
 <p>This page is using the default browser styles which for now is fine. The goal of this lesson is to create a simple HTML page with a good structure and marked up correctly. As the class goes on you will learn more about styling the page.</p>
 
-<p>To finish the exercise you can repeat step 7 for each new question until you have all your questions and answers all on the page.</p>
-
-        <a href="/tutorials" class="link-small">Back to Tutorials</a>
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-    <script src="/assets/js/tutorial.js" charset="utf-8"></script>
-  </body>
-</html>
+<p>To finish the exercise you can repeat step 7 until you have your questions and answers all on the page.</p>
+:ET

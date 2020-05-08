@@ -363,6 +363,7 @@ h5 {
 code {
   color: $light-color;
   background-color: $dark-color;
+  white-space: pre-wrap;
   padding: 3px 3px;
 }
 small, .text-small {
