@@ -1,57 +1,17 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Syllabus</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
-  <body class="interior">
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" class="active">Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" >Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <article class="single">
-        <h2 class="event"> Syllabus </h2>
-        <h3 id="delivery-and-timing">Delivery and Timing</h3>
+I"NC<h3 id="delivery-and-timing">delivery and timing</h3>
 
 <p>This is a synchronous online summer course. That means we will meet once a week on Tuesdays from 4:30 to 7:10. These meetings are required and will also be recorded for later review. Summer courses are on a compressed schedule that fits a 15 week course into 8 weeks. That means the class will move quickly and you should plan on a 3 hour class session and then an additional 12 to 15 hours
 of work outside of class each week.</p>
 
-<h3 id="prerequisites">Prerequisites</h3>
+<h3 id="prerequisites">prerequisites</h3>
 
 <p>AVT 180: New Media in the Creative Arts or permission of instructor.</p>
 
-<h3 id="course-description">Course Description</h3>
+<h3 id="course-description">course description</h3>
 
 <p>An introduction to contemporary web design. Students gain hands-on experience with design issues specific to web-based forms as well as begin to write and understand the languages that make the web work.</p>
 
-<h3 id="overview">Overview</h3>
+<h3 id="overview">overview</h3>
 
 <p>Building a website or web application is a multi-disciplinary design process that encompasses visual design, interface design, interaction design, content development, as well as business strategy. Exceptional web design is attentive to these different facets whether it is viewed from the perspective of product design, graphic design, or industrial design. Every student stretches themselves in this course.</p>
 
@@ -59,7 +19,7 @@ of work outside of class each week.</p>
 
 <p>Participants should finish the course with a working knowledge of HTML and CSS, improved web imaging, layout, and typography skills, and familiarity with more technical facets like jQuery and responsive design.</p>
 
-<h3 id="objectives">Objectives</h3>
+<h3 id="objectives">objectives</h3>
 
 <ul>
   <li>Develop general design skills</li>
@@ -70,29 +30,29 @@ of work outside of class each week.</p>
   <li>Analyze everyday interactions on the web from a critical perspective</li>
 </ul>
 
-<h3 id="textbook">Textbook</h3>
+<h3 id="textbook">textbook</h3>
 
 <p>The textbook for this course is available for purchase/rent on Amazon and other online retailers but is also available as a digital copy through the Mason library. Instructions on how to access the digital copy are on Blackboard. There is also an associated website for the book at learningwebdesign.com</p>
 
-<p><em>Learning Web Design: A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics</em> 5th edition by Jennifer Niederst Robbins ISBN: 978-1-491-96020-2</p>
+<p>Learning Web Design: A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics 5th edition by Jennifer Niederst Robbins ISBN: 978-1-491-96020-2</p>
 
-<h3 id="programs">Programs</h3>
+<h3 id="programs">programs</h3>
 
 <p>There are many different programs available to use for the work in this class. The programs I will be using are highlighted but alternatives are also listed.</p>
 
 <h4 id="design">design</h4>
 
-<p><span class="command">Adobe XD</span>, Figma, Sketch, Illustrator, Lunacy. We will not be using Photoshop for design work in this course.</p>
+<p><code class="highlighter-rouge">Adobe XD</code>, Figma, Sketch, Illustrator, Lunacy. We will not be using Photoshop for design work in this course.</p>
 
 <h4 id="coding">coding</h4>
 
-<p><span class="command">Atom</span>, Sublime Text, Brackets. We will not be using Dreamweaver, Notepad, or TextEdit in this course.</p>
+<p><code class="highlighter-rouge">Atom</code>, Sublime Text, Brackets. We will not be using Dreamweaver, Notepad, or TextEdit in this course.</p>
 
 <h4 id="other">other</h4>
 
-<p><span class="command">Zoom</span> (holding class sessions), <span class="command">Slack</span> (communication platform), <span class="command">Github Desktop</span> (updating your website)</p>
+<p><code class="highlighter-rouge">Zoom</code> (holding class sessions), <code class="highlighter-rouge">Slack</code> (communication platform), <code class="highlighter-rouge">Github Desktop</code> (updating your website)</p>
 
-<h3 id="content">Content</h3>
+<h3 id="content">content</h3>
 
 <p>This course consists of many shorter exercises, one course long project, quizzes, and discussion board requirements. The exercises are to begin to familiarize students with specific concepts and ideas and the project is a synthesis of the concepts and ideas we will cover. Quizzes will review information from the lessons and the discussion board posts will be used for critiques and analysis of relevant topics.</p>
 
@@ -100,11 +60,11 @@ of work outside of class each week.</p>
 
 <p>Students will conceptualize, plan, design, and code a multipage website using one of several provided topics. The project will build off of the lessons each week and be a synthesis of the concepts and skills learned over the course of the semester. Each students project will be unique in content and form but be based on the same set of requirements. More information on the class website.</p>
 
-<h3 id="schedule">Schedule</h3>
+<h3 id="schedule">schedule</h3>
 
 <p>The schedule on the following page is an outline of what we will be covering this summer with due dates. It is subject to additions and subtractions.</p>
 
-<h3 id="virtual-meeting-guide">Virtual Meeting Guide</h3>
+<h3 id="virtual-meeting-guide">virtual meeting guide</h3>
 
 <p>A few points to guide our virtual meetings. These are not demands but a guide to help us have a more engaging and productive meeting.</p>
 
@@ -125,54 +85,48 @@ of work outside of class each week.</p>
   <li>Online meetings can sometimes be frustrating. If you encounter technical problems, try to stay calm. Don’t panic. We are all trying to do this together and we understand that sometimes it can be difficult to connect online. Don’t give up and keep trying. Use the chat window to communicate.</li>
 </ol>
 
-<h3 id="attendance-and-participation">Attendance and Participation</h3>
+<h3 id="attendance-and-participation">attendance and participation</h3>
 <p>You must be virtually, mentally, and verbally present and prepared. Punctuality is of prime importance. Since getting to class consists of sitting in front of a computer, there are few good excuses for being late to class, try and be as early as you can. Being early will help work through any technology issues that might come up. Tardiness will also affect your final grade—three late arrivals equals an absence. Please come to class prepared and ready to work for the entire scheduled time. Being prepared includes having all work uploaded and ready to discuss.</p>
 
 <p>You are expected to attend all meetings of the class. I understand that sometimes issues arise that prevent you from making it to class. It is your responsibility to let me know that you will be missing class and to talk to a classmate to go over what you missed. You cannot participate if you are not in class. Attendance is 10% of your grade and will be calculated by your presence in the virtual sessions. Since there are only eight virtual sessions, each absence will lower you attendance grade by 12.5 points. Again, attendance and participation in class are extremely important.</p>
 
-<h3 id="discussion-of-work">Discussion of Work</h3>
+<h3 id="discussion-of-work">discussion of work</h3>
 <p>You will need to take an active role in both the presentation and discussion of your work. We will review projects in a variety of ways and you are expected to be able to talk and type about your own work and give feedback to your peers about their work. The ability to discuss your work and other student’s work is a very important part of your education at Mason. Use this class to improve on those skills too.</p>
 
-<h3 id="grading">Grading</h3>
+<h3 id="grading">grading</h3>
 <p>Grades will be based on your attendance (10%), participation (25%),  exercises (25%), and projects (40%). Attendance was explained above but will be based on your presence in each virtual session. Participation will primarily be graded based on discussion board assignments and critiques with a smaller portion based on participation in our virtual channels (Slack and Zoom). The exercises are graded using two different rubrics depending on the type of exercise. The project will generate two different grades. One grade will be based on your ability to submit the required weekly work for the project. The second grade will be based on the final project you submit. Those two grades are weighted equally in the 40% of your final grade.</p>
 
-<h3 id="university-and-school-of-art-policies">University and School of Art Policies</h3>
+<h3 id="university-and-school-of-art-policies">university and school of art policies</h3>
 <p>In accordance with George Mason University policy, turn off all beepers, cellular telephones and other wireless communication devices at the start of class. The instructor of the class will keep his/her cell phone active to assure receipt of any Mason Alerts in a timely fashion; or in the event that the instructor does not have a cell phone, he/she will designate one student to keep a cell phone active to receive such alerts.</p>
 
-<h3 id="commitment-to-diversity">Commitment to Diversity</h3>
+<h3 id="commitment-to-diversity">commitment to diversity</h3>
 <p>This class will be conducted as an intentionally inclusive community that celebrates diversity and welcomes the participation in the life of the university of faculty, staff and students who reflect the diversity of our plural society. All may feel free to speak and to be heard without fear that the content of the opinions they express will bias the evaluation of their academic performance or hinder their opportunities for participation in class activities. In turn, all are expected to be respectful of each other without regard to race, class, linguistic background, religion, political beliefs, gender identity, sex, sexual orientation, ethnicity, age, veteran’s status, or physical ability.</p>
 
-<h3 id="statement-on-ethics-in-teaching-and-practicing-art-and-design">Statement on Ethics in Teaching and Practicing Art and Design</h3>
+<h3 id="statement-on-ethics-in-teaching-and-practicing-art-and-design">statement on ethics in teaching and practicing art and design</h3>
 <p>As professionals responsible for the education of undergraduate and graduate art and design students, the faculty of the School of Art adheres to the ethical standards and practices incorporated in the professional Code of Ethics of our natonal accreditation organization, The National Association of Schools of Art and Design (NASAD).</p>
 
-<h3 id="important-deadlines">Important Deadlines</h3>
-<p>Once the add and drop deadlines have passed, instructors do not have the authority to approve requests from students to add or drop/withdraw late. Requests for late adds (up until the last day of classes) must be made by the student in the SoA office (or the office of the department offering the course), and generally are only approved in the case of a documented university error (such as a problem with financial aid being processed), LATE ADD fee will apply. Requests for non-selective withdrawals and retroactive adds (adds after the last day of classes) must be approved by the academic dean of the college in which the student’s major is located. For AVT majors, that is the CVPA Office of Academic Affairs, Performing Arts Building A407. Full dates for Session B can be found on the [Mason website] (https://registrar.gmu.edu/calendars/summer-2020/).</p>
+<h3 id="important-deadlines">important deadlines</h3>
+<p>Once the add and drop deadlines have passed, instructors do not have the authority to approve requests from students to add or drop/withdraw late. Requests for late adds (up until the last day of classes) must be made by the student in the SoA office (or the office of the department offering the course), and generally are only approved in the case of a documented university error (such as a problem with financial aid being processed), LATE ADD fee will apply. Requests for non-selective withdrawals and retroactive adds (adds after the last day of classes) must be approved by the academic dean of the college in which the student’s major is located. For AVT majors, that is the CVPA Office of Academic Affairs, Performing Arts Building A407.</p>
 
-<h3 id="students-with-disabilities-and-learning-differences">Students with Disabilities and Learning Differences</h3>
+<h3 id="students-with-disabilities-and-learning-differences">students with disabilities and learning differences</h3>
 <p>If you have a diagnosed disability or learning difference and you need academic accommodations, please inform me at the beginning of the semester and contact the Disabilities Resource Center (SUB I room 234, 703-993-2474). You must provide me with a faculty contact sheet from that office outlining the accommodations needed for your disability or learning difference. All academic accommodations must be arranged in advance through the DRC.</p>
 
-<h3 id="official-communications-via-gmu-e-mail">Official Communications via GMU E-mail</h3>
+<h3 id="official-communications-via-gmu-e-mail">official communications via gmu e-mail</h3>
 <p>Mason uses electronic mail to provide official information to students. Examples include communications from course instructors, notices from the library, notices about academic standing, financial aid information, class materials, assignments, questions, and instructor feedback. Students are responsible for the content of university communication sent to their Mason e-mail account and are required to activate that account and check it regularly.</p>
 
-<h3 id="attendance-policies">Attendance Policies</h3>
+<h3 id="attendance-policies">attendance policies</h3>
 <p>Students are expected to attend the class periods of the courses for which they register. In-class participation is important not only to the individual student, but also to the class as a whole. Because class participation may be a factor in grading, instructors may use absence, tardiness, or early departure as de facto evidence of nonparticipation. Students who miss an exam with an acceptable excuse may be penalized according to the individual instructor’s grading policy, as stated in the course syllabus.</p>
 
-<h3 id="honor-code">Honor Code</h3>
+<h3 id="honor-code">honor code</h3>
 <p>Students in this class are bound by the Honor Code, as stated in the George Mason University Catalog. The honor code requires that the work you do as an individual be the product of your own individual synthesis or integration of ideas. (This does not prohibit collaborative work when it is approved by your instructor.) As a faculty member, I have an obligation to refer the names of students who may have violated the Honor Code to the Student Honor Council, which treats such cases very seriously. No grade is important enough to justify cheating, for which there are serious consequences that will follow you for the rest of your life. If you feel unusual pressure about your grade in this or any other course, please talk to me or to a member of the GMU Counseling Center staff.</p>
 
 <p>Using someone else’s words or ideas without giving them credit is plagiarism, a very serious Honor Code offense. It is very important to understand how to prevent committing plagiarism when using material from a source. If you wish to quote verbatim, you must use the exact words and punctuation just as the passage appears in the original and must use quotation marks and page numbers in your citation. If you want to paraphrase or summarize ideas from a source, you must put the ideas into your own words, and you must cite the source, using the APA or MLA format. (For assistance with documentation, I recommend Diana Hacker, A Writer’s Reference.) The exception to this rule is information termed general knowledge—information that is widely known and stated in a number of sources. Determining what is general knowledge can be complicated, so the wise course is, “When in doubt, cite.”</p>
 
 <p>Be especially careful when using the Internet for research. Not all Internet sources are equally reliable; some are just plain wrong. Also, since you can download text, it becomes very easy to inadvertently plagiarize. If you use an Internet source, you must cite the exact URL in your paper and include with it the last date that you successfully accessed the site.</p>
 
-<h3 id="writing-center">Writing Center</h3>
+<h3 id="writing-center">writing center</h3>
 <p>Students who are in need of intensive help with grammar, structure or mechanics in their writing should make use of the services of Writing Center, located in Robinson A116 (703-993-1200). The services of the Writing Center are available by appointment, online and, occasionally, on a walk-in basis.</p>
 
-<h3 id="the-collaborative-learning-hub">The Collaborative Learning Hub</h3>
+<h3 id="the-collaborative-learning-hub">the collaborative learning hub</h3>
 <p>Located in Johnson Center 311 (703-993-3141), the lab offers in-person one-on-one support for the Adobe Creative Suite, Microsoft Office, Blackboard, and a variety of other software. Dual monitor PCs make the lab ideal for collaborating on group projects, Macs are also available; as well as a digital recording space, collaborative tables, and a SMART Board. Free workshops are also available (Adobe and Microsoft) through Training and Certification; visit ittraining.gmu.edu to see the schedule of workshops and to sign up.</p>
-
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET

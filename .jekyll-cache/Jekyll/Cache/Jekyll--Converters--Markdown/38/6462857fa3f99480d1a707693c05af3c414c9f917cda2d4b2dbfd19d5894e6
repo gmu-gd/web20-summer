@@ -1,44 +1,4 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Syllabus</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
-  <body class="interior">
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" class="active">Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" >Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <article class="single">
-        <h2 class="event"> Syllabus </h2>
-        <h3 id="delivery-and-timing">Delivery and Timing</h3>
+I"aC<h3 id="delivery-and-timing">Delivery and Timing</h3>
 
 <p>This is a synchronous online summer course. That means we will meet once a week on Tuesdays from 4:30 to 7:10. These meetings are required and will also be recorded for later review. Summer courses are on a compressed schedule that fits a 15 week course into 8 weeks. That means the class will move quickly and you should plan on a 3 hour class session and then an additional 12 to 15 hours
 of work outside of class each week.</p>
@@ -146,7 +106,7 @@ of work outside of class each week.</p>
 <p>As professionals responsible for the education of undergraduate and graduate art and design students, the faculty of the School of Art adheres to the ethical standards and practices incorporated in the professional Code of Ethics of our natonal accreditation organization, The National Association of Schools of Art and Design (NASAD).</p>
 
 <h3 id="important-deadlines">Important Deadlines</h3>
-<p>Once the add and drop deadlines have passed, instructors do not have the authority to approve requests from students to add or drop/withdraw late. Requests for late adds (up until the last day of classes) must be made by the student in the SoA office (or the office of the department offering the course), and generally are only approved in the case of a documented university error (such as a problem with financial aid being processed), LATE ADD fee will apply. Requests for non-selective withdrawals and retroactive adds (adds after the last day of classes) must be approved by the academic dean of the college in which the student’s major is located. For AVT majors, that is the CVPA Office of Academic Affairs, Performing Arts Building A407. Full dates for Session B can be found on the [Mason website] (https://registrar.gmu.edu/calendars/summer-2020/).</p>
+<p>Once the add and drop deadlines have passed, instructors do not have the authority to approve requests from students to add or drop/withdraw late. Requests for late adds (up until the last day of classes) must be made by the student in the SoA office (or the office of the department offering the course), and generally are only approved in the case of a documented university error (such as a problem with financial aid being processed), LATE ADD fee will apply. Requests for non-selective withdrawals and retroactive adds (adds after the last day of classes) must be approved by the academic dean of the college in which the student’s major is located. For AVT majors, that is the CVPA Office of Academic Affairs, Performing Arts Building A407. Full dates for Session B can be found on the Mason website.</p>
 
 <h3 id="students-with-disabilities-and-learning-differences">Students with Disabilities and Learning Differences</h3>
 <p>If you have a diagnosed disability or learning difference and you need academic accommodations, please inform me at the beginning of the semester and contact the Disabilities Resource Center (SUB I room 234, 703-993-2474). You must provide me with a faculty contact sheet from that office outlining the accommodations needed for your disability or learning difference. All academic accommodations must be arranged in advance through the DRC.</p>
@@ -169,10 +129,4 @@ of work outside of class each week.</p>
 
 <h3 id="the-collaborative-learning-hub">The Collaborative Learning Hub</h3>
 <p>Located in Johnson Center 311 (703-993-3141), the lab offers in-person one-on-one support for the Adobe Creative Suite, Microsoft Office, Blackboard, and a variety of other software. Dual monitor PCs make the lab ideal for collaborating on group projects, Macs are also available; as well as a digital recording space, collaborative tables, and a SMART Board. Free workshops are also available (Adobe and Microsoft) through Training and Certification; visit ittraining.gmu.edu to see the schedule of workshops and to sign up.</p>
-
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET

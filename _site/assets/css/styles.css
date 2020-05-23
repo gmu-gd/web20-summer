@@ -43,9 +43,9 @@ ul { text-decoration: none; list-style-type: none; margin: 0; padding: 0; }
 
 li { padding: 0 25px 0 0; margin: 15px 0 0; text-transform: uppercase; letter-spacing: .05rem; font-weight: bold; float: left; }
 
-.tutorial-page ul, .single ul { text-decoration: none; list-style-type: initial; margin: 0 25px; padding: 0 15px; }
+.tutorial-page ul, .single ul { text-decoration: none; list-style-type: initial; padding: 0 0 0 40px; }
 
-.tutorial-page li, .single li { margin: 10px 0 0; letter-spacing: 0; float: none; text-transform: initial; font-weight: normal; font-size: 1.2em; }
+.tutorial-page li, .single li { margin: 10px 0 0; letter-spacing: 0; float: none; text-transform: initial; font-weight: normal; font-size: 1.4rem; }
 
 li a, .interior a { border-bottom: 3px solid #444444; }
 
@@ -99,7 +99,7 @@ a, a:hover, a:active, a:visited { color: #444444; text-decoration: none; }
 
 h1 a, h1 a:hover, h1 a:active, h1 a:visited { color: #444444; -webkit-text-stroke: 0 #444444; }
 
-p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 1.25em; }
+p { font-size: 1.4em; line-height: 1.6em; margin-top: .25em; margin-bottom: 1.25em; }
 
 .description { margin-bottom: 25px; }
 
@@ -123,9 +123,9 @@ h1 { margin-top: 0; font-size: 2.5em; text-transform: uppercase; letter-spacing:
 
 h2 { font-size: 2.441em; text-transform: uppercase; letter-spacing: .1px; font-weight: 700; margin-top: .25rem; }
 
-h3 { font-size: 1.953em; margin-top: 25px; }
+h3 { font-size: 1.653em; margin-top: 45px; font-weight: bold; }
 
-h4 { font-size: 1.563em; margin-top: 25px; text-transform: uppercase; letter-spacing: .1px; font-weight: 700; }
+h4 { font-size: 1.2em; margin-top: 25px; text-transform: uppercase; letter-spacing: .1px; font-weight: 700; }
 
 h5 { font-size: 1.25em; text-transform: uppercase; letter-spacing: .1px; }
 
@@ -190,7 +190,7 @@ hr { border-top: 3px solid gold; margin: 25px 0; }
 @media only screen and (min-width: 1024px) { /* Style adjustments for viewports that meet the condition */
   main, .about { width: 95vw; display: flow-root; }
   .tutorial-page { width: 600px; float: left; }
-  .single { width: 600px; }
+  .single { width: 900px; }
   .sub-space { margin-left: 350px; }
   aside { display: block; float: left; max-width: 300px; margin: 50px 50px 0 0; }
   .sub-fixed { position: fixed; top: 50px; }

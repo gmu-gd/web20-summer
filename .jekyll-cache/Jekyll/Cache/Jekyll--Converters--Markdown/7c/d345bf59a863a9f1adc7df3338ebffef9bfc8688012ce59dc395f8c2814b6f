@@ -1,44 +1,4 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Syllabus</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
-  <body class="interior">
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" class="active">Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" >Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <article class="single">
-        <h2 class="event"> Syllabus </h2>
-        <h3 id="delivery-and-timing">Delivery and Timing</h3>
+I"�C<h3 id="delivery-and-timing">Delivery and Timing</h3>
 
 <p>This is a synchronous online summer course. That means we will meet once a week on Tuesdays from 4:30 to 7:10. These meetings are required and will also be recorded for later review. Summer courses are on a compressed schedule that fits a 15 week course into 8 weeks. That means the class will move quickly and you should plan on a 3 hour class session and then an additional 12 to 15 hours
 of work outside of class each week.</p>
@@ -74,7 +34,7 @@ of work outside of class each week.</p>
 
 <p>The textbook for this course is available for purchase/rent on Amazon and other online retailers but is also available as a digital copy through the Mason library. Instructions on how to access the digital copy are on Blackboard. There is also an associated website for the book at learningwebdesign.com</p>
 
-<p><em>Learning Web Design: A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics</em> 5th edition by Jennifer Niederst Robbins ISBN: 978-1-491-96020-2</p>
+<p>Learning Web Design: A Beginner’s Guide to HTML, CSS, JavaScript, and Web Graphics 5th edition by Jennifer Niederst Robbins ISBN: 978-1-491-96020-2</p>
 
 <h3 id="programs">Programs</h3>
 
@@ -82,15 +42,15 @@ of work outside of class each week.</p>
 
 <h4 id="design">design</h4>
 
-<p><span class="command">Adobe XD</span>, Figma, Sketch, Illustrator, Lunacy. We will not be using Photoshop for design work in this course.</p>
+<p><code class="highlighter-rouge">Adobe XD</code>, Figma, Sketch, Illustrator, Lunacy. We will not be using Photoshop for design work in this course.</p>
 
 <h4 id="coding">coding</h4>
 
-<p><span class="command">Atom</span>, Sublime Text, Brackets. We will not be using Dreamweaver, Notepad, or TextEdit in this course.</p>
+<p><code class="highlighter-rouge">Atom</code>, Sublime Text, Brackets. We will not be using Dreamweaver, Notepad, or TextEdit in this course.</p>
 
 <h4 id="other">other</h4>
 
-<p><span class="command">Zoom</span> (holding class sessions), <span class="command">Slack</span> (communication platform), <span class="command">Github Desktop</span> (updating your website)</p>
+<p><code class="highlighter-rouge">Zoom</code> (holding class sessions), <code class="highlighter-rouge">Slack</code> (communication platform), <code class="highlighter-rouge">Github Desktop</code> (updating your website)</p>
 
 <h3 id="content">Content</h3>
 
@@ -146,7 +106,7 @@ of work outside of class each week.</p>
 <p>As professionals responsible for the education of undergraduate and graduate art and design students, the faculty of the School of Art adheres to the ethical standards and practices incorporated in the professional Code of Ethics of our natonal accreditation organization, The National Association of Schools of Art and Design (NASAD).</p>
 
 <h3 id="important-deadlines">Important Deadlines</h3>
-<p>Once the add and drop deadlines have passed, instructors do not have the authority to approve requests from students to add or drop/withdraw late. Requests for late adds (up until the last day of classes) must be made by the student in the SoA office (or the office of the department offering the course), and generally are only approved in the case of a documented university error (such as a problem with financial aid being processed), LATE ADD fee will apply. Requests for non-selective withdrawals and retroactive adds (adds after the last day of classes) must be approved by the academic dean of the college in which the student’s major is located. For AVT majors, that is the CVPA Office of Academic Affairs, Performing Arts Building A407. Full dates for Session B can be found on the [Mason website] (https://registrar.gmu.edu/calendars/summer-2020/).</p>
+<p>Once the add and drop deadlines have passed, instructors do not have the authority to approve requests from students to add or drop/withdraw late. Requests for late adds (up until the last day of classes) must be made by the student in the SoA office (or the office of the department offering the course), and generally are only approved in the case of a documented university error (such as a problem with financial aid being processed), LATE ADD fee will apply. Requests for non-selective withdrawals and retroactive adds (adds after the last day of classes) must be approved by the academic dean of the college in which the student’s major is located. For AVT majors, that is the CVPA Office of Academic Affairs, Performing Arts Building A407. Full dates for Session B can be found on the Mason website.</p>
 
 <h3 id="students-with-disabilities-and-learning-differences">Students with Disabilities and Learning Differences</h3>
 <p>If you have a diagnosed disability or learning difference and you need academic accommodations, please inform me at the beginning of the semester and contact the Disabilities Resource Center (SUB I room 234, 703-993-2474). You must provide me with a faculty contact sheet from that office outlining the accommodations needed for your disability or learning difference. All academic accommodations must be arranged in advance through the DRC.</p>
@@ -157,22 +117,16 @@ of work outside of class each week.</p>
 <h3 id="attendance-policies">Attendance Policies</h3>
 <p>Students are expected to attend the class periods of the courses for which they register. In-class participation is important not only to the individual student, but also to the class as a whole. Because class participation may be a factor in grading, instructors may use absence, tardiness, or early departure as de facto evidence of nonparticipation. Students who miss an exam with an acceptable excuse may be penalized according to the individual instructor’s grading policy, as stated in the course syllabus.</p>
 
-<h3 id="honor-code">Honor Code</h3>
+<h3 id="honor-code">honor code</h3>
 <p>Students in this class are bound by the Honor Code, as stated in the George Mason University Catalog. The honor code requires that the work you do as an individual be the product of your own individual synthesis or integration of ideas. (This does not prohibit collaborative work when it is approved by your instructor.) As a faculty member, I have an obligation to refer the names of students who may have violated the Honor Code to the Student Honor Council, which treats such cases very seriously. No grade is important enough to justify cheating, for which there are serious consequences that will follow you for the rest of your life. If you feel unusual pressure about your grade in this or any other course, please talk to me or to a member of the GMU Counseling Center staff.</p>
 
 <p>Using someone else’s words or ideas without giving them credit is plagiarism, a very serious Honor Code offense. It is very important to understand how to prevent committing plagiarism when using material from a source. If you wish to quote verbatim, you must use the exact words and punctuation just as the passage appears in the original and must use quotation marks and page numbers in your citation. If you want to paraphrase or summarize ideas from a source, you must put the ideas into your own words, and you must cite the source, using the APA or MLA format. (For assistance with documentation, I recommend Diana Hacker, A Writer’s Reference.) The exception to this rule is information termed general knowledge—information that is widely known and stated in a number of sources. Determining what is general knowledge can be complicated, so the wise course is, “When in doubt, cite.”</p>
 
 <p>Be especially careful when using the Internet for research. Not all Internet sources are equally reliable; some are just plain wrong. Also, since you can download text, it becomes very easy to inadvertently plagiarize. If you use an Internet source, you must cite the exact URL in your paper and include with it the last date that you successfully accessed the site.</p>
 
-<h3 id="writing-center">Writing Center</h3>
+<h3 id="writing-center">writing center</h3>
 <p>Students who are in need of intensive help with grammar, structure or mechanics in their writing should make use of the services of Writing Center, located in Robinson A116 (703-993-1200). The services of the Writing Center are available by appointment, online and, occasionally, on a walk-in basis.</p>
 
-<h3 id="the-collaborative-learning-hub">The Collaborative Learning Hub</h3>
+<h3 id="the-collaborative-learning-hub">the collaborative learning hub</h3>
 <p>Located in Johnson Center 311 (703-993-3141), the lab offers in-person one-on-one support for the Adobe Creative Suite, Microsoft Office, Blackboard, and a variety of other software. Dual monitor PCs make the lab ideal for collaborating on group projects, Macs are also available; as well as a digital recording space, collaborative tables, and a SMART Board. Free workshops are also available (Adobe and Microsoft) through Training and Certification; visit ittraining.gmu.edu to see the schedule of workshops and to sign up.</p>
-
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET

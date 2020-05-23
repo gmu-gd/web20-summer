@@ -7,7 +7,7 @@ title: Schedule
 
 ### Week 1
 
-This week we'll start to get to know a bit about each other and spend a little time reviewing how this course will work. Then we'll move onto an overview of the programs, tools, and languages we will be using. We will also look at a few basic HTML elements and design structures.
+This week we'll start to get to know a bit about each other and spend a little time reviewing how this course will work. Then we'll move onto an overview of the programs, tools, and languages we will be using. We will also look at a few basic HTML elements and design concepts.
 
 #### Lessons
 
