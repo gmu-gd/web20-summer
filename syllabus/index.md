@@ -61,11 +61,11 @@ This course consists of many shorter exercises, one course long project, quizzes
 
 #### project 1: website for a [blank]
 
-Students will conceptualize, plan, design, and code a multipage website using one of several provided topics. The project will build off of the lessons each week and be a synthesis of the concepts and skills learned over the course of the semester. Each students project will be unique in content and form but be based on the same set of requirements. More information on the class website.
+Students will conceptualize, plan, design, and code a multipage website using one of several provided topics. The project will build off of the lessons each week and be a synthesis of the concepts and skills learned over the course of the semester. Each students project will be unique in content and form but be based on the same set of requirements. [More information here]({{ site.baseurl }}/projects).
 
 ### Schedule
 
-The schedule on the following page is an outline of what we will be covering this summer with due dates. It is subject to additions and subtractions.
+The [schedule]({{ site.baseurl }}/schedule/) on this site is an outline of what we will be covering this summer with due dates. It is subject to additions and subtractions.
 
 ### Virtual Meeting Guide
 
