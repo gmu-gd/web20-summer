@@ -12,7 +12,7 @@ Students will conceptualize, plan, design, and code a multipage website using on
 Read through each discussion post from your classmates and create a web page that answers each question asked. That means you will answer 20 questions total — 19 of your classmates questions plus one of your own. The page will be simple and use default styles but should display the question and your answer in a clear way. If you need a little help starting, check out the [1.2 tutorial]({{ site.baserurl }}/tutorials/1-point-2).
 ##### Requirements
 * `title` element with relevant content
-* a page title
+* a page title using a heading element
 * 20 questions and answers
 
 <span class="due">Due Thursday, June 4 by 11:59 ET</span>
@@ -23,9 +23,9 @@ Read through each discussion post from your classmates and create a web page tha
 Using XD or other approved design software make 5 artboards that are 1440 pixels wide by 3000 pixels tall. On each artboard create a grid that could be used to layout a website. The grid does not need rows, only columns. Once you have 5 different grids start adding some "content" to your pages. The content should be shapes (squares, rectangles, circles) that could represent images, icons, text, etc. Some shapes should be tall, some shapes should be short, some should be wide, and some should be narrow. The grid should be your guide for how your shapes line up and fit on the page. Do not ignore the grid. Keep in mind ideas about space and that every pixel of the page does not need to be filled. Check out the [1.3 tutorial]({{ site.baseurl }}/tutorials/1-point-3) for some help with XD if you need it.
 
 ##### Requirements
-* 5 png files at 1440px wide by 3000px wide
+* 5 png files at 1440px wide by 3000px tall
 * Layouts only use shapes
-* Layouts use grids
+* Layouts use differnt grids
 
 <span class="due">Due Thursday, June 4 by 11:59 ET</span>
 
