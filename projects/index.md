@@ -7,6 +7,8 @@ title: Projects and Exercises
 #### Project 1: A website about [blank]
 Students will conceptualize, plan, design, and code a multipage website using one of several provided topics. The project will build off of the lessons each week and be a synthesis of the concepts and skills learned over the course of the semester. Each students project will be unique in content and form but be based on the same set of requirements.
 
+[Full project description]({{ site.baseurl }}/projects/one)
+
 ### Exercises
 #### <span id="e1">Exercise 1: 20 Questions</span>
 Read through each discussion post from your classmates and create a web page that answers each question asked. That means you will answer 20 questions total — 19 of your classmates questions plus one of your own. The page will be simple and use default styles but should display the question and your answer in a clear way. If you need a little help starting, check out the [1.2 tutorial]({{ site.baserurl }}/tutorials/1-point-2).
