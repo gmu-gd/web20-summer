@@ -71,7 +71,7 @@ Upload your wireframes to your site and include a link to the website you made t
 ---
 
 #### <span id="e6">Exercise 6: Type on Screen I</span>
-Select a book from this [list](https://www.gutenberg.org/browse/scores/top). Using the title, author, chapter title, and the first 1000 words, make 10 different layouts. Each layout should be different and focus on contrast, heirarchy, and positioning. Five of the layouts will just be in black and white with no images and five you can use color and images if you want. Design some pages with one typeface and some pages with multiple typefaces. Try symmetrical and asymmetrical layouts and size, weight, style and other typographic concepts to create a well designed, readable page.
+Select a book from this [list](https://www.gutenberg.org/browse/scores/top). Using the title, author, chapter title, and the first 1000 words, make 10 different layouts. Each layout should be different and focus on contrast, hierarchy, and positioning. Five of the layouts will just be in black and white with no images and five you can use color and images if you want. Design some pages with one typeface and some pages with multiple typefaces. Try symmetrical and asymmetrical layouts and size, weight, style and other typographic concepts to create a well designed, readable page.
 
 Each layout should be on an artboard that is 1440px wide by however tall it needs to be to accommodate the content.
 
