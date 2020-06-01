@@ -16,7 +16,7 @@ This week we'll start to get to know a bit about each other and spend a little t
 * E2: [Make the Grid]({{ site.baseurl }}/projects#e2)
 
 #### Project
-* P1.1: Content and reference collection
+* P1.1: Concept, content, and reference collection
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 1&ndash;5](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
@@ -25,7 +25,7 @@ This week we'll start to get to know a bit about each other and spend a little t
 ---
 
 ### Week 2
-This week we will
+This week we'll go a little further into HTML and begin to introduce CSS. We will look at best practices for folder and file naming, organization, and structure as well as the first steps of planning and designing a website.
 
 #### Lessons
 * 2.1: Links
@@ -42,13 +42,13 @@ This week we will
 * P1.2: Sitemap, wireframes, and folder structure
 
 #### Digital References
-* _Learning Web Design:_ [Chapters 6, 7, 11, 23, 24](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
+* _Learning Web Design:_ [Chapters 6, 7, 11, 23, &amp; 24](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
 * _Interneting is Hard:_ [Links and Images](https://www.internetingishard.com/html-and-css/links-and-images/) &amp; [Hello CSS](https://www.internetingishard.com/html-and-css/hello-css/)
 
 ---
 
 ### Week 3
-This week we will
+Every element in HTML is a rectangular box and the box model will help us understand how those elements get drawn on the screen. We will also advance our knowledge of CSS and talk about hierarchy and typography on the web.
 
 #### Lessons
 * 3.1: The Box Model
@@ -63,13 +63,13 @@ This week we will
 * P1.3: First 1440px designs, homepage content populated
 
 #### Digital References
-* _Learning Web Design:_ [Chapters](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
+* _Learning Web Design:_ [Chapters 12&ndash;14](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
 * _Interneting is Hard:_ [The Box Model](https://www.internetingishard.com/html-and-css/css-box-model/), [CSS Selectors](https://www.internetingishard.com/html-and-css/css-selectors/), &amp; [Web Typography](https://www.internetingishard.com/html-and-css/web-typography/)
 
 ---
 
 ### Week 4
-This week we will
+There are many different ways to layout pages with HTML and CSS. This week we will talk about two of those &mdash; floats and flexbox.
 
 #### Lessons
 * 4.1: Floats
@@ -83,13 +83,13 @@ This week we will
 * P1.4: Second 1440px designs, begin to style homepage, content in other pages
 
 #### Digital References
-* _Learning Web Design:_ [Chapters](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
+* _Learning Web Design:_ [Chapters 15 &amp; 16](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
 * _Interneting is Hard:_ [Floats](https://www.internetingishard.com/html-and-css/floats/) &amp; [Flexbox](https://www.internetingishard.com/html-and-css/flexbox/)
 
 ---
 
 ### Week 5
-This week we will
+Responsive design is a key element of designing for the web today. This week we will introduce the concept and coding principles behind getting a website to show up well on a narrow phone screen and a wide desktop monitor. We will also talk about navigation design and coding.
 
 #### Lessons
 * 5.1: Responsive Design
@@ -103,13 +103,13 @@ This week we will
 * P1.5: First 320px designs, full site styles, functioning navigation
 
 #### Digital References
-* _Learning Web Design:_ [Chapters](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
+* _Learning Web Design:_ [Chapters 6 &amp; 17](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
 * _Interneting is Hard:_ [Responsive Design](https://www.internetingishard.com/html-and-css/responsive-design/)
 
 ---
 
 ### Week 6
-This week we will
+This week we will expand our knowledge of HTML and CSS by covering a few advanced ideas. We will also go over best practices for making sure images are responsive.
 
 #### Lessons
 * 6.1: Advanced Positioning
@@ -124,16 +124,16 @@ This week we will
 * P1.6: Second 320px designs, homepage responsive
 
 #### Digital References
-* _Learning Web Design:_ [Chapters](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
+* _Learning Web Design:_ [Chapters 15 &amp; 23](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
 * _Interneting is Hard:_ [Advanced Positioning](https://www.internetingishard.com/html-and-css/advanced-positioning/) &amp; [Responsive Images](https://www.internetingishard.com/html-and-css/responsive-images/)
 
 ---
 
 ### Week 7
-This week we will
+In our final week of coding exercises and demos we will touch on JavaScript and jQuery. Both JavaScript and jQuery open up worlds of new possibilities to the websites we are building but we will look mainly at introducing interaction to the sites.
 
 #### Lessons
-* 7.1: Javascript and jQuery
+* 7.1: JavaScript and jQuery
 * 7.2: Plugins
 
 #### Exercises
@@ -143,13 +143,12 @@ This week we will
 * P1.7: All pages responsive
 
 #### Digital References
-* _Learning Web Design:_ [Chapters 6, 7, 11, 23, 24](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
-* _Interneting is Hard:_ [Links and Images](https://www.internetingishard.com/html-and-css/links-and-images/) &amp; [Hello CSS](https://www.internetingishard.com/html-and-css/hello-css/)
+* _Learning Web Design:_ [Chapters 22 &amp; 22](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
 
 ---
 
 ### Week 8
-This week we will
+The last week! No new concepts this week just finishing the projects and reviewing them.
 
 #### Lessons
 * No Lessons

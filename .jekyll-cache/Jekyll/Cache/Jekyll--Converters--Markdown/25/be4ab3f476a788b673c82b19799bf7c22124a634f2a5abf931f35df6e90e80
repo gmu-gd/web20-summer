@@ -1,47 +1,5 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Website about [blank]</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" >
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
-  <body class="interior">
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" >Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" class="active">Projects</a></li>
-    
-      <li><a href="/tutorials/" >Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <article class="single">
-        <h2 class="event"> Website about [blank] </h2>
-        <h3 id="description">Description</h3>
-<p>Students will conceptualize, plan, design, and code a multipage website using one of several provided topics. The project will build off of the lessons each week and be a synthesis of the concepts and skills learned over the course of the semester. Each student’s project will be unique in content and form but be based on the same basic set of requirements.</p>
-
-<p>The topics to choose from and general requirement are below.</p>
+I"Q<h3 id="description">Description</h3>
+<p>Students will conceptualize, plan, design, and code a multipage website using one of several provided topics. The project will build off of the lessons each week and be a synthesis of the concepts and skills learned over the course of the semester. Each student’s project will be unique in content and form but be based on the same set of requirements.</p>
 
 <h3 id="topics">Topics</h3>
 <h4 id="food-based">Food Based</h4>
@@ -88,13 +46,7 @@
 <ul>
   <li><em>Home</em> – A page that gives a visitor an overview of what the site is for as well as drawing the visitor to stay on the site. Does not need a lot of information but should have some text, images, and/or graphics.</li>
   <li><em>About</em> – Gives an overview of the city. Could include information about the history of the city, travel options to get to the city, best times to visit, etc.</li>
-  <li><em>Sites</em> – This pages shows the at least ten sites to visit while in the city. You can find an existing list or make your own depending on how familiar you are with the city.s</li>
-  <li><em>24 Hours</em> – A 24 hour guide to the city. The guide will start in the morning for breakfast (or earlier if there is something worth doing before breakfast) and end at night on the same day (a cool bar to visit or a trip to the top of a mountain to see the stars). If you need some inspiration check this one out for <a href="https://www.nytimes.com/interactive/2018/01/18/travel/what-to-do-36-hours-in-washington-dc.html">36 hours in DC</a></li>
+  <li><em>Sites</em> – This pages shows the top ten sites to visit while in the city. You can find an existing list or make your own depending on how familiar you are with the city.</li>
+  <li><em>24 Hours</em> – A list of dates and places the band will be playing in the future. If you can’t find a list, use this <a href="/assets/p1/tour.txt">one</a></li>
 </ul>
-
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET

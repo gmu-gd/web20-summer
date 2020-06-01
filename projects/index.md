@@ -27,10 +27,11 @@ Using XD or other approved design software make 5 artboards that are 1440 pixels
 ##### Requirements
 * 5 png files at 1440px wide by 3000px tall
 * Layouts only use shapes
-* Layouts use differnt grids
+* Layouts use different grids
 
 <span class="due">Due Thursday, June 4 by 11:59 ET</span>
 
+<!-- following weeks
 ---
 
 #### <span id="e3">Exercise 3: Organization and Naming</span>
@@ -172,3 +173,4 @@ The interactions should not be hidden and should try to have some relevance to t
 * Requirement 1
 
 <span class="due">Due Thursday, July 16 by 11:59 ET</span>
+-->

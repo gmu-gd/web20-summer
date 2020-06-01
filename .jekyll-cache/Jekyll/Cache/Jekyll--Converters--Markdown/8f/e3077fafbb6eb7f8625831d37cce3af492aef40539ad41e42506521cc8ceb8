@@ -1,44 +1,4 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Schedule</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" >
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
-  <body class="interior">
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" >Syllabus</a></li>
-    
-      <li><a href="/schedule/" class="active">Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" >Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <article class="single">
-        <h2 class="event"> Schedule </h2>
-        <h3 id="week-1">Week 1</h3>
+I"T<h3 id="week-1">Week 1</h3>
 <p>This week we’ll start to get to know a bit about each other and spend a little time reviewing how this course will work. Then we’ll move onto an overview of the programs, tools, and languages we will be using. We will also look at a few basic HTML elements and design concepts.</p>
 
 <h4 id="lessons">Lessons</h4>
@@ -68,7 +28,7 @@
 <hr />
 
 <h3 id="week-2">Week 2</h3>
-<p>This week we’ll go a little further into HTML and begin to introduce CSS. We will look at best practices for folder and file naming, organization, and structure as well as the first steps of planning and designing a website.</p>
+<p>This week we will</p>
 
 <h4 id="lessons-1">Lessons</h4>
 <ul>
@@ -99,7 +59,7 @@
 <hr />
 
 <h3 id="week-3">Week 3</h3>
-<p>Every element in HTML is a rectangular box and the box model will help us understand how those elements get drawn on the screen. We will also advance our knowledge of CSS and talk about hierarchy and typography on the web.</p>
+<p>This week we will</p>
 
 <h4 id="lessons-2">Lessons</h4>
 <ul>
@@ -128,7 +88,7 @@
 <hr />
 
 <h3 id="week-4">Week 4</h3>
-<p>There are many different ways to layout pages with HTML and CSS. This week we will talk about two of those — floats and flexbox.</p>
+<p>This week we will</p>
 
 <h4 id="lessons-3">Lessons</h4>
 <ul>
@@ -156,7 +116,7 @@
 <hr />
 
 <h3 id="week-5">Week 5</h3>
-<p>Responsive design is a key element of designing for the web today. This week we will introduce the concept and coding principles behind getting a website to show up well on a narrow phone screen and a wide desktop monitor. We will also talk about navigation design and coding.</p>
+<p>This week we will</p>
 
 <h4 id="lessons-4">Lessons</h4>
 <ul>
@@ -184,7 +144,7 @@
 <hr />
 
 <h3 id="week-6">Week 6</h3>
-<p>This week we will expand our knowledge of HTML and CSS by covering a few advanced ideas. We will also go over best practices for making sure images are responsive.</p>
+<p>This week we will</p>
 
 <h4 id="lessons-5">Lessons</h4>
 <ul>
@@ -213,11 +173,11 @@
 <hr />
 
 <h3 id="week-7">Week 7</h3>
-<p>In our final week of coding exercises and demos we will touch on JavaScript and jQuery. Both JavaScript and jQuery open up worlds of new possibilities to the websites we are building but we will look mainly at introducing interaction to the sites.</p>
+<p>This week we will</p>
 
 <h4 id="lessons-6">Lessons</h4>
 <ul>
-  <li>7.1: JavaScript and jQuery</li>
+  <li>7.1: Javascript and jQuery</li>
   <li>7.2: Plugins</li>
 </ul>
 
@@ -239,7 +199,7 @@
 <hr />
 
 <h3 id="week-8">Week 8</h3>
-<p>The last week! No new concepts this week just finishing the projects and reviewing them.</p>
+<p>This week we will</p>
 
 <h4 id="lessons-7">Lessons</h4>
 <ul>
@@ -260,10 +220,4 @@
 <ul>
   <li>No References</li>
 </ul>
-
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET
