@@ -34,9 +34,9 @@ This week we'll go a little further into HTML and begin to introduce CSS. We wil
 * 2.4: Organization, Naming, and Planning
 
 #### Exercises
-* E3: [Organization and Naming]({{ site.baseurl }}/projects#e3)
-* E4: [Sitemap]({{ site.baseurl }}/projects#e4)
-* E5: [Wireframes]({{ site.baseurl }}/projects#e5)
+* E3: Organization and Naming <!-- [Organization and Naming]({{ site.baseurl }}/projects#e3)-->
+* E4: Sitemap <!-- [Sitemap]({{ site.baseurl }}/projects#e4) -->
+* E5: Wireframes <!-- [Wireframes]({{ site.baseurl }}/projects#e5) -->
 
 #### Project
 * P1.2: Sitemap, wireframes, and folder structure
@@ -56,8 +56,8 @@ Every element in HTML is a rectangular box and the box model will help us unders
 * 3.3: Hierarchy &amp; Typography
 
 #### Exercises
-* E6: [Type on Screen I]({{ site.baseurl }}/projects#e6)
-* E7: [seven-principles.txt]({{ site.baseurl }}/projects#e7)
+* E6: Type on Screen I <!-- [Type on Screen I]({{ site.baseurl }}/projects#e6) -->
+* E7: seven-principles.txt <!-- [seven-principles.txt]({{ site.baseurl }}/projects#e7) -->
 
 #### Project
 * P1.3: First 1440px designs, homepage content populated
@@ -76,8 +76,8 @@ There are many different ways to layout pages with HTML and CSS. This week we wi
 * 4.2: Flexbox
 
 #### Exercises
-* E8: [Patterns]({{ site.baseurl }}/projects#e8)
-* E9: [Layouts]({{ site.baseurl }}/projects#e9)
+* E8: Patterns <!-- [Patterns]({{ site.baseurl }}/projects#e8) -->
+* E9: Layouts <!-- [Layouts]({{ site.baseurl }}/projects#e9) -->
 
 #### Project
 * P1.4: Second 1440px designs, begin to style homepage, content in other pages
@@ -96,8 +96,8 @@ Responsive design is a key element of designing for the web today. This week we 
 * 5.2: Navigation
 
 #### Exercises
-* E10: [Visualizing Responsiveness]({{ site.baseurl }}/projects#e10)
-* E11: [Type on Screen II]({{ site.baseurl }}/projects#e11)
+* E10: Visualizing Responsiveness <!-- [Visualizing Responsiveness]({{ site.baseurl }}/projects#e10) -->
+* E11: Type on Screen II <!-- [Type on Screen II]({{ site.baseurl }}/projects#e11) -->
 
 #### Project
 * P1.5: First 320px designs, full site styles, functioning navigation
@@ -117,8 +117,8 @@ This week we will expand our knowledge of HTML and CSS by covering a few advance
 * 6.3: Advanced CSS
 
 #### Exercises
-* E12: [CSS Drawing]({{ site.baseurl }}/projects#e12)
-* E13: [Programmer and Computer]({{ site.baseurl }}/projects#e13)
+* E12: CSS Drawing <!-- [CSS Drawing]({{ site.baseurl }}/projects#e12) -->
+* E13: Programmer and Computer <!-- [Programmer and Computer]({{ site.baseurl }}/projects#e13) -->
 
 #### Project
 * P1.6: Second 320px designs, homepage responsive
@@ -137,7 +137,7 @@ In our final week of coding exercises and demos we will touch on JavaScript and 
 * 7.2: Plugins
 
 #### Exercises
-* E14: [jQuery]({{ site.baseurl }}/projects#e14)
+* E14: jQuery <!-- [jQuery]({{ site.baseurl }}/projects#e14) -->
 
 #### Project
 * P1.7: All pages responsive
