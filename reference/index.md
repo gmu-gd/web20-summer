@@ -4,7 +4,7 @@ title: Reference
 ---
 
 ### Websites, Useful
-* [Class Repository](#)
+* [Class Repository](https://github.com/mmcdermott18/su2020-avt217/tree/gh-pages)
 * [HTML Elements Cheatsheet](https://gmu-gd.github.io/web20-spring/files/learn-html-elements.pdf)
 * [Codecademy](https://www.codecademy.com/)
 * [Interneting is Hard](https://www.internetingishard.com/)
@@ -21,11 +21,11 @@ title: Reference
 * [Brackets](http://brackets.io/)
 
 ### Software, Design
-* [Sketch](https://www.sketch.com/)
 * [Adobe XD](https://www.adobe.com/products/xd.html)
-* [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)
+* [Sketch](https://www.sketch.com/)
 * [Figma](https://www.figma.com/)
 * [Lunacy](https://icons8.com/lunacy)
+* [Adobe Illustrator](https://www.adobe.com/products/illustrator.html)
 
 ### Software, Other
 * [GitHub Desktop](https://desktop.github.com/)
