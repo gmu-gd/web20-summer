@@ -1,47 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Github Setup</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" >
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
-  <body class="interior">
-    <div id="lightbox-dim" class="hidden"></div>
-    <div id="lightbox" class="hidden"></div>
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" >Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" class="active">Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <aside><ul></ul></aside>
-      <article class="tutorial-page">
-        <h2 class="event"> 1.1 Github Setup </h2>
-        <p>This tutorial will go through the process of setting up Github so that you can put your work on a live website. This tutorial will be filled out shortly.</p>
+I"�<p>This tutorial will go through the process of setting up Github so that you can put your work on a live website. This tutorial will be filled out shortly.</p>
 
 <h3 id="step-1-make-a-github-account"><span id="step1">Step 1: Make a Github account</span></h3>
 <p>Navigate to <a href="https://github.com/">github.com</a> and set up an account if you do not have one yet. You should be able to sign up from that page. Make sure you use an email address you use and a password you will remember. You will have verify your email so make sure you do that too.</p>
@@ -57,12 +14,12 @@
 <h4 id="step-2b-create-repository">Step 2B: Create Repository</h4>
 <p>On the next screen you need to fill in a few pieces of information. You need to fill in the repository name. This can be anything but I would recommend something like “avt217” or “introtoweb” or something similar. I would keep it all lowercase and don’t use any spaces. You do not need a description and keep the repository public. The final step here is to check the box that says “Initialize this repository with a README.” Not checking this box will force you to delete the repository and start over so make sure you check it.</p>
 
-<p>Once you have a repository name and have checked the box, click “Create repository.”</p>
+<p>Once you have a repository name and have checked the box, click create repository.</p>
 
 <p><img src="/assets/img/1p1/step2b.png" alt="image of Github create a repository page" title="Step 2b" /></p>
 
 <h4 id="step-2c-create-gh-pages-branch">Step 2C: Create gh-pages Branch</h4>
-<p>After you click “Create repository” it should take you to a page that looks like this:</p>
+<p>After you click create it should take you to a page that looks like this:</p>
 
 <p><img src="/assets/img/1p1/step2c1.png" alt="image of created repository page" title="Step 2c" /></p>
 
@@ -77,19 +34,8 @@
 <p><img src="/assets/img/1p1/step2c3.png" alt="image of Github showing new branch" title="Step 2c" /></p>
 
 <h3 id="step-3-download-the-github-desktop-app"><span id="step3">Step 3: Download the Github Desktop app</span></h3>
-<p>Go to <a href="https://desktop.github.com/">desktop.github.com</a> and download the Github Desktop app. This screen should recognize the operating system you are using and present you with the appropriate download option.</p>
-
-<p>Once you have downloaded it, install it on your computer, open it up, and log in with your github.com account.</p>
 
 <h3 id="step-4-clone-your-repository"><span id="step4">Step 4: Clone your repository</span></h3>
 
 <h3 id="step-5-pushing-work"><span id="step5">Step 5: Pushing work</span></h3>
-
-        <a href="/tutorials" class="link-small">Back to Tutorials</a>
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-    <script src="/assets/js/tutorial.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET
