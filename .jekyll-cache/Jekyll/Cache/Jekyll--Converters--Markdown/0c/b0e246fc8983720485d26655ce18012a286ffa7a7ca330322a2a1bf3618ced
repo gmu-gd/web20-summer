@@ -1,0 +1,26 @@
+I"�	<p>This tutorial will go through some of the basic features of Adobe Xd and help with  <em>E2: Make the Grid</em>. This tutorial will be available shortly.</p>
+
+<h3 id="step-1-downloadinstallopen-adobe-xd"><span id="step1">Step 1: Download/Install/Open Adobe XD</span></h3>
+<p>If you don’t have Adobe Xd yet you can download it <a href="https://www.adobe.com/products/xd.html?promoid=PYPVQ3HN&amp;mv=other">here</a>. Xd should be free but I think you will need an Adobe account to use the program. Once you have it downloaded, install it and open it.</p>
+
+<h3 id="step-2-create-a-new-document"><span id="step2">Step 2: Create a New Document</span></h3>
+<p>When you open up Xd you should be presented this screen.</p>
+
+<p><img src="/assets/img/1p3/step2a.png" alt="image of Xd welcome screen" title="Step 2a" /></p>
+
+<p>On this screen look at the top row of sizes and in the “Custom Size” option type 1440 for the width, 3000 for the height, and then hit enter.</p>
+
+<p><img src="/assets/img/1p3/step2b.png" alt="image of Xd artboard" title="Step 2b" /></p>
+
+<p>Once you see the artboard you just created you can doubl click on the text at the top left of the artboard that says “custom-1” and change the name of the artbaord. Not entirely necessary but a good habit to get in as you build more complex sites in Xd.</p>
+
+<p>One more thing you might want to change is the “Viewport Height” option in the right sidebar under “Scrolling”. This is probably set to 3000 as the default and I would suggest moving it to 900. What this does is adjust the height that Xd prievews when you hit the play icon in the top right. Not so useful for Exercise 2 but very useful for designing actual sites.</p>
+
+<p><img src="/assets/img/1p3/step2c.png" alt="image of Xd vertical height option" title="Step 2c" /></p>
+
+<p>Finally, save the document before you move on to the next step. Adobe wants you to use the cloud to save your documents so if you want to use that you can go to <em>File &gt; Save…</em> or use <em>cmd+s</em>. If you do not want to use the cloud to save your documents you can go to <em>File &gt; Save as Local Document…</em> or use <em>opt+shift+cmd+s</em>. Save this as some version of<br />
+<strong>e1</strong> or <strong>exercise1</strong>.</p>
+
+<h3 id="step-2-create-a-grid"><span id="step2">Step 2: Create a Grid</span></h3>
+<p>Now before you start adding anything to your artboard you want to set up a grid.</p>
+:ET

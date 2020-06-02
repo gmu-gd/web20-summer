@@ -35,7 +35,7 @@ body { margin: 0; font-family: "bureau-grot", sans-serif; font-size: 16px; font-
 
 .interior { background-color: white; }
 
-.interior img { width: 100%; }
+.interior img { max-width: 100%; }
 
 .interior img:hover, #lightbox:hover { cursor: pointer; }
 
@@ -109,7 +109,7 @@ p { font-size: 1.4em; line-height: 1.6em; margin-top: .25em; margin-bottom: 1.25
 
 .section-title span { background-color: #444444; padding: 4px 6px; }
 
-#lightbox { position: fixed; top: 2vh; left: 5vw; width: 90vw; height: 96vh; background: url(../img/1p2/step1.png) no-repeat center center; background-size: contain; z-index: 99; }
+#lightbox { position: fixed; top: 2vh; left: 5vw; width: 90vw; height: 96vh; background: url(..//1p2/step1.png) no-repeat center center; background-size: contain; z-index: 99; }
 
 #lightbox-dim { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(0, 0, 0, 0.8); z-index: 50; }
 

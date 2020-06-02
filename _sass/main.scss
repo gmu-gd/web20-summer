@@ -124,7 +124,8 @@ body {
   background-color: $light-color;
 }
 .interior img {
-  width: 100%;
+  // width: 100%;
+  max-width: 100%;
 }
 .interior img:hover, #lightbox:hover {
   cursor: pointer;
@@ -298,7 +299,7 @@ p {
   left: 5vw;
   width: 90vw;
   height: 96vh;
-  background: url(../img/1p2/step1.png) no-repeat center center;
+  background: url(..//1p2/step1.png) no-repeat center center;
   background-size: contain;
   z-index: 99;
 }

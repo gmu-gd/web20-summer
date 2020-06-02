@@ -1,47 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Intro to Xd</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" >
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
-  <body class="interior">
-    <div id="lightbox-dim" class="hidden"></div>
-    <div id="lightbox" class="hidden"></div>
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" >Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" class="active">Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <aside><ul></ul></aside>
-      <article class="tutorial-page">
-        <h2 class="event"> 1.3 Intro to Xd </h2>
-        <p>This tutorial will go through some of the basic features of Adobe Xd and help with  <em>E2: Make the Grid</em>. This tutorial will be available shortly.</p>
+I"F <p>This tutorial will go through some of the basic features of Adobe Xd and help with  <em>E2: Make the Grid</em>. This tutorial will be available shortly.</p>
 
 <h3 id="step-1-downloadinstallopen-adobe-xd"><span id="step1">Step 1: Download/Install/Open Adobe XD</span></h3>
 <p>If you don’t have Adobe Xd yet you can download it <a href="https://www.adobe.com/products/xd.html?promoid=PYPVQ3HN&amp;mv=other">here</a>. Xd should be free but I think you will need an Adobe account to use the program. Once you have it downloaded, install it and open it.</p>
@@ -127,12 +84,4 @@
 <p><img src="/assets/img/1p3/step6.png" alt="image of export settings" title="Step 6" /></p>
 
 <p>Now you should have 5 PNG files that are all 1440px by 3000px. If they are not that size you might have exported at a different size or you didn’t make your artboards the right size. In either case, go back through these steps and make sure the files are the correct size.</p>
-
-        <a href="/tutorials" class="link-small">Back to Tutorials</a>
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-    <script src="/assets/js/tutorial.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET
