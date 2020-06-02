@@ -1,47 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Github Setup</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" >
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
-  <body class="interior">
-    <div id="lightbox-dim" class="hidden"></div>
-    <div id="lightbox" class="hidden"></div>
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" >Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" class="active">Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <aside><ul></ul></aside>
-      <article class="tutorial-page">
-        <h2 class="event"> 1.1 Github Setup </h2>
-        <p>This tutorial will go through the process of setting up your Github repository so you can share your work in this class online.</p>
+I"<p>This tutorial will go through the process of setting up Github so that you can put your work on a live website. This tutorial will be filled out shortly.</p>
 
 <h3 id="step-1-make-a-github-account"><span id="step1">Step 1: Make a Github account</span></h3>
 <p>Navigate to <a href="https://github.com/">github.com</a> and set up an account if you do not have one yet. You should be able to sign up from that page. Make sure you use an email address you use and a password you will remember. You will have verify your email so make sure you do that too.</p>
@@ -99,33 +56,4 @@
 <p><img src="/assets/img/1p1/step4c.png" alt="image of Github Desktop changing branches menu" title="Step 4c" /></p>
 
 <h3 id="step-5-pushing-work"><span id="step5">Step 5: Pushing work</span></h3>
-<p>Now you can start to add work to your repository which will allow those files to show up as a live website you can share. The Github Desktop app basically is an app that tracks additions, deletions, or changes to the files in your local repository (the folder on your computer you just cloned). It is not an editor. When you change something in your repository the app will recognize that, show you what changed, and then wait for you to push those changes to the cloud based repository that the live site is built from.</p>
-
-<p>If you don’t have any work to add to the repository right now that is fine but when you do come back to this step.</p>
-
-<p>When you have made any changes to your local repository you need to push them to the repository stored on Github. You will know there are changes because in the left sidebar you will see the changes.</p>
-
-<p><img src="/assets/img/1p1/step5a.png" alt="image of Github Desktop showing changes to repository" title="Step 5a" /></p>
-
-<p>There are three steps to this process. First you need to fill in the “Summary (required)” field in the lower left. This is the name that you can use to track the changes you made for this commit. If for any reason you needed to go backwards in your repository these names could be helpful. So try and give this a useful name.</p>
-
-<p>Once you have given your commit a summary the “Commit to gh-pages” button should turn blue and you can now click it. This will commit the changes you made to your repository.</p>
-
-<p><img src="/assets/img/1p1/step5b.png" alt="image of Github Desktop naming the commit step" title="Step 5b" /></p>
-
-<p>After you click commit the screen will change and the last step is clicking the blue “Push origin” button or the “Push origin” tab in the top bar of the window. Either will work.</p>
-
-<p><img src="/assets/img/1p1/step5c.png" alt="image of Github Desktop committing step" title="Step 5c" /></p>
-
-<p>Once you click the button it will take a second to push the changes to the repository and once that process finishes you will go back to a window that shows no changes. Once you have changes you can repeat this process.</p>
-
-<p>A couple notes. Once you have pushed your commits it takes a couple minutes for those changes to be reflected on your live website. Give it a little time for it to refresh before thinking something went wrong. You also do not need to push every change you make. I often make commits based on finishing the task I was working on and want to see it live, rather than pushing commits every few minutes.</p>
-
-        <a href="/tutorials" class="link-small">Back to Tutorials</a>
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-    <script src="/assets/js/tutorial.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET

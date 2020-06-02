@@ -1,47 +1,4 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Github Setup</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" >
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/lpi3gnd.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  </head>
-  <body class="interior">
-    <div id="lightbox-dim" class="hidden"></div>
-    <div id="lightbox" class="hidden"></div>
-    <main>
-      <header>
-  <small>Summer 2020 // Online</small>
-  <h1><a href="/" />Intro&nbsp;to Web&nbsp;Design</a></h1>
-  <nav>
-  <ul>
-    <li class="mobile-nav"><a>menu</a></li>
-    <div id="menu" class="mobile-hide">
-    
-      <li><a href="/syllabus/" >Syllabus</a></li>
-    
-      <li><a href="/schedule/" >Schedule</a></li>
-    
-      <li><a href="/projects/" >Projects</a></li>
-    
-      <li><a href="/tutorials/" class="active">Tutorials</a></li>
-    
-      <li><a href="/reference/" >Reference</a></li>
-    
-    </div>
-  </ul>
-</nav>
-
-</header>
-
-      <aside><ul></ul></aside>
-      <article class="tutorial-page">
-        <h2 class="event"> 1.1 Github Setup </h2>
-        <p>This tutorial will go through the process of setting up your Github repository so you can share your work in this class online.</p>
+I"ù<p>This tutorial will go through the process of setting up your Github repository so you can share your work in this class online.</p>
 
 <h3 id="step-1-make-a-github-account"><span id="step1">Step 1: Make a Github account</span></h3>
 <p>Navigate to <a href="https://github.com/">github.com</a> and set up an account if you do not have one yet. You should be able to sign up from that page. Make sure you use an email address you use and a password you will remember. You will have verify your email so make sure you do that too.</p>
@@ -120,12 +77,4 @@
 <p>Once you click the button it will take a second to push the changes to the repository and once that process finishes you will go back to a window that shows no changes. Once you have changes you can repeat this process.</p>
 
 <p>A couple notes. Once you have pushed your commits it takes a couple minutes for those changes to be reflected on your live website. Give it a little time for it to refresh before thinking something went wrong. You also do not need to push every change you make. I often make commits based on finishing the task I was working on and want to see it live, rather than pushing commits every few minutes.</p>
-
-        <a href="/tutorials" class="link-small">Back to Tutorials</a>
-      </article>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-    <script src="/assets/js/main.js" charset="utf-8"></script>
-    <script src="/assets/js/tutorial.js" charset="utf-8"></script>
-  </body>
-</html>
+:ET
