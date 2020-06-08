@@ -31,43 +31,51 @@ Using XD or other approved design software make 5 artboards that are 1440 pixels
 
 <span class="due">Due Thursday, June 4 by 11:59 ET</span>
 
-<!-- following weeks
+
 ---
 
 #### <span id="e3">Exercise 3: Organization and Naming</span>
-File naming and organization are important parts of making sure your files are easy to find both visually and while writing links. On Blackboard there is a simple site with a terrible file structure. Rename these files something clear and simple and then organize them into a nice folder structure. The site has a main page and then 3 sub pages for an about page, a menus page, and a gallery page.
+File naming and organization are important parts of making sure your files are easy to find both visually and while writing links. [Download this zip file](https://www.dropbox.com/s/haepcpdjcnkw9y6/organizeMe.zip?dl=0) and you will find a simple site with a terrible file structure. Rename these files something clear and simple and then organize them into a nice folder structure. The site has a main page and then 3 sub pages for an about page, a menus page, and a gallery page.
 
-Once you have organized and renamed the files, take a screenshot of the new structure and post it to your site. If you cannot get a view where all the files and folders are shown in one folder, take multiple screenshots or position multiple folders on the screen to show the structure.
+Once you have organized and renamed the files, take a screenshot of the new structure and post it to your site (Atom's sidebar is a great view). If you cannot get a view where all the files and folders are shown in one folder, take multiple screenshots or position multiple folders on the screen to show the structure.
 
 ##### Requirements
-* Requirement 1
+* Folders and files appropriately named
+* Folders and files appropriately organzied
+* Screenshot(s) of folder structure and files names on your site
 
 <span class="due">Due Thursday, June 11 by 11:59 ET</span>
 
 ---
 
-#### <span id="e4">Exercise 4: Sitemap</span>
-Create a site map showing the structure and organization of a website. Also include who you think the intended audience is and what the main action or actions the site is hoping a user to accomplish. The site needs to be more than a few pages. It should multiple levels of information across multiple pages. You can create your sitemap in any software you choose but it needs to be done digitally. My recommendation would be to use Illustrator.
+#### <span id="e4">Exercise 4: Site Map</span>
+Create a site map showing the structure and organization of a website. Also include who you think the intended audience is and what the main action or actions the site is hoping a user will accomplish. The site needs to be more than a few pages. It should multiple levels of information across multiple pages. You can create your site map in any software you choose but it needs to be done digitally. My recommendation would be to use Xd.
 
-Upload your final site map to your site and include a link to the website you made the site map for.
+Upload a PNG of your final site map to your site and include a link to the website you made the site map for.
 
 ##### Requirements
-* Requirement 1
+* Clear site map
+* Site's intended audience
+* Site's primary action for the user
+* PNG of site map on your site
 
 <span class="due">Due Thursday, June 11 by 11:59 ET</span>
 
 ---
 
 #### <span id="e5">Exercise 5: Wireframes</span>
-Create two wireframes for the home page of the site you used for your site map. The first wireframe should use the widest version of the site you can see. The second wireframe should use the mobile version of the site. You can create both of them sketched on paper, both digitally, or one of each.
+Create two wireframes for the home page of the site you used for your site map. The first wireframe should be created from the site as it looks on your computer (desktop size). The second wireframe should be created from the site as it looks on your phone (mobile size). You can create both of them sketched on paper, both digitally, or one of each.
 
 Upload your wireframes to your site and include a link to the website you made the site map for.
 
 ##### Requirements
-* Requirement 1
+* A desktop sized wireframe
+* A mobile sized wireframe
+* Two image files on your website
 
 <span class="due">Due Thursday, June 11 by 11:59 ET</span>
 
+<!-- following weeks
 ---
 
 #### <span id="e6">Exercise 6: Type on Screen I</span>

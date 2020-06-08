@@ -34,12 +34,12 @@ This week we'll go a little further into HTML and begin to introduce CSS. We wil
 * 2.4: Organization, Naming, and Planning
 
 #### Exercises
-* E3: Organization and Naming <!-- [Organization and Naming]({{ site.baseurl }}/projects#e3)-->
-* E4: Sitemap <!-- [Sitemap]({{ site.baseurl }}/projects#e4) -->
-* E5: Wireframes <!-- [Wireframes]({{ site.baseurl }}/projects#e5) -->
+* E3: [Organization and Naming]({{ site.baseurl }}/projects#e3)
+* E4: [Site Map]({{ site.baseurl }}/projects#e4)
+* E5: [Wireframes]({{ site.baseurl }}/projects#e5)
 
 #### Project
-* P1.2: Sitemap, wireframes, and folder structure
+* P1.2: Site map, wireframes, and folder structure
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 6, 7, 11, 23, &amp; 24](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
