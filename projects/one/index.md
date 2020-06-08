@@ -47,5 +47,5 @@ Create a website for a real, major city of your choosing. This website will be a
 ##### Necessary Pages
 * _Home_ &ndash; A page that gives a visitor an overview of what the site is for as well as drawing the visitor to stay on the site. Does not need a lot of information but should have some text, images, and/or graphics.
 * _About_ &ndash; Gives an overview of the city. Could include information about the history of the city, travel options to get to the city, best times to visit, etc.
-* _Sites_ &ndash; This pages shows the at least ten sites to visit while in the city. You can find an existing list or make your own depending on how familiar you are with the city.s
+* _Sights_ &ndash; This pages shows the at least ten sites to visit while in the city. You can find an existing list or make your own depending on how familiar you are with the city.
 * _24 Hours_ &ndash; A 24 hour guide to the city. The guide will start in the morning for breakfast (or earlier if there is something worth doing before breakfast) and end at night on the same day (a cool bar to visit or a trip to the top of a mountain to see the stars). If you need some inspiration check this one out for [36 hours in DC](https://www.nytimes.com/interactive/2018/01/18/travel/what-to-do-36-hours-in-washington-dc.html)
