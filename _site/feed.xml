@@ -1,4 +1,104 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-02T14:10:38-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Lucas GK</title><link href="http://localhost:4000/student/lucasgk/" rel="alternate" type="text/html" title="Lucas GK" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/lucasgk</id><content type="html" xml:base="http://localhost:4000/student/lucasgk/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Build a Web Page</title><link href="http://localhost:4000/tutorials/1-point-2/" rel="alternate" type="text/html" title="Build a Web Page" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/1%20point%202</id><content type="html" xml:base="http://localhost:4000/tutorials/1-point-2/">&lt;p&gt;This tutorial will go through the set up every HTML page uses (steps 1–6) and how to get text to display on screen. It will also help you get &lt;em&gt;E1: 20 Questions&lt;/em&gt; started if you need some extra guidance.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-09T14:31:14-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Your Homepage</title><link href="http://localhost:4000/tutorials/2-point-1/" rel="alternate" type="text/html" title="Your Homepage" /><published>2020-06-09T00:00:00-04:00</published><updated>2020-06-09T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/2%20point%201</id><content type="html" xml:base="http://localhost:4000/tutorials/2-point-1/">&lt;p&gt;This tutorial will go getting the homepage of your repository setup to be an archive of the work you are creating for this class.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-set-up-the-html-file&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Set up the HTML file&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;The first step is opening up your text editor, creating a new file, and saving it in the root directory of your repository as index.html. Once you have done that add in the basic HTML set up (steps 1 through 6 of &lt;a href=&quot;/tutorials/1-point-2&quot;&gt;tutorial 1.2&lt;/a&gt;). Make sure you make the text in the &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; element is something useful. At the end your file should look something like the image below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step1.png&quot; alt=&quot;basic html setup in Atom&quot; title=&quot;Step 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-adding-content&quot;&gt;&lt;span id=&quot;step2&quot;&gt;Step 2: Adding Content&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Now that the file is set up you can add some content. This page is going to be a list of links to the work for the class. It should have some large text at the top to give the page a title and then a bunch of links underneath that. All of this content is going to go in the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; element.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2a-add-your-main-heading&quot;&gt;Step 2a: Add your main heading&lt;/h4&gt;
+&lt;p&gt;Start with a title for your page using the &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; element. Something like &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;h1&amp;gt;Michael's Work&amp;lt;/h1&amp;gt;&lt;/code&gt; or some other way to identify this page as yours.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step2a.png&quot; alt=&quot;h1 element added to body&quot; title=&quot;Step 2a&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2b-add-an-unordered-list&quot;&gt;Step 2b: Add an Unordered List&lt;/h4&gt;
+
+&lt;p&gt;There are a lot of different ways to add links to a document. Since this going to be a list of links and we want to markup the document semantically, a list element makes sense. A list with numbers next to it isn’t important here so use an unordered list element, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;ul&amp;gt;...&amp;lt;/ul&amp;gt;&lt;/code&gt;. Add the opening tag for the unordered list on the line beneath the &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; element and the closing tag for the unordered list two lines beneath that. This leaves space to add a list item inside the unordered list. All of the elements inside the body element are at the same indent level so far.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step2b.png&quot; alt=&quot;ul element added to the body&quot; title=&quot;Step 2b&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2c-add-a-list-item&quot;&gt;Step 2c: Add a List Item&lt;/h4&gt;
+
+&lt;p&gt;The text inside a list is all contained in the list item element, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;...&amp;lt;/li&amp;gt;&lt;/code&gt;. On the line between the opening and closing tags for the unordered list, add a list item with some text that identifies this list item as Exercise 1, something like, “E1: 20 Questions”. Note that this &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; element is indent another level because it is a child of the &lt;code class=&quot;highlighter-rouge&quot;&gt;ul&lt;/code&gt; element. Also a good time to save, &lt;span class=&quot;command&quot;&gt;&lt;em&gt;cmd+s&lt;/em&gt;&lt;/span&gt; if you haven’t yet&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step2c.png&quot; alt=&quot;li element added inside the ul element&quot; title=&quot;Step 2c&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2d-add-more-list-items&quot;&gt;Step 2d: Add More List Items&lt;/h4&gt;
+&lt;p&gt;Add a new line beneath the &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; for E1 and make an &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; for E2. Repeat this process until you have list items for E1 through E5. All of these should be at the same level indent as the first &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; because they are all children of the &lt;code class=&quot;highlighter-rouge&quot;&gt;ul&lt;/code&gt; element. Don’t forget to save.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step2d.png&quot; alt=&quot;more li elements&quot; title=&quot;Step 2d&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-add-links&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 3: Add Links&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;If you haven’t previewed the page yet you might want to. You should have something that looks like:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step3.png&quot; alt=&quot;html file previewed in browser&quot; title=&quot;Step 3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This works to show what the work is but the we can’t click on anything to take us to the work. To make that happen we need to add some anchor elements, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;a&amp;gt;...&amp;lt;/a&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h5 id=&quot;step-3a-wrap-list-item-in-anchor-element&quot;&gt;Step 3a: Wrap List Item in Anchor Element&lt;/h5&gt;
+
+&lt;p&gt;Put your cursor between the opening tab and the content for the first list item you have. That means the cursor should be after &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li&amp;gt;&lt;/code&gt; and before “E1…”. Add the opening tag for the anchor element here. At the end of the text but before the closing tag for the list item add the closing tag for the anchor element.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step3a.png&quot; alt=&quot;first list item wrapped in an anchor element&quot; title=&quot;Step 3a&quot; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;step-3b-add-attribute&quot;&gt;Step 3b: Add Attribute&lt;/h5&gt;
+
+&lt;p&gt;Now there is one more part of an anchor element that needs to be added in order for the link to actually work. If you said the &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; attribute you are correct. In the opening tag for the anchor element but your cursor after the &lt;code class=&quot;highlighter-rouge&quot;&gt;a&lt;/code&gt; and before the &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;gt;&lt;/code&gt;. Add a space and then type &lt;code class=&quot;highlighter-rouge&quot;&gt;href=&quot;#&quot;&lt;/code&gt;. The code should look like the first screenshot and if you preview the page the first list item should change to blue with an underline. If you click that link nothing will happen because it doesn’t have a path yet but it should look like the default link now.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step3b1.png&quot; alt=&quot;first anchor element with href attribute&quot; title=&quot;Step 3b1&quot; /&gt;
+&lt;img src=&quot;/assets/img/2p1/step3b2.png&quot; alt=&quot;previewed page in browser showing link styles&quot; title=&quot;Step 3b2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-e1-to-repository&quot;&gt;&lt;span id=&quot;step4&quot;&gt;Step 4: E1 to Repository&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;In order for the link to work, Exercise 1 needs to be added to your repository. The first thing you want to do is add a folder in your repository (root directory) where the E1 file will live. There are many ways to add a folder so do it however you are comfortable. Name the folder whatever you want remembering all the rules about naming folders and files, an easy name might be &lt;strong&gt;e1&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step4.png&quot; alt=&quot;e1 folder in root directory&quot; title=&quot;Step 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have the &lt;strong&gt;e1&lt;/strong&gt; folder you can add your HTML file for Exercise 1 into it. Once you add the E1 file to the &lt;strong&gt;e1&lt;/strong&gt; folder change the name of it to &lt;strong&gt;index.html&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-5-add-the-link-path&quot;&gt;&lt;span id=&quot;step5&quot;&gt;Step 5: Add the Link Path&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now that the Exercise 1 file is in the repository you can add the path to the E1 link in your homepage. You should be back in Atom looking at your &lt;strong&gt;index.html&lt;/strong&gt; file that is in your root directory. That should be the file that has the list of exercise we added earlier.&lt;/p&gt;
+
+&lt;p&gt;Find the anchor element wrapped around “E1: 20 Questions”. Delete the “#” we added when we first wrote the &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; attribute and change it to the correct path to get to your Exercise 1 file. Take a second to try and write it yourself and once you have something highlight the box to see what the path should be &lt;span class=&quot;spoiler&quot;&gt;e1/index.html&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you have the path filled in preview the page in your browser and test out the link. Did it take you to your E1 file? If it did, great! If it didn’t, check to make sure your spelling is correct, capitalization, etc. and see if you can fix the error.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step5.png&quot; alt=&quot;href value filled in for first anchor element&quot; title=&quot;Step 5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is the same process to add links to the other list items in your unordered list. Once you have completed them, add a folder to the repository and then add any files you need displayed in there.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-6-add-css&quot;&gt;&lt;span id=&quot;step6&quot;&gt;Step 6: Add CSS&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;The page works but it doesn’t look very good. How can you make it look better? CSS! In your repository add a &lt;strong&gt;css&lt;/strong&gt; folder. Once you have the folder make a new file in Atom and save it as &lt;strong&gt;main.css&lt;/strong&gt; into your newly created &lt;strong&gt;css&lt;/strong&gt; folder. This file will now allow you to control the look of your repositories homepage. If you need a reminder on how CSS works make sure you have another look at the 2.3: External Style Sheets PDF on Blackboard.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-6a-add-styles&quot;&gt;Step 6a: Add Styles&lt;/h4&gt;
+&lt;p&gt;On line one of the newly created CSS file add a selector for something you want to style. In this case, style the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; element and type &lt;code class=&quot;highlighter-rouge&quot;&gt;body {&lt;/code&gt; on line 1 and then close the style on line 3 with a closing curly bracket, &lt;code class=&quot;highlighter-rouge&quot;&gt;}&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step6a1.png&quot; alt=&quot;body style in CSS&quot; title=&quot;Step 6a1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now add a declation in there (&lt;code class=&quot;highlighter-rouge&quot;&gt;property: value;&lt;/code&gt;) to change the &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt; for the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;. This allows a quick, easy check to see if the CSS file is correctly linked to the HTML file. Add the property &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt; with the value of &lt;code class=&quot;highlighter-rouge&quot;&gt;yellow&lt;/code&gt; to line two of the CSS file. Make sure it is indented one level because this declaration is inside the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; selector.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step6a2.png&quot; alt=&quot;changing the background color of the body in CSS&quot; title=&quot;Step 6a2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Save the CSS file and preview your homepage HTML file again. Did anything change? No? Any ideas why? If you guess that the CSS file isn’t connected to the HTML file yet you would be correct!&lt;/p&gt;
+
+&lt;h4 id=&quot;step-6b-connect-css-and-html-files&quot;&gt;Step 6b: Connect CSS and HTML Files&lt;/h4&gt;
+
+&lt;p&gt;To connect the two files together you need to add the &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; element to the HTML file. The &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; element is an empty element that goes in the &lt;code class=&quot;highlighter-rouge&quot;&gt;head&lt;/code&gt; of the HTML document and must have two attributes, &lt;code class=&quot;highlighter-rouge&quot;&gt;rel&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Open up your main &lt;strong&gt;index.html&lt;/strong&gt; file and add a new line beneath your &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; element. On that line add the link element, &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;link rel=&quot;#&quot; href=&quot;#&quot;&amp;gt;&lt;/code&gt;. Try and replace the “#” with the appropriate values for each attribute. The &lt;code class=&quot;highlighter-rouge&quot;&gt;rel&lt;/code&gt; value should define the documents relationship and the &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; value should be the path to your css file. &lt;code class=&quot;highlighter-rouge&quot;&gt;rel&lt;/code&gt; attribute – &lt;span class=&quot;spoiler&quot;&gt;rel=”stylesheet”&lt;/span&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;href&lt;/code&gt; attribute – &lt;span class=&quot;spoiler&quot;&gt;href=”css/main.css”&lt;/span&gt;.&lt;/p&gt;
+
+&lt;p&gt;Once you have the values preview the page and see if the background turned yellow. If it turned yellow that means your files are connected and you can add more styles to your CSS file to control the look of your homepage. If it didn’t turn yellow try going back through and comparing your files to the screenshots and see if you can find the issue.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/2p1/step6b1.png&quot; alt=&quot;adding the link element to the head of the HTML document&quot; title=&quot;Step 6b1&quot; /&gt;
+&lt;img src=&quot;/assets/img/2p1/step6b2.png&quot; alt=&quot;broswer preview of HTML page showing CSS changes&quot; title=&quot;Step 6b2&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-7-go-crazy&quot;&gt;&lt;span id=&quot;step7&quot;&gt;Step 7: Go Crazy&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Now that you have a CSS file that is connected to your HTML file you can add all the styles you want. Just remember that in order to style an element in your HTML you need to target that element with the same selector. So if you want to style the list items in your HTML file the CSS selector is going to be &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt;. If you want to style the level 1 heading, the CSS selector is going to be &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt;. This allows you to style any HTML element that displays on the page (meaning you can’t style the &lt;code class=&quot;highlighter-rouge&quot;&gt;title&lt;/code&gt; element).&lt;/p&gt;
+
+&lt;p&gt;If you run into something that you don’t know how to change, try Googling it as if you were asking me. “How do I change the font size in CSS?” or “How do I change the color of text HTML” or “How do I change the hover color of my links CSS?”&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">Getting the homepage of your repository setup.</summary></entry><entry><title type="html">Lucas GK</title><link href="http://localhost:4000/student/lucasgk/" rel="alternate" type="text/html" title="Lucas GK" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/lucasgk</id><content type="html" xml:base="http://localhost:4000/student/lucasgk/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Build a Web Page</title><link href="http://localhost:4000/tutorials/1-point-2/" rel="alternate" type="text/html" title="Build a Web Page" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/1%20point%202</id><content type="html" xml:base="http://localhost:4000/tutorials/1-point-2/">&lt;p&gt;This tutorial will go through the set up every HTML page uses (steps 1–6) and how to get text to display on screen. It will also help you get &lt;em&gt;E1: 20 Questions&lt;/em&gt; started if you need some extra guidance.&lt;/p&gt;
 
 &lt;p&gt;Note: depending on the width of your screen some text that represents code (white text with a black background) might be broken across two lines. If that happens know that the actual code is not broken across two lines, it should all be on one line. Check the screenshots at the end of each step to compare your code to the correct code.&lt;/p&gt;
 
@@ -83,9 +183,9 @@
 
 &lt;p&gt;This page is using the default browser styles which for now is fine. The goal of this lesson is to create a simple HTML page with a good structure and marked up correctly. As the class goes on you will learn more about styling the page.&lt;/p&gt;
 
-&lt;p&gt;To finish the exercise you can repeat step 7 for each new question until you have all your questions and answers all on the page.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">The basic set up of a web page and adding various text elements to that page.</summary></entry><entry><title type="html">Intro to Xd</title><link href="http://localhost:4000/tutorials/1-point-3/" rel="alternate" type="text/html" title="Intro to Xd" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/1%20point%203</id><content type="html" xml:base="http://localhost:4000/tutorials/1-point-3/">&lt;p&gt;This tutorial will go through some of the basic features of Adobe Xd and help with  &lt;em&gt;E2: Make the Grid&lt;/em&gt;. This tutorial will be available shortly.&lt;/p&gt;
+&lt;p&gt;To finish the exercise you can repeat step 7 for each new question until you have all your questions and answers all on the page.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">The basic set up of a web page and adding various text elements to that page.</summary></entry><entry><title type="html">Intro to Xd</title><link href="http://localhost:4000/tutorials/1-point-3/" rel="alternate" type="text/html" title="Intro to Xd" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/1%20point%203</id><content type="html" xml:base="http://localhost:4000/tutorials/1-point-3/">&lt;p&gt;This tutorial will go through some of the basic features of Adobe Xd and help with your file setup for  &lt;em&gt;E2: Make the Grid&lt;/em&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;step-1-downloadinstallopen-adobe-xd&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Download/Install/Open Adobe XD&lt;/span&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;step-1-downloadinstallopen-adobe-xd&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Download/Install/Open Adobe Xd&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;If you don’t have Adobe Xd yet you can download it &lt;a href=&quot;https://www.adobe.com/products/xd.html?promoid=PYPVQ3HN&amp;amp;mv=other&quot;&gt;here&lt;/a&gt;. Xd should be free but I think you will need an Adobe account to use the program. Once you have it downloaded, install it and open it.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-2-create-a-new-document&quot;&gt;&lt;span id=&quot;step2&quot;&gt;Step 2: Create a New Document&lt;/span&gt;&lt;/h3&gt;
@@ -93,27 +193,26 @@
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step2a.png&quot; alt=&quot;image of Xd welcome screen&quot; title=&quot;Step 2a&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;On this screen look at the top row of sizes and in the “Custom Size” option type 1440 for the width, 3000 for the height, and then hit enter.&lt;/p&gt;
+&lt;p&gt;On this screen look at the top row of sizes and in the “Custom Size” option type 1440 for the width, 3000 for the height, and then hit enter. The base unit for Xd is pixels, so unless otherwise specified, numbers are pixels.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step2b.png&quot; alt=&quot;image of Xd artboard&quot; title=&quot;Step 2b&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Once you see the artboard you just created you can doubl click on the text at the top left of the artboard that says “custom-1” and change the name of the artbaord. Not entirely necessary but a good habit to get in as you build more complex sites in Xd.&lt;/p&gt;
+&lt;p&gt;Once you see the artboard you just created you can double click on the text at the top left of the artboard that says “custom-1” and change the name. Not entirely necessary but a good habit to get in as you build more complex sites in Xd.&lt;/p&gt;
 
-&lt;p&gt;One more thing you might want to change is the “Viewport Height” option in the right sidebar under “Scrolling”. This is probably set to 3000 as the default and I would suggest moving it to 900. What this does is adjust the height that Xd prievews when you hit the play icon in the top right. Not so useful for Exercise 2 but very useful for designing actual sites.&lt;/p&gt;
+&lt;p&gt;One more thing you might want to change is the “Viewport Height” option in the right sidebar under “Scrolling”. This is probably set to 3000 as the default and I would suggest moving it to 900. What this does is adjust the height that Xd previews when you hit the play icon in the top right. Not so useful for Exercise 2 but very useful for designing actual sites.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step2c.png&quot; alt=&quot;image of Xd vertical height option&quot; title=&quot;Step 2c&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Finally, save the document before you move on to the next step. Adobe wants you to use the cloud to save your documents so if you want to use that you can go to &lt;em&gt;File &amp;gt; Save…&lt;/em&gt; or use &lt;em&gt;cmd+s&lt;/em&gt;. If you do not want to use the cloud to save your documents you can go to &lt;em&gt;File &amp;gt; Save as Local Document…&lt;/em&gt; or use &lt;em&gt;opt+shift+cmd+s&lt;/em&gt;. Save this as some version of&lt;br /&gt;
-&lt;strong&gt;e1&lt;/strong&gt; or &lt;strong&gt;exercise1&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Finally, save the document before you move on to the next step. Adobe wants you to use the cloud to save your documents so if you want to use that you can go to &lt;em&gt;File &amp;gt; Save…&lt;/em&gt; or use &lt;em&gt;cmd+s&lt;/em&gt;. If you do not want to use the cloud to save your documents you can go to &lt;em&gt;File &amp;gt; Save as Local Document…&lt;/em&gt; or use &lt;em&gt;opt+shift+cmd+s&lt;/em&gt;. Save this as some version of &lt;strong&gt;e1&lt;/strong&gt; or &lt;strong&gt;exercise1&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-3-create-a-grid&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 3: Create a Grid&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Now before you start adding anything to your artboard you want to set up a grid. This is accomplished by finding the grid section of the right sidebar and checking the box next to the layout dropdown. When you check that box it will bring up options for you to create your grid.&lt;/p&gt;
+&lt;p&gt;Before you start adding anything to your artboard you want to set up a grid. This is accomplished by finding the grid section of the right sidebar and checking the box next to the layout dropdown. When you check that box it will bring up options for you to create your grid.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step3.png&quot; alt=&quot;image of Xd grid options&quot; title=&quot;Step 3&quot; /&gt;&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Columns – How many columns are on the artboard. Also if you click the color to the left of the word “Columns” you can change the column color and opacity.&lt;/li&gt;
-  &lt;li&gt;Gutter Width – The width between the columns in pixels&lt;/li&gt;
+  &lt;li&gt;Gutter Width – The width between the columns&lt;/li&gt;
   &lt;li&gt;Column Width – The width of each column&lt;/li&gt;
   &lt;li&gt;Two Icons – The first sets the margins for the left and right equally. The second allows you to set the margins independently. Generally leave it on the first option.&lt;/li&gt;
 &lt;/ul&gt;
@@ -121,13 +220,13 @@
 &lt;p&gt;Play around with these options and see what happens. There is no particular number for columns, widths, or gutters so it is up to you. In Exercise 2 you will be making 5 different artboards with 5 different grids so you can see what works well for you.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-4-add-a-polygon&quot;&gt;&lt;span id=&quot;step4&quot;&gt;Step 4: Add a Polygon&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;This tutorial is primarily a set up for Exercise 2 so the content you will be adding are shapes. In the left toolbar there are a few different shape tools you can use — rectangle (&lt;em&gt;r&lt;/em&gt;), ellipse (&lt;em&gt;e&lt;/em&gt;), and polygon (&lt;em&gt;y&lt;/em&gt;). The rectangle and ellipse tool draw what they say and if you hold &lt;em&gt;shift&lt;/em&gt; while drawing the shape you will get a square or a circle. The polygon tool is a little different so choose that one or press &lt;em&gt;y&lt;/em&gt; to see the additional options.&lt;/p&gt;
+&lt;p&gt;This tutorial is built around Exercise 2 so the content you will be adding to your artboard are shapes. In the left toolbar there are a few different shape tools you can use — rectangle &lt;em&gt;r&lt;/em&gt;, ellipse &lt;em&gt;e&lt;/em&gt;, and polygon &lt;em&gt;y&lt;/em&gt;. The rectangle and ellipse tool draw what they say and if you hold &lt;em&gt;shift&lt;/em&gt; while drawing the shape you will get a square or a circle. The polygon tool is a little different so choose that one or press &lt;em&gt;y&lt;/em&gt;.&lt;/p&gt;
 
 &lt;p&gt;By default the polygon tool draws a triangle and if you hold shift it will draw and equilateral triangle. Draw a triangle on your artboard and make sure it aligns to the grid you made. The mouse should snap to the edges of the columns.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step4a.png&quot; alt=&quot;image of triangle on the artboard&quot; title=&quot;Step 4a&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;The default drawing of the triangle for me is a white fill with a grey border. The options in the “Appearance” section in the right sidebar are generally the same for the rectangle and ellipse tools but the polygon tool has a few added options to control what the polygon looks like.&lt;/p&gt;
+&lt;p&gt;The default drawing of the triangle for me is a white fill with a grey border. The options in the “Appearance” section in the right sidebar are generally the same for the rectangle and ellipse tools but the polygon tool has a few added options to control what the polygon looks like. Any option with a checkbox next to it means you can turn it on or off using that checkbox and the settings are saved.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step4b.png&quot; alt=&quot;image of appearance settings&quot; title=&quot;Step 4b&quot; /&gt;&lt;/p&gt;
 
@@ -137,14 +236,13 @@
   &lt;li&gt;Corner Count – Adds more corners to the shape. 3 corners is a triangle, 4 is a diamond, 5 is a pentagon, and so on.&lt;/li&gt;
   &lt;li&gt;Corner Radius – Rounds the corners.&lt;/li&gt;
   &lt;li&gt;Star Ratio – Bends the sides in to make star like shapes.&lt;/li&gt;
-  &lt;li&gt;Note – Any option with a checkbox next to it means you can turn it on or off using that checkbox.&lt;/li&gt;
   &lt;li&gt;Fill – Click on the rectangle to change the color, click on “Solid Color” at the top to change the kind of fill (Gradients!).&lt;/li&gt;
   &lt;li&gt;Border – Click on the rectangle to change the color.&lt;/li&gt;
-  &lt;li&gt;Border Size – Change the size of the border, in pixels.&lt;/li&gt;
-  &lt;li&gt;Dash – Make a dashed line, pairs with the gap option to control the look of the dashed border.&lt;/li&gt;
+  &lt;li&gt;Border Size – Change the size of the border.&lt;/li&gt;
+  &lt;li&gt;Dash – Make a dashed line, pairs with the Gap option to control the look of the dashed border.&lt;/li&gt;
   &lt;li&gt;Border Alignment Icons – Aligns the border to the Inner, Outer, or Center of the stroke.&lt;/li&gt;
-  &lt;li&gt;Border Cap Icons – Sets the end caps as Butt, Round, Projecting.&lt;/li&gt;
-  &lt;li&gt;Corner Join Options – Sets the corner join as Miter, Round, Bevel.&lt;/li&gt;
+  &lt;li&gt;Border Cap Icons – Sets the end caps as Butt, Round, or Projecting.&lt;/li&gt;
+  &lt;li&gt;Corner Join Options – Sets the corner join as Miter, Round, or Bevel.&lt;/li&gt;
   &lt;li&gt;Shadow – Click on the set shadow color.&lt;/li&gt;
   &lt;li&gt;Shadow Options – If a shadow color is selected these options will appear, X and Y adjust the offset from the shape and B adjusts the blur of the shadow.&lt;/li&gt;
   &lt;li&gt;Background Blur – Uses shape as a mask to blur the elements behind it, three slider options to control blur amount, brightness, and effect opacity.&lt;/li&gt;
@@ -152,20 +250,20 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;step-5-add-more-shapes&quot;&gt;&lt;span id=&quot;step5&quot;&gt;Step 5: Add More Shapes&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;Now, using the grid you set up, add more shapes create a layout. Feel free to play with the appearance settings for your shapes and make sure you align the shapes to the grid. Also keep in mind white space and the idea that not ever inch of the artboard needs to be covered with shapes.&lt;/p&gt;
+&lt;p&gt;Now, using the grid you set up, add more shapes to create a layout. The layout will be relatively abstract and you do not need to make it feel like it could be a real webpage. Feel free to play with the appearance settings for your shapes and make sure you align the shapes to the grid. Also keep in mind white space and the idea that not ever inch of the artboard needs to be covered with shapes. Even space or proportional space between items is generally better than random space.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step5a.png&quot; alt=&quot;image of shapes on an artboard aligning to the grid&quot; title=&quot;Step 5a&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Once you have finished with your artboard you can make another artboard by clicking the Artboard tool in the left sidebar or pressing &lt;em&gt;a&lt;/em&gt;. You can then draw the artboard just like any other shape and fill in your dimensions (1440 x 3000) in the transform settings in the right sidebar.&lt;/p&gt;
+&lt;p&gt;Once you have finished with your layout you can make another artboard by clicking the Artboard tool in the left sidebar or pressing &lt;em&gt;a&lt;/em&gt;. You can then draw the artboard just like any other shape and adjust the dimensions to 1440 x 3000 in the transform settings in the right sidebar.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step5b.png&quot; alt=&quot;image of transform settings&quot; title=&quot;Step 5b&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Make a new grid for this artboard and add some more shapes to it just like you did for the first artboard.&lt;/p&gt;
+&lt;p&gt;Make a different grid for this artboard and add some more shapes to it just like you did for the first artboard.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-6-export-artboards&quot;&gt;&lt;span id=&quot;step6&quot;&gt;Step 6: Export Artboards&lt;/span&gt;&lt;/h3&gt;
 
-&lt;p&gt;Once you have 5 artboards with different grids and different layouts on them, it is time to export. To export the artboards go to &lt;em&gt;File &amp;gt; Export &amp;gt; All Artboards…&lt;/em&gt;. In the pop up window choose your location and then set the “Format” to PNG, “Export For” to Design, and then click “Export All Artboards”.&lt;/p&gt;
+&lt;p&gt;Once you have five artboards with different grids and different layouts on them, it is time to export. To export the artboards go to &lt;em&gt;File &amp;gt; Export &amp;gt; All Artboards…&lt;/em&gt;. In the pop up window choose your location and then set the “Format” to PNG, “Export For” to Design, and then click “Export All Artboards”.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/img/1p3/step6.png&quot; alt=&quot;image of export settings&quot; title=&quot;Step 6&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Now you should have 5 PNG files that are all 1440px by 3000px. If they are not that size you might have exported at a different size or you didn’t make your artboards the right size. In either case, go back through these steps and make sure the files are the correct size.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">A quick tour of Adobe Xd and getting a file ready for designing.</summary></entry><entry><title type="html">Andrew</title><link href="http://localhost:4000/student/andrew/" rel="alternate" type="text/html" title="Andrew" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/andrew</id><content type="html" xml:base="http://localhost:4000/student/andrew/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Ashraf</title><link href="http://localhost:4000/student/ashraf/" rel="alternate" type="text/html" title="Ashraf" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/ashraf</id><content type="html" xml:base="http://localhost:4000/student/ashraf/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Ekwochi</title><link href="http://localhost:4000/student/ekwochi/" rel="alternate" type="text/html" title="Ekwochi" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/ekwochi</id><content type="html" xml:base="http://localhost:4000/student/ekwochi/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Jenny</title><link href="http://localhost:4000/student/jenny/" rel="alternate" type="text/html" title="Jenny" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/jenny</id><content type="html" xml:base="http://localhost:4000/student/jenny/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Jordan</title><link href="http://localhost:4000/student/jordan/" rel="alternate" type="text/html" title="Jordan" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/jordan</id><content type="html" xml:base="http://localhost:4000/student/jordan/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">JT</title><link href="http://localhost:4000/student/jt/" rel="alternate" type="text/html" title="JT" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/jt</id><content type="html" xml:base="http://localhost:4000/student/jt/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Lauren</title><link href="http://localhost:4000/student/lauren/" rel="alternate" type="text/html" title="Lauren" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/lauren</id><content type="html" xml:base="http://localhost:4000/student/lauren/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;Now you should have five PNG files that are all 1440px by 3000px. If they are not that size you might have exported at a different size or you didn’t make your artboards the right size. In either case, go back through these steps and make sure the files are the correct size.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">A quick tour of Adobe Xd and getting a file ready for designing.</summary></entry><entry><title type="html">Andrew</title><link href="http://localhost:4000/student/andrew/" rel="alternate" type="text/html" title="Andrew" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/andrew</id><content type="html" xml:base="http://localhost:4000/student/andrew/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Ashraf</title><link href="http://localhost:4000/student/ashraf/" rel="alternate" type="text/html" title="Ashraf" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/ashraf</id><content type="html" xml:base="http://localhost:4000/student/ashraf/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Ekwochi</title><link href="http://localhost:4000/student/ekwochi/" rel="alternate" type="text/html" title="Ekwochi" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/ekwochi</id><content type="html" xml:base="http://localhost:4000/student/ekwochi/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Jenny</title><link href="http://localhost:4000/student/jenny/" rel="alternate" type="text/html" title="Jenny" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/jenny</id><content type="html" xml:base="http://localhost:4000/student/jenny/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">JT</title><link href="http://localhost:4000/student/jt/" rel="alternate" type="text/html" title="JT" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/jt</id><content type="html" xml:base="http://localhost:4000/student/jt/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Lauren</title><link href="http://localhost:4000/student/lauren/" rel="alternate" type="text/html" title="Lauren" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/lauren</id><content type="html" xml:base="http://localhost:4000/student/lauren/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry></feed>

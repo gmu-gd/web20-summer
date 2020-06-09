@@ -372,6 +372,16 @@ h5 {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.spoiler {
+  color: white;
+  white-space: pre-wrap;
+  font-family: monospace;
+  border: 3px solid $dark-color;
+  margin: 3px 3px;
+}
+.spoiler::selection {
+  background-color: $dark-color;
+}
 code {
   color: $light-color;
   background-color: $dark-color;

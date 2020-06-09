@@ -1,0 +1,66 @@
+I"K<p>This tutorial will go getting the homepage of your repository setup to be an archive of the work you are creating for this class.</p>
+
+<h3 id="step-1-set-up-the-html-file"><span id="step1">Step 1: Set up the HTML file</span></h3>
+<p>The first step is opening up your text editor, creating a new file, and saving it in the root directory of your repository as index.html. Once you have done that add in the basic HTML set up (steps 1 through 6 of <a href="/tutorials/1-point-2">tutorial 1.2</a>). Make sure you make the text in the <code class="highlighter-rouge">title</code> element is something useful. At the end your file should look something like the image below.</p>
+
+<p><img src="/assets/img/2p1/step1.png" alt="basic html setup in Atom" title="Step 1" /></p>
+
+<h3 id="step-2-adding-content"><span id="step2">Step 2: Adding Content</span></h3>
+<p>Now that the file is set up you can add some content. This page is going to be a list of links to the work for the class. It should have some large text at the top to give the page a title and then a bunch of links underneath that. All of this content is going to go in the <code class="highlighter-rouge">body</code> element.</p>
+
+<h4 id="step-2a-add-your-main-heading">Step 2a: Add your main heading</h4>
+<p>Start with a title for your page using the <code class="highlighter-rouge">h1</code> element. Something like <code class="highlighter-rouge">&lt;h1&gt;Michael's Work&lt;/h1&gt;</code> or some other way to identify this page as yours.</p>
+
+<p><img src="/assets/img/2p1/step2a.png" alt="h1 element added to body" title="Step 2a" /></p>
+
+<h4 id="step-2b-add-an-unordered-list">Step 2b: Add an Unordered List</h4>
+
+<p>There are a lot of different ways to add links to a document. Since this going to be a list of links and we want to markup the document semantically, a list element makes sense. A list with numbers next to it isn’t important here so use an unordered list element, <code class="highlighter-rouge">&lt;ul&gt;...&lt;/ul&gt;</code>. Add the opening tag for the unordered list on the line beneath the <code class="highlighter-rouge">h1</code> element and the closing tag for the unordered list two lines beneath that. This leaves space to add a list item inside the unordered list. All of the elements inside the body element are at the same indent level so far.</p>
+
+<p><img src="/assets/img/2p1/step2b.png" alt="ul element added to the body" title="Step 2b" /></p>
+
+<h4 id="step-2c-add-a-list-item">Step 2c: Add a List Item</h4>
+
+<p>The text inside a list is all contained in the list item element, <code class="highlighter-rouge">&lt;li&gt;...&lt;/li&gt;</code>. On the line between the opening and closing tags for the unordered list, add a list item with some text that identifies this list item as Exercise 1, something like, “E1: 20 Questions”. Note that this <code class="highlighter-rouge">li</code> element is indent another level because it is a child of the <code class="highlighter-rouge">ul</code> element. Also a good time to save, <span class="command"><em>cmd+s</em></span> if you haven’t yet</p>
+
+<p><img src="/assets/img/2p1/step2c.png" alt="li element added inside the ul element" title="Step 2c" /></p>
+
+<h4 id="step-2d-add-more-list-items">Step 2d: Add More List Items</h4>
+<p>Add a new line beneath the <code class="highlighter-rouge">li</code> for E1 and make an <code class="highlighter-rouge">li</code> for E2. Repeat this process until you have list items for E1 through E5. All of these should be at the same level indent as the first <code class="highlighter-rouge">li</code> because they are all children of the <code class="highlighter-rouge">ul</code> element. Don’t forget to save.</p>
+
+<p><img src="/assets/img/2p1/step2d.png" alt="more li elements" title="Step 2d" /></p>
+
+<h3 id="step-3-add-links"><span id="step3">Step 3: Add Links</span></h3>
+<p>If you haven’t previewed the page yet you might want to. You should have something that looks like:</p>
+
+<p><img src="/assets/img/2p1/step3.png" alt="html file previewed in browser" title="Step 3" /></p>
+
+<p>This works to show what the work is but the we can’t click on anything to take us to the work. To make that happen we need to add some anchor elements, <code class="highlighter-rouge">&lt;a&gt;...&lt;/a&gt;</code>.</p>
+
+<h5 id="step-3a-wrap-list-item-in-anchor-element">Step 3a: Wrap List Item in Anchor Element</h5>
+
+<p>Put your cursor between the opening tab and the content for the first list item you have. That means the cursor should be after <code class="highlighter-rouge">&lt;li&gt;</code> and before “E1…”. Add the opening tag for the anchor element here. At the end of the text but before the closing tag for the list item add the closing tag for the anchor element.</p>
+
+<p><img src="/assets/img/2p1/step3a.png" alt="first list item wrapped in an anchor element" title="Step 3a" /></p>
+
+<h5 id="step-3b-add-attribute">Step 3b: Add Attribute</h5>
+
+<p>Now there is one more part of an anchor element that needs to be added in order for the link to actually work. If you said the <code class="highlighter-rouge">href</code> attribute you are correct. In the opening tag for the anchor element but your cursor after the <code class="highlighter-rouge">a</code> and before the <code class="highlighter-rouge">&gt;</code>. Add a space and then type <code class="highlighter-rouge">href="#"</code>. The code should look like the first screenshot and if you preview the page the first list item should change to blue with an underline. If you click that link nothing will happen because it doesn’t have a path yet but it should look like the default link now.</p>
+
+<p><img src="/assets/img/2p1/step3b1.png" alt="first anchor element with href attribute" title="Step 3b1" />
+<img src="/assets/img/2p1/step3b2.png" alt="previewed page in browser showing link styles" title="Step 3b2" /></p>
+
+<h3 id="step-4-e1-to-repository"><span id="step4">Step 4: E1 to Repository</span></h3>
+
+<p>In order for the link to work, Exercise 1 needs to be added to your repository. The first thing you want to do is add a folder in your repository (root directory) where the E1 file will live. There are many ways to add a folder so do it however you are comfortable. Name the folder whatever you want remembering all the rules about naming folders and files, an easy name might be <strong>e1</strong>.</p>
+
+<p><img src="/assets/img/2p1/step4.png" alt="e1 folder in root directory" title="Step 4" /></p>
+
+<p>Once you have the <strong>e1</strong> folder you can add your HTML file for Exercise 1 into it. Once you add the E1 file to the <strong>e1</strong> folder change the name of it to <strong>index.html</strong>.</p>
+
+<h3 id="step-4-add-the-link-path"><span id="step4">Step 4: Add the Link Path</span></h3>
+
+<p>Now that the Exercise 1 file is in the repository you can add the path to the E1 link in your homepage. You should be back in Atom looking at your <strong>index.html</strong> file that is in your root directory. That should be the file that has the list of exercise we added earlier.</p>
+
+<p>Find the anchor element wrapped around “E1: 20 Questions”. Delete the “#” we added when we first wrote the <code class="highlighter-rouge">href</code> attribute and change it to the correct path to get to your Exercise 1 file. Take a second to try and write it yourself and once you have something highlight this bit of whitespace to see what the path should be <span class="spoiler">e1/index.html</span>.</p>
+:ET
