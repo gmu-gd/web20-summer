@@ -28,10 +28,10 @@ This week we'll start to get to know a bit about each other and spend a little t
 This week we'll go a little further into HTML and begin to introduce CSS. We will look at best practices for folder and file naming, organization, and structure as well as the first steps of planning and designing a website.
 
 #### Lessons
-* 2.1: Links
-* 2.2: Images
+* 2.1: Organization, Naming, and Planning
+* 2.2: Links
 * 2.3: External Style Sheets
-* 2.4: Organization, Naming, and Planning
+* 2.4: Images
 
 #### Exercises
 * E3: [Organization and Naming]({{ site.baseurl }}/projects#e3)
