@@ -75,30 +75,38 @@ Upload your wireframes to your site and include a link to the website you made t
 
 <span class="due">Due Thursday, June 11 by 11:59 ET</span>
 
-<!-- following weeks
+
 ---
 
 #### <span id="e6">Exercise 6: Type on Screen I</span>
-Select a book from this [list](https://www.gutenberg.org/browse/scores/top). Using the title, author, chapter title, and the first 1000 words, make 10 different layouts. Each layout should be different and focus on contrast, hierarchy, and positioning. Five of the layouts will just be in black and white with no images and five you can use color and images if you want. Design some pages with one typeface and some pages with multiple typefaces. Try symmetrical and asymmetrical layouts and size, weight, style and other typographic concepts to create a well designed, readable page.
+Select a book from this [list](https://www.gutenberg.org/browse/scores/top). Using the title, author, chapter title, and the first 1000 words, make 6 different layouts. Each layout should be unique in design but the content will be the same. Focus on contrast, hierarchy, and positioning and make considered decisions about the type you choose. Three of the layouts will just be in black and white with no images and three you can use color and images if you want. Design some pages with one typeface and some pages with multiple typefaces. Try symmetrical and asymmetrical layouts and size, weight, style and other typographic concepts to create a well designed, readable page. All the layouts should use a grid to help with the layout.
 
 Each layout should be on an artboard that is 1440px wide by however tall it needs to be to accommodate the content.
 
 ##### Requirements
-* Requirement 1
+* A title, author, chapter title, and 1000 words on each layout
+* 6 layouts exported as PNGs on your website (3 only black and white, 3 with color and/or images)
+* Each layout is 1440px wide
 
 <span class="due">Due Thursday, June 18 by 11:59 ET</span>
 
 ---
 
 #### <span id="e7">Exercise 7: seven-principles.txt</span>
-Copy and paste the text from the source file to your HTML file. Mark up the document by keeping in mind which HTML tags are appropriate for which segments of content. Using your new knowledge of some simple CSS styling properties, style the Carl Dair content. Keep in mind web font implementation and font properties. Play with color and scale, and experiment to get familiar with this new language.
+Copy and paste the text from the source file below to your HTML file. Mark up the document by keeping in mind which HTML tags are appropriate for which segments of content. Using your new knowledge of some simple CSS styling properties, style the Carl Dair content. Keep in mind web font implementation and font properties. Play with color and scale, and experiment to get familiar with this new language.
 
-Download the [Essay]({{ site.baseurl }})
+Download the [Essay]({{ site.baseurl }}/assets/exercises/seven-principles.txt)
 
 ##### Requirements
-* Requirement 1
+* The full essay text displayed on the page
+* Semantically marked up (everything wrapped in some HTML element)
+* At least one class or ID used
+* Some amount of CSS used to style the page through an external style sheet
+* Page uses Adobe or Google Fonts
 
 <span class="due">Due Thursday, June 18 by 11:59 ET</span>
+
+<!-- following weeks
 
 ---
 
