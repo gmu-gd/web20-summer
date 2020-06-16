@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-13T11:55:43-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Working with Images</title><link href="http://localhost:4000/tutorials/2-point-2/" rel="alternate" type="text/html" title="Working with Images" /><published>2020-06-13T00:00:00-04:00</published><updated>2020-06-13T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/2%20point%202</id><content type="html" xml:base="http://localhost:4000/tutorials/2-point-2/">&lt;p&gt;This tutorial will introduce the image element and how to use that element to get images to display on your pages. This tutorial will use Exercise 2 as the example for adding images.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-16T14:42:35-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Bringing in Fonts</title><link href="http://localhost:4000/tutorials/3-point-1/" rel="alternate" type="text/html" title="Bringing in Fonts" /><published>2020-06-16T00:00:00-04:00</published><updated>2020-06-16T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/3%20point%201</id><content type="html" xml:base="http://localhost:4000/tutorials/3-point-1/">&lt;p&gt;This tutorial will explain how to bring in fonts from &lt;a href=&quot;https://fonts.google.com/&quot;&gt;fonts.google.com&lt;/a&gt; and &lt;a href=&quot;https://fonts.adobe.com/&quot;&gt;fonts.adobe.com&lt;/a&gt;. This tutorial will use your main &lt;strong&gt;index.html&lt;/strong&gt; file and its associated CSS file to bring in the fonts.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-open-your-repository-and-files&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Open Your Repository and Files&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Open your repository in Atom and then open up your main &lt;strong&gt;index.html&lt;/strong&gt; file and CSS file associated with it by double clicking on the file in the tree view.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step1a1.png&quot; alt=&quot;repository opened in Atom&quot; title=&quot;Step 1a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once both are open you can view them side by side by dragging the the tab with your CSS file to the right until the right column is highlighted. Then you can leet go and you should be able to see both files as a split screen in Atom. If you don’t want to work this way that’s okay.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step1a2.png&quot; alt=&quot;two column view in Atom&quot; title=&quot;Step 1a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In that screenshot you will notice that I have some of the default styles reset that we talked about in The CSS Box Model lecture.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-choose-google-fonts&quot;&gt;&lt;span id=&quot;step2&quot;&gt;Step 2: Choose Google Fonts&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Open up your browser and go to &lt;a href=&quot;https://fonts.google.com/&quot;&gt;fonts.google.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2.png&quot; alt=&quot;fonts.google.com homepage&quot; title=&quot;Step 2&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2a-select-a-font-family&quot;&gt;Step 2a: Select a Font Family&lt;/h4&gt;
+&lt;p&gt;There are a lot of font families on Google Fonts. Take a minute to browse through and find one you want to use on your site. In the top right of each font family box there is some text that says “1 style” or “6 styles” or “variable”. Select a font family that has 2 or more styles and stay away from variable for the moment. Once you found the font family you want to use, click on it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2a.png&quot; alt=&quot;a font family selected&quot; title=&quot;Step 2a&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2b-select-styles&quot;&gt;Step 2b: Select Styles&lt;/h4&gt;
+&lt;p&gt;On this screen you need to select the styles you are going to use. Try an select only the ones you plan on using. You don’t need to pick a font family that has 28 styles and then select all 28 to actually use. I typically try to get a regular, regular italic, bold, and bold italic as a starting point. Usually I will need at least those four but if you think you might need any extra select away.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2b.png&quot; alt=&quot;styles selected&quot; title=&quot;Step 2b&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2c-get-code&quot;&gt;Step 2c: Get Code&lt;/h4&gt;
+&lt;p&gt;After you have your styles selected you can click on the icon in the top right. It has three squares and a plus sign and should have a red circle in the top right. If you click on this a panel should slide on the screen that shows your selected family.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2c1.png&quot; alt=&quot;a font family selected&quot; title=&quot;Step 2c&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Check to make sure what you think should be there is there and then click on the “Embed” tab at the top of the panel. This will bring up the tab that has the code for you to link to the fonts from your HTML document and add the font family to your CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2c2.png&quot; alt=&quot;embed tab of selected family panel&quot; title=&quot;Step 2c&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2d-copy-link-and-paste-in-html-document&quot;&gt;Step 2d: Copy Link and Paste in HTML Document&lt;/h4&gt;
+&lt;p&gt;Copy the first bit of code there under the &lt;link /&gt;. Once it is copied go back to Atom and paste it in your &lt;strong&gt;index.html&lt;/strong&gt; file. Where should you paste it you might ask? It should go in the &lt;span class=&quot;spoiler&quot;&gt;head&lt;/span&gt; of course! Paste it in there above the &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; element for your CSS file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2d.png&quot; alt=&quot;pasted link element in HTML&quot; title=&quot;Step 2d&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-2e-copy-css-and-paste-in-css-document&quot;&gt;Step 2e: Copy CSS and Paste in CSS Document&lt;/h4&gt;
+&lt;p&gt;Copy the second bit of code there under the “CSS rules to specify families”. Once it is copied go back to Atom and paste it in your CSS file. Where should you paste it you might ask? Well this time it could go a lot of places because it depends on what in your HTML file you want to use these new fonts. In this case, everything is going to use these fonts so I’m going to add them to the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; selector. If you had two different font families you could add one to the heading elements by adding the copied CSS to &lt;code class=&quot;highlighter-rouge&quot;&gt;h1, h2, h3, h4, h5, h6&lt;/code&gt; selectors and the other one to &lt;code class=&quot;highlighter-rouge&quot;&gt;p, li&lt;/code&gt; selectors.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step2e.png&quot; alt=&quot;pasted font-family in CSS&quot; title=&quot;Step 2e&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-save-and-preview&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 3: Save and Preview&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;The last step is to check and see if everything worked. Make sure both your HTML and CSS files are saved and then preview your HTML file. Hopefully the font on the page should change to the new font you selected. If it doesn’t, go back and make sure you pasted the whole &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; element in the head of your document and that you pasted the &lt;code class=&quot;highlighter-rouge&quot;&gt;font-family&lt;/code&gt; styles into your CSS file correctly.&lt;/p&gt;
+
+&lt;p&gt;Homepage before:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step3-1.png&quot; alt=&quot;homepage with default fonts&quot; title=&quot;Step 3 before&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Homepage after:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step3-2.png&quot; alt=&quot;homepage with Google fonts&quot; title=&quot;Step 3 after&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-choose-adobe-fonts&quot;&gt;&lt;span id=&quot;step4&quot;&gt;Step 4: Choose Adobe Fonts&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;If you have a subscription to Creative Cloud, go through step four. If you don’t, the fonts available to you without them are many of the same ones on Google so you aren’t going to find much difference here.&lt;/p&gt;
+
+&lt;p&gt;Open up your browser and go to &lt;a href=&quot;https://fonts.adobe.com/&quot;&gt;fonts.adobe.com&lt;/a&gt;. Make sure your are signed in using your Adobe ID.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4.png&quot; alt=&quot;fonts.adobe.com homepage&quot; title=&quot;Step 4&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4a-select-a-font-family&quot;&gt;Step 4a: Select a Font Family&lt;/h4&gt;
+&lt;p&gt;There are also a lot of font families on Adobe Fonts. Take a minute to browse through and find one you want to use on your site. Like you did with the fonts on Google, look for a font that has more than 2 fonts in it. The number of fonts is next to the name of the font. For the Adobe font, choose the opposite of what you picked from Google. So if you picked a serif on Google, pick a sans-serif on Adobe. Choose something that will be easy to tell apart. Once you found the font family you want to use, click on the “View Family” button.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4a.png&quot; alt=&quot;a font family selected&quot; title=&quot;Step 4a&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4b-add-to-web-project&quot;&gt;Step 4b: Add to Web Project&lt;/h4&gt;
+&lt;p&gt;Click the “Add to Web Project” on the right.&lt;/p&gt;
+
+&lt;p&gt;In the pop up that appears, click the down arrow and create a new project. The name can be whatever you want, I’m calling mine “avt217”.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4b1.png&quot; alt=&quot;new project&quot; title=&quot;Step 4b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have the project created you can select the styles you want to use. I’m going to select the same thing I did before, Regular, Italic, Bold, Bold Italic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4b2.png&quot; alt=&quot;styles selected&quot; title=&quot;Step 4b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once you have the styles you want checked, click the “Create” button.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4c-get-code&quot;&gt;Step 4c: Get Code&lt;/h4&gt;
+&lt;p&gt;After clicking the “Create” button the pop up will change to the code screen. This screen is very similar to the Google screen but has a little bit more detailed CSS.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4c.png&quot; alt=&quot;code options in adobe fonts&quot; title=&quot;Step 4c&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4d-copy-link-and-paste-in-html-document&quot;&gt;Step 4d: Copy Link and Paste in HTML Document&lt;/h4&gt;
+&lt;p&gt;Copy the &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; element code and paste it into the head of your &lt;strong&gt;index.html&lt;/strong&gt; file.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4d.png&quot; alt=&quot;pasted link element in HTML&quot; title=&quot;Step 4d&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-4e-copy-css-and-paste-in-css-document&quot;&gt;Step 4e: Copy CSS and Paste in CSS Document&lt;/h4&gt;
+&lt;p&gt;The CSS code is a little more detailed here than it was on Google. The difference being Adobe is giving you more than you might need and Google is assuming you know how to change the weight or style on your own. The main thing to copy here is the &lt;code class=&quot;highlighter-rouge&quot;&gt;font-family&lt;/code&gt; declaration. Once you have that copied, go back to your CSS file and make a new style. Depending on where you added the Google font you selected, do the opposite with this one. So if you added the Google font to the heading elements, add this to the &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; elements. If you added the Google font to the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; you can add this one to the heading elements or the &lt;code class=&quot;highlighter-rouge&quot;&gt;li&lt;/code&gt; elements and it will override the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; declaration.&lt;/p&gt;
+
+&lt;p&gt;I’m going to add it to my &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; element. Because using &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; as the selector is more specific than the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; selector, this &lt;code class=&quot;highlighter-rouge&quot;&gt;font-family&lt;/code&gt; will override the &lt;code class=&quot;highlighter-rouge&quot;&gt;font-family&lt;/code&gt; for the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step4e.png&quot; alt=&quot;adding font-family to h1&quot; title=&quot;Step 4e&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I’m also going to add a few extra styles to this page to make the type a little bigger, style the list and links a little, give it some margins so it isn’t smashed up against the edges of the browser window, and add a little color.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-5-save-and-preview-again&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 5: Save and Preview Again&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Make sure both your HTML and CSS files are saved and then preview your HTML file again. Hopefully the font on the page should change to the new font you selected. If it doesn’t, go back and make sure you pasted the whole &lt;code class=&quot;highlighter-rouge&quot;&gt;link&lt;/code&gt; element in the head of your document and that you pasted the &lt;code class=&quot;highlighter-rouge&quot;&gt;font-family&lt;/code&gt; styles into your CSS file correctly.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/3p1/step5.png&quot; alt=&quot;preview of page&quot; title=&quot;Step 5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Look at the class repository to see the styles I used to get the page to look like that if you are interested.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">How to bring fonts from Google or Adobe into your site.</summary></entry><entry><title type="html">Working with Images</title><link href="http://localhost:4000/tutorials/2-point-2/" rel="alternate" type="text/html" title="Working with Images" /><published>2020-06-13T00:00:00-04:00</published><updated>2020-06-13T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/2%20point%202</id><content type="html" xml:base="http://localhost:4000/tutorials/2-point-2/">&lt;p&gt;This tutorial will introduce the image element and how to use that element to get images to display on your pages. This tutorial will use Exercise 2 as the example for adding images.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-1-open-your-repository-in-atom&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Open Your Repository in Atom&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;Start with opening up the Github App and making sure you have your repository as the Current Repository and that the Current Branch is gh-pages. If those two pieces of information are correct, click the “Open in Atom” button in the middle of the screen.&lt;/p&gt;
@@ -424,4 +531,4 @@
 &lt;p&gt;It will take a second to push the changes to the repository and once that process finishes you will go back to a window that shows no changes. The next time you have changes to your local files you can repeat this process.&lt;/p&gt;
 
 &lt;h4 id=&quot;a-few-notes&quot;&gt;A Few Notes&lt;/h4&gt;
-&lt;p&gt;Once you have pushed your commits it takes a couple minutes for those changes to be reflected on your live website. Give your site a little time for it to refresh before thinking something went wrong (if 10 minutes of refreshing hasn’t changed anything there might be an issue). You also do not need to push every change you make. I often make commits based on finishing the task I was working on and push when I want to see those changes live, rather than pushing commits every few minutes.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">Setting up Github and a repository on your computer.</summary></entry><entry><title type="html">Lucas GK</title><link href="http://localhost:4000/student/lucasgk/" rel="alternate" type="text/html" title="Lucas GK" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/lucasgk</id><content type="html" xml:base="http://localhost:4000/student/lucasgk/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Lucas L</title><link href="http://localhost:4000/student/lucasl/" rel="alternate" type="text/html" title="Lucas L" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/lucasl</id><content type="html" xml:base="http://localhost:4000/student/lucasl/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Matt</title><link href="http://localhost:4000/student/matt/" rel="alternate" type="text/html" title="Matt" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/matt</id><content type="html" xml:base="http://localhost:4000/student/matt/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Michael</title><link href="http://localhost:4000/student/michael/" rel="alternate" type="text/html" title="Michael" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/michael</id><content type="html" xml:base="http://localhost:4000/student/michael/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Rachel</title><link href="http://localhost:4000/student/rachel/" rel="alternate" type="text/html" title="Rachel" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/rachel</id><content type="html" xml:base="http://localhost:4000/student/rachel/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;Once you have pushed your commits it takes a couple minutes for those changes to be reflected on your live website. Give your site a little time for it to refresh before thinking something went wrong (if 10 minutes of refreshing hasn’t changed anything there might be an issue). You also do not need to push every change you make. I often make commits based on finishing the task I was working on and push when I want to see those changes live, rather than pushing commits every few minutes.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">Setting up Github and a repository on your computer.</summary></entry><entry><title type="html">Lucas L</title><link href="http://localhost:4000/student/lucasl/" rel="alternate" type="text/html" title="Lucas L" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/lucasl</id><content type="html" xml:base="http://localhost:4000/student/lucasl/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Matt</title><link href="http://localhost:4000/student/matt/" rel="alternate" type="text/html" title="Matt" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/matt</id><content type="html" xml:base="http://localhost:4000/student/matt/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Rachel</title><link href="http://localhost:4000/student/rachel/" rel="alternate" type="text/html" title="Rachel" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/rachel</id><content type="html" xml:base="http://localhost:4000/student/rachel/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Sam</title><link href="http://localhost:4000/student/samuels/" rel="alternate" type="text/html" title="Sam" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/samuels</id><content type="html" xml:base="http://localhost:4000/student/samuels/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry></feed>
