@@ -56,8 +56,8 @@ Every element in HTML is a rectangular box and the box model will help us unders
 * 3.3: Hierarchy &amp; Typography
 
 #### Exercises
-* [Type on Screen I]({{ site.baseurl }}/projects#e6)
-* [seven-principles.txt]({{ site.baseurl }}/projects#e7)
+* E6: [Type on Screen I]({{ site.baseurl }}/projects#e6)
+* E7: [seven-principles.txt]({{ site.baseurl }}/projects#e7)
 
 #### Project
 * P1.3: First 1440px designs, homepage content populated
