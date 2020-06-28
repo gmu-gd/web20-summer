@@ -106,27 +106,33 @@ Download the [Essay]({{ site.baseurl }}/assets/exercises/seven-principles.txt)
 
 <span class="due">Due Thursday, June 18 by 11:59 ET</span>
 
-<!-- following weeks
-
 ---
 
 #### <span id="e8">Exercise 8: Patterns</span>
-Using what you have learned so far, make five patterns with html. You can use divs or type to make these patterns.
+Make a series of 5 patterns using HTML and CSS. Each pattern should be scrollable, take up the entire screen, be unique, and built using floated div elements.
 
 ##### Requirements
-* Requirement 1
+* 5 unique patterns (varying colors, sizes, layouts, shapes, etc.)
+* Patterns must scroll for some amount
+* All styles for all five patters in one CSS file
+* No styles in the HTML file
 
-<span class="due">Due Thursday, June 25 by 11:59 ET</span>
+<span class="due">Due Thursday, July 1 by 11:59 ET</span>
 
 ---
 
 #### <span id="e9">Exercise 9: Layouts</span>
-Create the first four layouts in the E9 PDF on Blackboard with HTML and CSS. Use flexbox or floats.
+Create the first three layouts in the E9 PDF on Blackboard with HTML and CSS. 10 points of extra credit for creating the tennis court and 30 points of extra credit for creating the california case.
 
 ##### Requirements
-* Requirement 1
+* 3 layouts on your site.
+* Div elements use the float property in their styles
+* All layouts share the same CSS file
+* No styles in the HTML file
 
-<span class="due">Due Thursday, June 25 by 11:59 ET</span>
+<span class="due">Due Thursday, July 1 by 11:59 ET</span>
+
+<!-- following weeks
 
 ---
 

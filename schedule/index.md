@@ -69,26 +69,42 @@ Every element in HTML is a rectangular box and the box model will help us unders
 ---
 
 ### Week 4
-There are many different ways to layout pages with HTML and CSS. This week we will talk about two of those &mdash; floats and flexbox.
+This week we are going to catch our breath and review what we talked about in the previous weeks.
 
 #### Lessons
-* 4.1: Floats
-* 4.2: Flexbox
+* No new lessons
 
 #### Exercises
-* E8: Patterns <!-- [Patterns]({{ site.baseurl }}/projects#e8) -->
-* E9: Layouts <!-- [Layouts]({{ site.baseurl }}/projects#e9) -->
+* No new exercises
 
 #### Project
 * P1.4: Second 1440px designs, begin to style homepage, content in other pages
 
 #### Digital References
-* _Learning Web Design:_ [Chapters 15 &amp; 16](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
-* _Interneting is Hard:_ [Floats](https://www.internetingishard.com/html-and-css/floats/) &amp; [Flexbox](https://www.internetingishard.com/html-and-css/flexbox/)
+* Review previous references
 
 ---
 
 ### Week 5
+There are many different ways to layout pages with HTML and CSS. This week we will talk about one of those &mdash; floats.
+
+#### Lessons
+* 4.1: Floats
+
+#### Exercises
+* E8: Patterns [Patterns]({{ site.baseurl }}/projects#e8)
+* E9: Layouts [Layouts]({{ site.baseurl }}/projects#e9)
+
+#### Project
+* P1.5: Third 1440px designs, full site styles, functioning navigation
+
+#### Digital References
+* _Learning Web Design:_ [Chapters 15 &amp; 16](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
+* _Interneting is Hard:_ [Floats](https://www.internetingishard.com/html-and-css/floats/) &amp; if your looking for more flexibility in your layouts [Flexbox](https://www.internetingishard.com/html-and-css/flexbox/)
+
+---
+
+### Week 6
 Responsive design is a key element of designing for the web today. This week we will introduce the concept and coding principles behind getting a website to show up well on a narrow phone screen and a wide desktop monitor. We will also talk about navigation design and coding.
 
 #### Lessons
@@ -100,7 +116,7 @@ Responsive design is a key element of designing for the web today. This week we 
 * E11: Type on Screen II <!-- [Type on Screen II]({{ site.baseurl }}/projects#e11) -->
 
 #### Project
-* P1.5: First 320px designs, full site styles, functioning navigation
+* P1.6: First 320px designs, homepage responsive
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 6 &amp; 17](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
@@ -108,7 +124,7 @@ Responsive design is a key element of designing for the web today. This week we 
 
 ---
 
-### Week 6
+### Week 7
 This week we will expand our knowledge of HTML and CSS by covering a few advanced ideas. We will also go over best practices for making sure images are responsive.
 
 #### Lessons
@@ -121,7 +137,7 @@ This week we will expand our knowledge of HTML and CSS by covering a few advance
 * E13: Programmer and Computer <!-- [Programmer and Computer]({{ site.baseurl }}/projects#e13) -->
 
 #### Project
-* P1.6: Second 320px designs, homepage responsive
+* P1.7: Second 320px designs, All pages responsive
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 15 &amp; 23](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
@@ -129,8 +145,8 @@ This week we will expand our knowledge of HTML and CSS by covering a few advance
 
 ---
 
-### Week 7
-In our final week of coding exercises and demos we will touch on JavaScript and jQuery. Both JavaScript and jQuery open up worlds of new possibilities to the websites we are building but we will look mainly at introducing interaction to the sites.
+### Week 8
+In our final week we will touch on JavaScript and jQuery. Both JavaScript and jQuery open up worlds of new possibilities to the websites we are building but we will look mainly at introducing interaction to the sites.
 
 #### Lessons
 * 7.1: JavaScript and jQuery
@@ -140,24 +156,7 @@ In our final week of coding exercises and demos we will touch on JavaScript and 
 * E14: jQuery <!-- [jQuery]({{ site.baseurl }}/projects#e14) -->
 
 #### Project
-* P1.7: All pages responsive
-
-#### Digital References
-* _Learning Web Design:_ [Chapters 22 &amp; 22](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
-
----
-
-### Week 8
-The last week! No new concepts this week just finishing the projects and reviewing them.
-
-#### Lessons
-* No Lessons
-
-#### Exercises
-* No Exercises
-
-#### Project
 * P1.8: Project complete
 
 #### Digital References
-* No References
+* _Learning Web Design:_ [Chapters 22](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)
