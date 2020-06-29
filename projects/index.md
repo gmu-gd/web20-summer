@@ -117,7 +117,7 @@ Make a series of 5 patterns using HTML and CSS. Each pattern should be scrollabl
 * All styles for all five patters in one CSS file
 * No styles in the HTML file
 
-<span class="due">Due Thursday, July 1 by 11:59 ET</span>
+<span class="due">Due Thursday, July 2 by 11:59 ET</span>
 
 ---
 
@@ -130,7 +130,7 @@ Create the first three layouts in the E9 PDF on Blackboard with HTML and CSS. 10
 * All layouts share the same CSS file
 * No styles in the HTML file
 
-<span class="due">Due Thursday, July 1 by 11:59 ET</span>
+<span class="due">Due Thursday, July 2 by 11:59 ET</span>
 
 <!-- following weeks
 
