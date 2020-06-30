@@ -61,6 +61,10 @@
 <lastmod>2020-05-05T00:00:00-04:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/student/z/</loc>
+<lastmod>2020-05-05T00:00:00-04:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/tutorials/1-point-1/</loc>
 <lastmod>2020-06-01T00:00:00-04:00</lastmod>
 </url>
@@ -83,6 +87,10 @@
 <url>
 <loc>http://localhost:4000/tutorials/3-point-1/</loc>
 <lastmod>2020-06-16T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/tutorials/4-point-1/</loc>
+<lastmod>2020-06-30T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
