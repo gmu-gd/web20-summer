@@ -156,6 +156,7 @@ Pick the 2 best layouts from Exercise 7 and code them as two separate web pages.
 * All layouts share the same CSS file
 * No styles in the HTML file
 * Pages use at least one media query
+* Has the viewport meta tag in the head of each layout
 
 
 <span class="due">Due Thursday, July 9 11:59 ET</span>
