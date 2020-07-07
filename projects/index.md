@@ -125,36 +125,42 @@ Make a series of 5 patterns using HTML and CSS. Each pattern should be scrollabl
 Create the first three layouts in the E9 PDF on Blackboard with HTML and CSS. 10 points of extra credit for creating the tennis court and 30 points of extra credit for creating the california case.
 
 ##### Requirements
-* 3 layouts on your site.
+* 3 layouts on your site
 * Div elements use the float property in their styles
 * All layouts share the same CSS file
 * No styles in the HTML file
 
 <span class="due">Due Thursday, July 2 by 11:59 ET</span>
 
-<!-- following weeks
-
 ---
 
 #### <span id="e10">Exercise 10: Visualizing Responsiveness</span>
-Take 4 sets of screenshots of the home page of the website you used for E9 and E10. The screenshots should be of the full height and taken with your browser at widths of 1440px, 1024px, 768px, and 320px. Combine the screenshots of each width in Illustrator, XD, or Sketch on an artboard that is the appropriate width and height.
+Take 4 sets of screenshots of the home page of the website you used for E4 and E5. The screenshots should be of the full height and taken with your browser at widths of 1440px, 1024px, 768px, and 320px. Combine the screenshots of each width in Illustrator, XD, or Sketch on an artboard that is the appropriate width and height.
 
 Export the artboards as pngs and upload them to your website.
 
 ##### Requirements
-* Requirement 1
+* 4 images on your site
+* Images are the appropriate widths (1440px, 1024px, 768px, 320px) and the height is as tall as the homepage is on the web
+* Using the same site you used for E4 and E5
 
-<span class="due">Due Thursday, July 2 by 11:59 ET</span>
+<span class="due">Due Thursday, July 9 by 11:59 ET</span>
 
 ---
 
 #### <span id="e11">Exercise 11: Type on Screen II</span>
-Pick the 2 best layouts from Exercise 6 and code them as two separate web pages. Use at least one media query to make some aspects of the site responsive.
+Pick the 2 best layouts from Exercise 7 and code them as two separate web pages. Use at least one media query to make some aspects of the site responsive.
 
 ##### Requirements
-* Requirement 1
+* 2 layouts on your site
+* All layouts share the same CSS file
+* No styles in the HTML file
+* Pages use at least one media query
 
-<span class="due">Due Thursday, July 2July 9y 11:59 ET</span>
+
+<span class="due">Due Thursday, July 9 11:59 ET</span>
+
+<!-- following weeks
 
 ---
 

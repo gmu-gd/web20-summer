@@ -92,8 +92,8 @@ There are many different ways to layout pages with HTML and CSS. This week we wi
 * 4.1: Floats
 
 #### Exercises
-* E8: Patterns [Patterns]({{ site.baseurl }}/projects#e8)
-* E9: Layouts [Layouts]({{ site.baseurl }}/projects#e9)
+* E8: [Patterns]({{ site.baseurl }}/projects#e8)
+* E9: [Layouts]({{ site.baseurl }}/projects#e9)
 
 #### Project
 * P1.5: Third 1440px designs, full site styles, functioning navigation
@@ -112,8 +112,8 @@ Responsive design is a key element of designing for the web today. This week we 
 * 5.2: Navigation
 
 #### Exercises
-* E10: Visualizing Responsiveness <!-- [Visualizing Responsiveness]({{ site.baseurl }}/projects#e10) -->
-* E11: Type on Screen II <!-- [Type on Screen II]({{ site.baseurl }}/projects#e11) -->
+* E10: [Visualizing Responsiveness]({{ site.baseurl }}/projects#e10)
+* E11: [Type on Screen II]({{ site.baseurl }}/projects#e11)
 
 #### Project
 * P1.6: First 320px designs, homepage responsive
