@@ -68,7 +68,7 @@
 
 <p>Make sure both files are saved and preview the homepage and test to see if the link for Exercise 2 is working. If it is, great! You can open up the Github App and push the changes you just made. If it isn’t working, check to make sure all your syntax, spelling, and paths are correct and try it again. If it still isn’t working, ask for help.</p>
 
-<h3 id="step-6-add-e3-e4-and-e5"><span id="step5">Step 6: Add E3, E4, and E5</span></h3>
+<h3 id="step-6-add-e3-e4-and-e5"><span id="step6">Step 6: Add E3, E4, and E5</span></h3>
 
 <p>You should now be able to add all the image files for your exercises to an HTML page and links to access those pages. Try that for practice. The end result should look something like our <a href="https://mmcdermott18.github.io/su2020-avt217/">class demo repository</a>.</p>
 :ET
