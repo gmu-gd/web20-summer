@@ -63,6 +63,7 @@ function subnav() {
 function fixSub() {
   var scroll_pos = 0;
   var aside_pos = ($('aside').position().top) - 25;
+  console.log(aside_pos);
   $(document).on("scroll", function() {
     scroll_pos = $(this).scrollTop();
     if (scroll_pos > aside_pos) {

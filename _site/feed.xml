@@ -1,4 +1,88 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-30T14:59:58-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Making Columns</title><link href="http://localhost:4000/tutorials/4-point-1/" rel="alternate" type="text/html" title="Making Columns" /><published>2020-06-30T00:00:00-04:00</published><updated>2020-06-30T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/4%20point%201</id><content type="html" xml:base="http://localhost:4000/tutorials/4-point-1/">&lt;p&gt;This tutorial will go through the process of setting up a two column layout with floats and divs using your main &lt;strong&gt;index.html&lt;/strong&gt; file and its associated CSS file to work with.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-07T14:48:04-04:00</updated><id>http://localhost:4000/feed.xml</id><entry><title type="html">Making it Responsive</title><link href="http://localhost:4000/tutorials/5-point-1/" rel="alternate" type="text/html" title="Making it Responsive" /><published>2020-07-07T00:00:00-04:00</published><updated>2020-07-07T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/5%20point%201</id><content type="html" xml:base="http://localhost:4000/tutorials/5-point-1/">&lt;p&gt;This tutorial will go through the process of making a site responsive. It will use your main &lt;strong&gt;index.html&lt;/strong&gt; file and its associated CSS file to make your homepage go from two columns on larger screens to one column on smaller screens.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-1-open-your-repository-and-files&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Open Your Repository and Files&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;Open your repository in Atom and then open up your main &lt;strong&gt;index.html&lt;/strong&gt; file and CSS file associated with it by double clicking on the files in the tree view.&lt;/p&gt;
+
+&lt;p&gt;Really the main focus here is the CSS file but we might want to reference what is happening in the HTML file so it is worth having them both open. Your HTML file should be set up similarly to the screenshot below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step1.png&quot; alt=&quot;HTML file&quot; title=&quot;Step 1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-2-write-the-media-query&quot;&gt;&lt;span id=&quot;step2&quot;&gt;Step 2: Write the Media Query&lt;/span&gt;&lt;/h3&gt;
+&lt;p&gt;The first part of making a responsive site is writing the media query where we will add our responsive styles. Once we have the media query written we can start to add styles that will only happen at a certain range of screen sizes. In this case we designed the desktop version so we want the media query to happen when the screen gets smaller.&lt;/p&gt;
+
+&lt;p&gt;Open up your site in a browser and start making the window smaller. There will come a point where the two columns on the homepage start to get too close together, start touching, or the columns are too narrow. Once you find that point, get the width of your browser by going to a site like &lt;a href=&quot;http://howbigismybrowser.com/&quot;&gt;howbigismybrowser.com&lt;/a&gt;. Look at what the width is and remember that number for when you write your media query. For my site it is around 900px.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step2-1.png&quot; alt=&quot;900px wide window is where the site starts to get messy&quot; title=&quot;Step 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You are going to write the media query in your CSS and you need to add it after all your main CSS styles. So scroll to the bottom of your CSS file and write &lt;code class=&quot;highlighter-rouge&quot;&gt;@media screen and (max-width: 900px) { }&lt;/code&gt; with the number after &lt;code class=&quot;highlighter-rouge&quot;&gt;max-width&lt;/code&gt; the number you came up with above.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step2-2.png&quot; alt=&quot;adding media query&quot; title=&quot;Step 2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure when you add this you do not have a semicolon after the value for &lt;code class=&quot;highlighter-rouge&quot;&gt;max-width&lt;/code&gt; and you include the curly brackets with an empty line between them like in the screenshot above.&lt;/p&gt;
+
+&lt;h3 id=&quot;step-3-from-two-columns-to-one&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 3: From Two Columns to One&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now that the media query is there you can start to write some styles for what happens when your site is viewed at a width of below whatever number you used. So you are writing styles to override your base styles when the screen is between 0px wide and your &lt;code class=&quot;highlighter-rouge&quot;&gt;max-width&lt;/code&gt; value wide.&lt;/p&gt;
+
+&lt;p&gt;Let’s start with something easy to make sure your media query is written correctly.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3a-check-if-the-media-query-works&quot;&gt;Step 3a: Check if the Media Query Works&lt;/h4&gt;
+
+&lt;p&gt;Inside the media query write a style to change the background color of the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; to something different. Make sure when you start writing the selector you are indented one level because all of these style rules go inside the media query. I changed the background color for my &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; to a light grey.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3a1.png&quot; alt=&quot;changing the baackground color in the media query&quot; title=&quot;Step 3a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3a2.png&quot; alt=&quot;result of CSS at below 900px wide on the page&quot; title=&quot;Step 3a&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If your change doesn’t happen go back through step two and make sure you are writing your media query at the bottom of the CSS file and that you don’t have a semicolon after the value for &lt;code class=&quot;highlighter-rouge&quot;&gt;max-width&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;If your background color changes, carry on.&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3b-adding-style-rules-to-the-media-query&quot;&gt;Step 3b: Adding Style Rules to the Media Query&lt;/h4&gt;
+
+&lt;p&gt;The main thing we want to do with this page is to go from two columns to one column. At a certain point two columns isn’t practical on smaller screens so instead of having two super skinny columns we want to make one column for a better reading experience on the smaller screen.&lt;/p&gt;
+
+&lt;p&gt;To do that we need to override some of our column styles from the main CSS. If you scroll up in your CSS to look at the styles you have that control your two columns you should see something similar to this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3b1.png&quot; alt=&quot;style rule for the columns&quot; title=&quot;Step 3b&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Copy and paste that whole style rule down into your media query and delete the &lt;code class=&quot;highlighter-rouge&quot;&gt;body&lt;/code&gt; style rule. Again making sure everything is properly indented.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3b2.png&quot; alt=&quot;style rule for the columns in the media query&quot; title=&quot;Step 3b&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3c-deciding-what-needs-to-change&quot;&gt;Step 3c: Deciding What Needs to Change&lt;/h4&gt;
+
+&lt;p&gt;We don’t need all of these declarations in this rule so let’s decide what we want to change here. The main property that is allowing our two columns to work is the &lt;span class=&quot;spoiler&quot;&gt;width&lt;/span&gt; property. You might have answered the &lt;span class=&quot;spoiler&quot;&gt;float&lt;/span&gt; property which is sort of true but that property won’t do anything unless the other property allows it to. So since you really only need to work with the &lt;code class=&quot;highlighter-rouge&quot;&gt;width&lt;/code&gt; property you can delete the other two declarations because you don’t need to change anything about them. Remember, the only styles in a media query are ones you are overriding/changing from your main styles or that are entirely new styles.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3c.png&quot; alt=&quot;only the width declaration remains in the media query&quot; title=&quot;Step 3c&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3d-changing-the-value&quot;&gt;Step 3d: Changing the Value&lt;/h4&gt;
+
+&lt;p&gt;Now that only the &lt;code class=&quot;highlighter-rouge&quot;&gt;width&lt;/code&gt; property remains, what does the value need to be to make the change we want? If 50% is giving the space necessary to float two columns next to each other and now we only want one column, the value for the &lt;code class=&quot;highlighter-rouge&quot;&gt;width&lt;/code&gt; should be changed to &lt;span class=&quot;spoiler&quot;&gt;100%&lt;/span&gt;. This way the column takes up the entire width of its container (the &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; element) and nothing can float next to it because there is no room.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3d1.png&quot; alt=&quot;width declaration to 100% in media query&quot; title=&quot;Step 3d&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3d2.png&quot; alt=&quot;page now displaying as a single column&quot; title=&quot;Step 3d&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;step-3e-adding-new-styles&quot;&gt;Step 3e: Adding New Styles&lt;/h4&gt;
+
+&lt;p&gt;The final thing we want to do here is add any new styles that we might need to make the page look the best it can. In the screenshot above the word Project is too close to the last item in the list of exercises. That is an easy fix by adding a &lt;span class=&quot;spoiler&quot;&gt;margin&lt;/span&gt; to the columns.&lt;/p&gt;
+
+&lt;p&gt;In the style rule for the columns in the media query, add a margin on the bottom to separate the two stacked columns. In this case I am going to use &lt;code class=&quot;highlighter-rouge&quot;&gt;margin-bottom: 50px;&lt;/code&gt; because that is the only margin I want to change. If this has other margins on it in my main styles and I write &lt;code class=&quot;highlighter-rouge&quot;&gt;margin: 0 0 50px 0;&lt;/code&gt; it is going to override any existing margins on the top, left, and right and set them to zero. Not something that I probably want to happen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3e1.png&quot; alt=&quot;adding a bottom margin into the media query&quot; title=&quot;Step 3e&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step3e2.png&quot; alt=&quot;columns having more vertical separation&quot; title=&quot;Step 3e&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;step-4-adjust-other-styles&quot;&gt;&lt;span id=&quot;step3&quot;&gt;Step 4: Adjust Other Styles&lt;/span&gt;&lt;/h3&gt;
+
+&lt;p&gt;Now that we have gone through the basic setup of making a page responsive, we can make other changes that need to happen when your page gets narrower. For my page I’m going increase the width of the &lt;code class=&quot;highlighter-rouge&quot;&gt;main&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;header&lt;/code&gt; elements so there is more room for the type. I might decrease the size of the &lt;code class=&quot;highlighter-rouge&quot;&gt;h1&lt;/code&gt; element so it isn’t quite so big. I could go through and change a lot more if I wanted to but the goal here is to make the existing designs look their best on a smaller screen, not redesign the site.&lt;/p&gt;
+
+&lt;p&gt;And again, I’m only using using the properties I want to change or add so I don’t need to include &lt;code class=&quot;highlighter-rouge&quot;&gt;margin&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;padding&lt;/code&gt;, or the &lt;code class=&quot;highlighter-rouge&quot;&gt;font-family&lt;/code&gt; in the media query because I’m not making any changes to them. I also didn’t have to make any adjustments to the HTML file just reference it to make sure I’m changing the correct elements or classes.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step4-1.png&quot; alt=&quot;adjusting a few more styles in the media query&quot; title=&quot;Step 4&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/5p1/step4-2.png&quot; alt=&quot;width main width, smaller type on live page&quot; title=&quot;Step 4&quot; /&gt;&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">How to make sites responsive with CSS.</summary></entry><entry><title type="html">Making Columns</title><link href="http://localhost:4000/tutorials/4-point-1/" rel="alternate" type="text/html" title="Making Columns" /><published>2020-06-30T00:00:00-04:00</published><updated>2020-06-30T00:00:00-04:00</updated><id>http://localhost:4000/tutorials/4%20point%201</id><content type="html" xml:base="http://localhost:4000/tutorials/4-point-1/">&lt;p&gt;This tutorial will go through the process of setting up a two column layout with floats and divs using your main &lt;strong&gt;index.html&lt;/strong&gt; file and its associated CSS file to work with.&lt;/p&gt;
 
 &lt;h3 id=&quot;step-1-open-your-repository-and-files&quot;&gt;&lt;span id=&quot;step1&quot;&gt;Step 1: Open Your Repository and Files&lt;/span&gt;&lt;/h3&gt;
 &lt;p&gt;Open your repository in Atom and then open up your main &lt;strong&gt;index.html&lt;/strong&gt; file and CSS file associated with it by double clicking on the files in the tree view.&lt;/p&gt;
@@ -653,4 +737,4 @@
 &lt;p&gt;It will take a second to push the changes to the repository and once that process finishes you will go back to a window that shows no changes. The next time you have changes to your local files you can repeat this process.&lt;/p&gt;
 
 &lt;h4 id=&quot;a-few-notes&quot;&gt;A Few Notes&lt;/h4&gt;
-&lt;p&gt;Once you have pushed your commits it takes a couple minutes for those changes to be reflected on your live website. Give your site a little time for it to refresh before thinking something went wrong (if 10 minutes of refreshing hasn’t changed anything there might be an issue). You also do not need to push every change you make. I often make commits based on finishing the task I was working on and push when I want to see those changes live, rather than pushing commits every few minutes.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">Setting up Github and a repository on your computer.</summary></entry><entry><title type="html">Matt</title><link href="http://localhost:4000/student/matt/" rel="alternate" type="text/html" title="Matt" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/matt</id><content type="html" xml:base="http://localhost:4000/student/matt/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Rachel</title><link href="http://localhost:4000/student/rachel/" rel="alternate" type="text/html" title="Rachel" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/rachel</id><content type="html" xml:base="http://localhost:4000/student/rachel/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Sam</title><link href="http://localhost:4000/student/samuels/" rel="alternate" type="text/html" title="Sam" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/samuels</id><content type="html" xml:base="http://localhost:4000/student/samuels/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;Once you have pushed your commits it takes a couple minutes for those changes to be reflected on your live website. Give your site a little time for it to refresh before thinking something went wrong (if 10 minutes of refreshing hasn’t changed anything there might be an issue). You also do not need to push every change you make. I often make commits based on finishing the task I was working on and push when I want to see those changes live, rather than pushing commits every few minutes.&lt;/p&gt;</content><author><name>Michael McDermott</name></author><summary type="html">Setting up Github and a repository on your computer.</summary></entry><entry><title type="html">Rachel</title><link href="http://localhost:4000/student/rachel/" rel="alternate" type="text/html" title="Rachel" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/rachel</id><content type="html" xml:base="http://localhost:4000/student/rachel/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry><entry><title type="html">Sam</title><link href="http://localhost:4000/student/samuels/" rel="alternate" type="text/html" title="Sam" /><published>2020-05-05T00:00:00-04:00</published><updated>2020-05-05T00:00:00-04:00</updated><id>http://localhost:4000/student/samuels</id><content type="html" xml:base="http://localhost:4000/student/samuels/"></content><author><name>Michael McDermott</name></author><summary type="html"></summary></entry></feed>
