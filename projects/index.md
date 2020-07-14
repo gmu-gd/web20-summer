@@ -75,7 +75,6 @@ Upload your wireframes to your site and include a link to the website you made t
 
 <span class="due">Due Thursday, June 11 by 11:59 ET</span>
 
-
 ---
 
 #### <span id="e6">Exercise 6: Type on Screen I</span>
@@ -161,17 +160,17 @@ Pick the 2 best layouts from Exercise 7 and code them as two separate web pages.
 
 <span class="due">Due Thursday, July 9 11:59 ET</span>
 
-<!-- following weeks
-
 ---
 
 #### <span id="e12">Exercise 12: CSS Drawing</span>
 Create a drawing of something in your house using only HTML and CSS. To do this you will draw some divs, position them on the page, and then style each piece with CSS. The divs will then get layered and moved around to make your final drawing. Take a look at this [link](https://blog.prototypr.io/how-i-started-drawing-css-images-3fd878675c89) for a reference on how these might get set up.
 
 ##### Requirements
-* Requirement 1
+* A drawing of an item in your house
+* All styles in external style sheet
+* HTML uses divs and CSS uses positioning
 
-<span class="due">Due Thursday, July 9 by 11:59 ET</span>
+<span class="due">Due Thursday, July 16 by 11:59 ET</span>
 
 ---
 
@@ -187,9 +186,12 @@ Upload the instructions to your website but do not upload the drawing yet.
 <strong>BRIEF HISTORY LESSON</strong> A computer was actually a job description held by many humans at one point in time, especially during WWII, where computers (mostly women) were hired to do calculation and computation on vast quantities of numbers. Also, Ada Lovelace (December 10, 1815–November 17, 1852), the daughter of poet Lord Byron, published the first algorithm intended to be carried out by a machine and is regarded as the first computer programmer. Furthermore, the term "debugging" originated from the actions of programmer Grace Hopper (December 9, 1906–January 1, 1992), who took a literal moth out of military computer. In today's male-dominated tech fields, it's important recognize the roots of computation and programming.
 
 ##### Requirements
-* Requirement 1
+* The instructions to complete the drawing your website﻿﻿﻿﻿﻿﻿﻿ (the program)﻿﻿﻿
+* Your drawing along with the two drawings from your computers﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ (3 total images)﻿﻿﻿
 
-<span class="due">Due Thursday, July 9 by 11:59 ET</span>
+<span class="due">Due Thursday, July 16 by 11:59 ET</span>
+
+<!-- due the following week
 
 ---
 

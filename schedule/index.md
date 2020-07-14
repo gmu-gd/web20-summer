@@ -125,16 +125,15 @@ Responsive design is a key element of designing for the web today. This week we 
 ---
 
 ### Week 7
-This week we will expand our knowledge of HTML and CSS by covering a few advanced ideas. We will also go over best practices for making sure images are responsive.
+This week we will expand our knowledge of HTML and CSS by covering a few advanced ideas.
 
 #### Lessons
 * 6.1: Advanced Positioning
-* 6.2: Responsive Images
-* 6.3: Advanced CSS
+* 6.2: Advanced CSS
 
 #### Exercises
-* E12: CSS Drawing <!-- [CSS Drawing]({{ site.baseurl }}/projects#e12) -->
-* E13: Programmer and Computer <!-- [Programmer and Computer]({{ site.baseurl }}/projects#e13) -->
+* E12: [CSS Drawing]({{ site.baseurl }}/projects#e12)
+* E13: [Programmer and Computer]({{ site.baseurl }}/projects#e13)
 
 #### Project
 * P1.7: Second 320px designs, All pages responsive
