@@ -151,11 +151,11 @@ In our final week we will touch on JavaScript and jQuery. Both JavaScript and jQ
 * 7.1: JavaScript and jQuery
 * 7.2: Plugins
 
-#### Exercises
-* E14: jQuery <!-- [jQuery]({{ site.baseurl }}/projects#e14) -->
+#### Exercises (optional)
+* E14: [jQuery]({{ site.baseurl }}/projects#e14)
 
 #### Project
-* P1.8: Project complete
+* P1.8: Project complete. 4 final desktop designs at 1440px as pngs, 4 final mobile designs at 320px as pngs, 1 working website that is as close as possible to your desktop designs.
 
 #### Digital References
 * _Learning Web Design:_ [Chapters 22](https://learning-oreilly-com.mutex.gmu.edu/library/view/learning-web-design/9781491960196/lwd5_chapter01.xhtml)

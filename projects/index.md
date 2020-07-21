@@ -191,8 +191,6 @@ Upload the instructions to your website but do not upload the drawing yet.
 
 <span class="due">Due Thursday, July 16 by 11:59 ET</span>
 
-<!-- due the following week
-
 ---
 
 #### <span id="e14">Exercise 14: jQuery [various]</span>
@@ -200,8 +198,16 @@ Upload the instructions to your website but do not upload the drawing yet.
 
 The interactions should not be hidden and should try to have some relevance to the content of your list.
 
-##### Requirements
-* Requirement 1
+<strong>Option 2 – Guessing Game</strong> Design and create a single page guessing game using HTML, CSS, and jQuery. The game should ask a user to answer a question and then react to that answer. This could be a game like Hot or Cold where the game is only over once the user guesses correctly or could be a one chance game like Rock, Paper, Scissors. The game should have a different answer each time the page is loaded, meaning that the game cannot be "Guess My Middle Name" and the answer is always "George" but it could be "Guess a Name" and that name is randomly generated from a list of names.
 
-<span class="due">Due Thursday, July 16 by 11:59 ET</span>
--->
+HTML/CSS - The page only needs two things, a question and a place where the user can input an answer. More might be necessary depending on the complexity of the game you are building. It should also be responsive.
+
+jQuery - The jQuery should have some kind of variable, a way to check the input against that variable, and then an outcome or outcomes based on whether that input is right or wrong.
+
+<strong>Option 3 – Plugins</strong> Find a jQuery plugin online and integrate it into a page. The plugin can do anything but it needs to be added to the page appropriately and function as intended.
+
+##### Requirements
+* Varies based on option
+* Functioning HTML, CSS, and jQuery code
+
+<span class="due">Due Thursday, July 23 by 11:59 ET</span>
