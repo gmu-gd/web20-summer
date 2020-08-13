@@ -1,4 +1,4 @@
-I"�5<h3 id="projects">Projects</h3>
+I"�=<h3 id="projects">Projects</h3>
 <h4 id="project-1-a-website-about-blank">Project 1: A website about [blank]</h4>
 <p>Students will conceptualize, plan, design, and code a multipage website using one of several provided topics. The project will build off of the lessons each week and be a synthesis of the concepts and skills learned over the course of the semester. Each students project will be unique in content and form but be based on the same set of requirements.</p>
 
@@ -9,7 +9,7 @@
 <p>Read through each discussion post from your classmates and create a web page that answers each question asked. That means you will answer 20 questions total — 19 of your classmates questions plus one of your own. The page will be simple and use default styles but should display the question and your answer in a clear way. If you need a little help starting, check out the <a href="/tutorials/1-point-2">1.2 tutorial</a>.</p>
 <h5 id="requirements">Requirements</h5>
 <ul>
-  <li><code class="highlighter-rouge">title</code> element with relevant content</li>
+  <li><code class="language-plaintext highlighter-rouge">title</code> element with relevant content</li>
   <li>a page title using a heading element</li>
   <li>20 questions and answers</li>
 </ul>
@@ -170,50 +170,66 @@
   <li>All layouts share the same CSS file</li>
   <li>No styles in the HTML file</li>
   <li>Pages use at least one media query</li>
+  <li>Has the viewport meta tag in the head of each layout</li>
 </ul>
 
 <p><span class="due">Due Thursday, July 9 11:59 ET</span></p>
 
-<!-- following weeks
+<hr />
 
----
+<h4 id="exercise-12-css-drawing"><span id="e12">Exercise 12: CSS Drawing</span></h4>
+<p>Create a drawing of something in your house using only HTML and CSS. To do this you will draw some divs, position them on the page, and then style each piece with CSS. The divs will then get layered and moved around to make your final drawing. Take a look at this <a href="https://blog.prototypr.io/how-i-started-drawing-css-images-3fd878675c89">link</a> for a reference on how these might get set up.</p>
 
-#### <span id="e12">Exercise 12: CSS Drawing</span>
-Create a drawing of something in your house using only HTML and CSS. To do this you will draw some divs, position them on the page, and then style each piece with CSS. The divs will then get layered and moved around to make your final drawing. Take a look at this [link](https://blog.prototypr.io/how-i-started-drawing-css-images-3fd878675c89) for a reference on how these might get set up.
+<h5 id="requirements-11">Requirements</h5>
+<ul>
+  <li>A drawing of an item in your house</li>
+  <li>All styles in external style sheet</li>
+  <li>HTML uses divs and CSS uses positioning</li>
+</ul>
 
-##### Requirements
-* Requirement 1
+<p><span class="due">Due Thursday, July 16 by 11:59 ET</span></p>
 
-<span class="due">Due Thursday, July 9 by 11:59 ET</span>
+<hr />
 
----
+<h4 id="exercise-13-programmer-and-computer"><span id="e13">Exercise 13: Programmer and Computer</span></h4>
+<p><strong>PART 1 - THE PROGRAMMER</strong> Create a simple drawing in XD in 2 minutes. Once you are finished, write a very precise set of instructions that will be executed by a computer. A classmate will be the computer and the result of that person following your program should result in an exact copy of your drawing. You cannot use images or verbal communications to help explain your instructions, only written words. You also cannot let the computer see what the final drawing should look like.</p>
 
-#### <span id="e13">Exercise 13: Programmer and Computer</span>
-<strong>PART 1 - THE PROGRAMMER</strong> Create a simple drawing in XD in 2 minutes. Once you are finished, write a very precise set of instructions that will be executed by a computer. A classmate will be the computer and the result of that person following your program should result in an exact copy of your drawing. You cannot use images or verbal communications to help explain your instructions, only written words. You also cannot let the computer see what the final drawing should look like.
+<p>Upload the instructions to your website but do not upload the drawing yet.</p>
 
-Upload the instructions to your website but do not upload the drawing yet.
+<p><strong>PART 2 - THE COMPUTER</strong> Using a classmates program, execute those instructions to recreate the drawing. Do not assume instructions, follow what is written as closely as you can. Send the final drawing back to the programmer. Do this step for two different programs.</p>
 
-<strong>PART 2 - THE COMPUTER</strong> Using a classmates program, execute those instructions to recreate the drawing. Do not assume instructions, follow what is written as closely as you can. Send the final drawing back to the programmer. Do this step for two different programs.
+<p><strong>PART 3 - UPLOAD</strong> Once you have two drawings back from the two different computers, upload the two drawings along with your original to the same page as the instructions.</p>
 
-<strong>PART 3 - UPLOAD</strong> Once you have two drawings back from the two different computers, upload the two drawings along with your original to the same page as the instructions.
+<p><strong>BRIEF HISTORY LESSON</strong> A computer was actually a job description held by many humans at one point in time, especially during WWII, where computers (mostly women) were hired to do calculation and computation on vast quantities of numbers. Also, Ada Lovelace (December 10, 1815–November 17, 1852), the daughter of poet Lord Byron, published the first algorithm intended to be carried out by a machine and is regarded as the first computer programmer. Furthermore, the term “debugging” originated from the actions of programmer Grace Hopper (December 9, 1906–January 1, 1992), who took a literal moth out of military computer. In today’s male-dominated tech fields, it’s important recognize the roots of computation and programming.</p>
 
-<strong>BRIEF HISTORY LESSON</strong> A computer was actually a job description held by many humans at one point in time, especially during WWII, where computers (mostly women) were hired to do calculation and computation on vast quantities of numbers. Also, Ada Lovelace (December 10, 1815–November 17, 1852), the daughter of poet Lord Byron, published the first algorithm intended to be carried out by a machine and is regarded as the first computer programmer. Furthermore, the term "debugging" originated from the actions of programmer Grace Hopper (December 9, 1906–January 1, 1992), who took a literal moth out of military computer. In today's male-dominated tech fields, it's important recognize the roots of computation and programming.
+<h5 id="requirements-12">Requirements</h5>
+<ul>
+  <li>The instructions to complete the drawing your website﻿﻿﻿﻿﻿﻿﻿ (the program)﻿﻿﻿</li>
+  <li>Your drawing along with the two drawings from your computers﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿ (3 total images)﻿﻿﻿</li>
+</ul>
 
-##### Requirements
-* Requirement 1
+<p><span class="due">Due Thursday, July 16 by 11:59 ET</span></p>
 
-<span class="due">Due Thursday, July 9 by 11:59 ET</span>
+<hr />
 
----
+<h4 id="exercise-14-jquery-various"><span id="e14">Exercise 14: jQuery [various]</span></h4>
+<p><strong>Option 1 – Interactions</strong> Create a single page that has at least three unique interactions on it using jQuery. The interactions should each use a different mouse event to start the interaction and each mouse event should do something different. For example, a mouse click could change the color of an object but hovering could change the position of some text. The content of the page should be a list of your top five favorite somethings. That could be your top five favorite songs, movies, places in the world, colors, etc.</p>
 
-#### <span id="e14">Exercise 14: jQuery [various]</span>
-<strong>Option 1 – Interactions</strong> Create a single page that has at least three unique interactions on it using jQuery. The interactions should each use a different mouse event to start the interaction and each mouse event should do something different. For example, a mouse click could change the color of an object but hovering could change the position of some text. The content of the page should be a list of your top five favorite somethings. That could be your top five favorite songs, movies, places in the world, colors, etc.
+<p>The interactions should not be hidden and should try to have some relevance to the content of your list.</p>
 
-The interactions should not be hidden and should try to have some relevance to the content of your list.
+<p><strong>Option 2 – Guessing Game</strong> Design and create a single page guessing game using HTML, CSS, and jQuery. The game should ask a user to answer a question and then react to that answer. This could be a game like Hot or Cold where the game is only over once the user guesses correctly or could be a one chance game like Rock, Paper, Scissors. The game should have a different answer each time the page is loaded, meaning that the game cannot be “Guess My Middle Name” and the answer is always “George” but it could be “Guess a Name” and that name is randomly generated from a list of names.</p>
 
-##### Requirements
-* Requirement 1
+<p>HTML/CSS - The page only needs two things, a question and a place where the user can input an answer. More might be necessary depending on the complexity of the game you are building. It should also be responsive.</p>
 
-<span class="due">Due Thursday, July 16 by 11:59 ET</span>
--->
+<p>jQuery - The jQuery should have some kind of variable, a way to check the input against that variable, and then an outcome or outcomes based on whether that input is right or wrong.</p>
+
+<p><strong>Option 3 – Plugins</strong> Find a jQuery plugin online and integrate it into a page. The plugin can do anything but it needs to be added to the page appropriately and function as intended.</p>
+
+<h5 id="requirements-13">Requirements</h5>
+<ul>
+  <li>Varies based on option</li>
+  <li>Functioning HTML, CSS, and jQuery code</li>
+</ul>
+
+<p><span class="due">Due Thursday, July 23 by 11:59 ET</span></p>
 :ET

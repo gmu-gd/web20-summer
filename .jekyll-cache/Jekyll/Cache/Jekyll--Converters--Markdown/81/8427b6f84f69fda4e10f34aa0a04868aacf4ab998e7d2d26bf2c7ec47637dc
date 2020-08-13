@@ -1,4 +1,4 @@
-I"-<p>This tutorial will explain how to bring in fonts from <a href="https://fonts.google.com/">fonts.google.com</a> and <a href="https://fonts.adobe.com/">fonts.adobe.com</a>. This tutorial will use your main <strong>index.html</strong> file and its associated CSS file to bring in the fonts.</p>
+I"/<p>This tutorial will explain how to bring in fonts from <a href="https://fonts.google.com/">fonts.google.com</a> and <a href="https://fonts.adobe.com/">fonts.adobe.com</a>. This tutorial will use your main <strong>index.html</strong> file and its associated CSS file to bring in the fonts.</p>
 
 <h3 id="step-1-open-your-repository-and-files"><span id="step1">Step 1: Open Your Repository and Files</span></h3>
 <p>Open your repository in Atom and then open up your main <strong>index.html</strong> file and CSS file associated with it by double clicking on the files in the tree view.</p>
@@ -36,17 +36,17 @@
 <p><img src="/assets/img/3p1/step2c2.png" alt="embed tab of selected family panel" title="Step 2c" /></p>
 
 <h4 id="step-2d-copy-link-and-paste-in-html-document">Step 2d: Copy Link and Paste in HTML Document</h4>
-<p>Copy the first bit of code under the &lt;link&gt;. Once it is copied go back to Atom and paste it in your <strong>index.html</strong> file. Where should you paste it you might ask? It should go in the <span class="spoiler">head</span> of course! Paste it in there above the <code class="highlighter-rouge">link</code> element for your CSS file. Remember, the <code class="highlighter-rouge">head</code> contains information about the document itself and the <code class="highlighter-rouge">body</code> contains the content of the document.</p>
+<p>Copy the first bit of code under the &lt;link&gt;. Once it is copied go back to Atom and paste it in your <strong>index.html</strong> file. Where should you paste it you might ask? It should go in the <span class="spoiler">head</span> of course! Paste it in there above the <code class="language-plaintext highlighter-rouge">link</code> element for your CSS file. Remember, the <code class="language-plaintext highlighter-rouge">head</code> contains information about the document itself and the <code class="language-plaintext highlighter-rouge">body</code> contains the content of the document.</p>
 
 <p><img src="/assets/img/3p1/step2d.png" alt="pasted link element in HTML" title="Step 2d" /></p>
 
 <h4 id="step-2e-copy-css-and-paste-in-css-document">Step 2e: Copy CSS and Paste in CSS Document</h4>
-<p>Copy the second bit of code from the Google Fonts embed panel under the “CSS rules to specify families”. Once it is copied go back to Atom and paste it in your CSS file. Where should you paste it you might ask? Well this time it could go a lot of places because it depends on what in your HTML file you want to use new fonts. In this case, everything is going to use these fonts so I’m going to add them to a style rule for the <code class="highlighter-rouge">body</code>. But if you just wanted your <code class="highlighter-rouge">h1</code> element to be the new font you could make a style rule for the <code class="highlighter-rouge">h1</code> element. Or if you wanted the <code class="highlighter-rouge">li</code> elements to be the new font you could make a style rule for the <code class="highlighter-rouge">li</code> element.</p>
+<p>Copy the second bit of code from the Google Fonts embed panel under the “CSS rules to specify families”. Once it is copied go back to Atom and paste it in your CSS file. Where should you paste it you might ask? Well this time it could go a lot of places because it depends on what in your HTML file you want to use new fonts. In this case, everything is going to use these fonts so I’m going to add them to a style rule for the <code class="language-plaintext highlighter-rouge">body</code>. But if you just wanted your <code class="language-plaintext highlighter-rouge">h1</code> element to be the new font you could make a style rule for the <code class="language-plaintext highlighter-rouge">h1</code> element. Or if you wanted the <code class="language-plaintext highlighter-rouge">li</code> elements to be the new font you could make a style rule for the <code class="language-plaintext highlighter-rouge">li</code> element.</p>
 
 <p><img src="/assets/img/3p1/step2e.png" alt="pasted font-family in CSS" title="Step 2e" /></p>
 
 <h3 id="step-3-save-and-preview"><span id="step3">Step 3: Save and Preview</span></h3>
-<p>The last step is to check and see if everything worked. Make sure both your HTML and CSS files are saved and then preview your HTML file. Hopefully the font on the page should change to the new font you selected. If it doesn’t, go back and make sure you pasted the whole <code class="highlighter-rouge">link</code> element in the head of your document and that you pasted the <code class="highlighter-rouge">font-family</code> styles into your CSS file correctly.</p>
+<p>The last step is to check and see if everything worked. Make sure both your HTML and CSS files are saved and then preview your HTML file. Hopefully the font on the page should change to the new font you selected. If it doesn’t, go back and make sure you pasted the whole <code class="language-plaintext highlighter-rouge">link</code> element in the head of your document and that you pasted the <code class="language-plaintext highlighter-rouge">font-family</code> styles into your CSS file correctly.</p>
 
 <p>Homepage before:</p>
 
@@ -87,25 +87,25 @@
 <p><img src="/assets/img/3p1/step4c.png" alt="code options in adobe fonts" title="Step 4c" /></p>
 
 <h4 id="step-4d-copy-link-and-paste-in-html-document">Step 4d: Copy Link and Paste in HTML Document</h4>
-<p>Copy the <code class="highlighter-rouge">link</code> element code and paste it into the head of your <strong>index.html</strong> file.</p>
+<p>Copy the <code class="language-plaintext highlighter-rouge">link</code> element code and paste it into the head of your <strong>index.html</strong> file.</p>
 
 <p><img src="/assets/img/3p1/step4d.png" alt="pasted link element in HTML" title="Step 4d" /></p>
 
 <h4 id="step-4e-copy-css-and-paste-in-css-document">Step 4e: Copy CSS and Paste in CSS Document</h4>
-<p>The CSS code is a little more detailed here than it was on Google. The difference being Adobe is giving you more than you might need and Google is assuming you know how to change the weight or style on your own. The main thing to copy here is the <code class="highlighter-rouge">font-family</code> declaration. Once you have that copied, go back to your CSS file and make a new style rule. Depending on where you added the Google font you selected, do the opposite with this one. So if you added the Google font to the heading elements, add this to the <code class="highlighter-rouge">li</code> elements. If you added the Google font to the <code class="highlighter-rouge">body</code> you can add this one to the heading elements or the <code class="highlighter-rouge">li</code> elements and it will override the <code class="highlighter-rouge">body</code> declaration.</p>
+<p>The CSS code is a little more detailed here than it was on Google. The difference being Adobe is giving you more than you might need and Google is assuming you know how to change the weight or style on your own. The main thing to copy here is the <code class="language-plaintext highlighter-rouge">font-family</code> declaration. Once you have that copied, go back to your CSS file and make a new style rule. Depending on where you added the Google font you selected, do the opposite with this one. So if you added the Google font to the heading elements, add this to the <code class="language-plaintext highlighter-rouge">li</code> elements. If you added the Google font to the <code class="language-plaintext highlighter-rouge">body</code> you can add this one to the heading elements or the <code class="language-plaintext highlighter-rouge">li</code> elements and it will override the <code class="language-plaintext highlighter-rouge">body</code> declaration.</p>
 
-<p>I’m going to add it to my <code class="highlighter-rouge">h1</code> element. Because using <code class="highlighter-rouge">h1</code> as the selector is more specific than the <code class="highlighter-rouge">body</code> selector, this <code class="highlighter-rouge">font-family</code> will override the <code class="highlighter-rouge">font-family</code> for the <code class="highlighter-rouge">body</code>.</p>
+<p>I’m going to add it to my <code class="language-plaintext highlighter-rouge">h1</code> element. Because using <code class="language-plaintext highlighter-rouge">h1</code> as the selector is more specific than the <code class="language-plaintext highlighter-rouge">body</code> selector, this <code class="language-plaintext highlighter-rouge">font-family</code> will override the <code class="language-plaintext highlighter-rouge">font-family</code> for the <code class="language-plaintext highlighter-rouge">body</code>.</p>
 
 <p><img src="/assets/img/3p1/step4e.png" alt="adding font-family to h1" title="Step 4e" /></p>
 
 <p>I’m also going to add a few extra styles to this page to make the type a little bigger, style the list and links a little, give it some margins so it isn’t smashed up against the edges of the browser window, and add a little color.</p>
 
 <h3 id="step-5-save-and-preview-again"><span id="step5">Step 5: Save and Preview Again</span></h3>
-<p>Make sure both your HTML and CSS files are saved and then preview your HTML file again. Hopefully the font on the page should change to the new font you selected. If it doesn’t, go back and make sure you pasted the whole <code class="highlighter-rouge">link</code> element in the head of your document and that you pasted the <code class="highlighter-rouge">font-family</code> styles into your CSS file correctly.</p>
+<p>Make sure both your HTML and CSS files are saved and then preview your HTML file again. Hopefully the font on the page should change to the new font you selected. If it doesn’t, go back and make sure you pasted the whole <code class="language-plaintext highlighter-rouge">link</code> element in the head of your document and that you pasted the <code class="language-plaintext highlighter-rouge">font-family</code> styles into your CSS file correctly.</p>
 
 <p><img src="/assets/img/3p1/step5.png" alt="preview of page" title="Step 5" /></p>
 
 <p>Look at the class repository to see the styles I used to get the page to look like that if you are interested.</p>
 
-<p>Note: The two <code class="highlighter-rouge">link</code> elements that you pasted in the <code class="highlighter-rouge">head</code> of your HTML file need to exist in the <code class="highlighter-rouge">head</code> of every HTML file where you want to use those fonts.</p>
+<p>Note: The two <code class="language-plaintext highlighter-rouge">link</code> elements that you pasted in the <code class="language-plaintext highlighter-rouge">head</code> of your HTML file need to exist in the <code class="language-plaintext highlighter-rouge">head</code> of every HTML file where you want to use those fonts.</p>
 :ET
